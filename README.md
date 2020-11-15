@@ -1,3 +1,21 @@
+# Amiga external floppy adapter mod by Sanyi
+This rev2.1 mod allows the user to select if the external drive shall be DF1 or DF2.
+This external adapter also makes it possible to use them in pair: one for DF1 and one for DF2. Unfortunately Retro Ninja's adapter was lacking this feature (despite the passthrough connector - RN's adapter allowed only DF1..)
+
+The DIP components are transformed into SMD for saving PCB space. The unused inputs of the logical ICs are tied to ground or +5V, so there is no floating inputs and outputs.
+Also with this revision it is possible that if the adapter is used only with a Gotek drive, then the SMD components are not needed (only ext floppy DSUB23,  power and floppy connector needs to be soldered).
+
+The PCB is preconfigured: the Gotek option (no SMD) and DF1 drive is selected.
+
+Detected issues:
+- DF1 is not routed to the passthrough connector, so in case of two drive configuration it is not possible to configure the second drive to DF1
+- Power cord is twisted while connected to the drives, so order of the pins should be reversed
+- 24 pin pinheader socket for the passthrough cable is very hard to find, this should be replaced with a 26 pin header, but see future plans...
+
+Other plans for the future:
+- I would remove the passthrough connector and attach a simple second floppy connector for DF2. I guess there are enough logical gates available for DF2 onboard.
+
+
 # Retro Ninja Amiga external floppy adapter
 An adapter that allows external connection of Shugart floppy disk drive (in theory) or Gotek drives (tested)
 
