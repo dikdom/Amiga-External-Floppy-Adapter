@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.7.0">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -248,7 +248,7 @@
 <pad name="24" x="13.97" y="1.27" drill="1.016" diameter="1.9304"/>
 <text x="-19.05" y="4.572" size="1.27" layer="25">&gt;NAME</text>
 <text x="-11.43" y="4.572" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1524" layer="21" pour="solid">
+<polygon width="0.1524" layer="21">
 <vertex x="-14.859" y="-4.3942"/>
 <vertex x="-13.081" y="-4.3942"/>
 <vertex x="-13.97" y="-3.301996875"/>
@@ -307,7 +307,7 @@
 <pad name="34" x="35.56" y="1.27" drill="1.016" diameter="1.9304"/>
 <text x="-10.16" y="4.572" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="4.572" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1524" layer="21" pour="solid">
+<polygon width="0.1524" layer="21">
 <vertex x="-5.969" y="-4.3942"/>
 <vertex x="-4.191" y="-4.3942"/>
 <vertex x="-5.08" y="-3.301996875"/>
@@ -349,7 +349,7 @@
 <pad name="24" x="13.97" y="-3.81" drill="1.016" diameter="1.9304"/>
 <text x="-19.05" y="-8.89" size="1.27" layer="25">&gt;NAME</text>
 <text x="-11.43" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="21" pour="solid">
+<polygon width="0.2032" layer="21">
 <vertex x="-15.25" y="5.865"/>
 <vertex x="-13.975" y="3.29"/>
 <vertex x="-12.7" y="5.865"/>
@@ -520,7 +520,7 @@
 <pad name="34" x="35.56" y="-3.81" drill="1.016" diameter="1.9304"/>
 <text x="-10.16" y="-8.89" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="21" pour="solid">
+<polygon width="0.2032" layer="21">
 <vertex x="-6.36" y="5.865"/>
 <vertex x="-5.085" y="3.29"/>
 <vertex x="-3.81" y="5.865"/>
@@ -528,25 +528,13 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="2X12_HEADER_WALLED" urn="urn:adsk.eagle:package:18167296/1" locally_modified="yes" type="box" library_version="11">
-<packageinstances>
-<packageinstance name="HEADER_2X12_WALLED"/>
-</packageinstances>
+<package3d name="2X12_HEADER_WALLED" urn="urn:adsk.eagle:package:18167296/1" type="box" library_version="11">
 </package3d>
-<package3d name="2X17_HEADER_WALLED" urn="urn:adsk.eagle:package:18159087/1" locally_modified="yes" type="box" library_version="8">
-<packageinstances>
-<packageinstance name="HEADER_2X17_WALLED"/>
-</packageinstances>
+<package3d name="2X17_HEADER_WALLED" urn="urn:adsk.eagle:package:18159087/1" type="box" library_version="8">
 </package3d>
 <package3d name="2X12_HEADER_WALLED_RIGHT" urn="urn:adsk.eagle:package:18167297/1" type="box" library_version="11">
-<packageinstances>
-<packageinstance name="HEADER_2X12_WALLED_RIGHT"/>
-</packageinstances>
 </package3d>
 <package3d name="2X17_HEADER_WALLED_RIGHT" urn="urn:adsk.eagle:package:18159088/1" type="box" library_version="8">
-<packageinstances>
-<packageinstance name="HEADER_2X17_WALLED_RIGHT"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -1030,7 +1018,7 @@ Based on the following sources:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="DIL14" urn="urn:adsk.eagle:footprint:16136/1" library_version="5">
+<package name="DIL14" urn="urn:adsk.eagle:footprint:1631/1" library_version="1">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
 <wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
 <wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
@@ -1054,51 +1042,6 @@ Based on the following sources:
 <pad name="14" x="-7.62" y="3.81" drill="0.8128" shape="long" rot="R90"/>
 <text x="-9.271" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-6.731" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="SO14" urn="urn:adsk.eagle:footprint:970/1" library_version="5">
-<description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
-<wire x1="4.064" y1="1.9558" x2="-4.064" y2="1.9558" width="0.1524" layer="51"/>
-<wire x1="4.064" y1="-1.9558" x2="4.445" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.445" y1="1.5748" x2="-4.064" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
-<wire x1="4.064" y1="1.9558" x2="4.445" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-4.445" y1="-1.5748" x2="-4.064" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.064" y1="-1.9558" x2="4.064" y2="-1.9558" width="0.1524" layer="51"/>
-<wire x1="4.445" y1="-1.5748" x2="4.445" y2="1.5748" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="1.5748" x2="-4.445" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-0.508" x2="-4.445" y2="-1.5748" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.445" y1="-1.6002" x2="4.445" y2="-1.6002" width="0.0508" layer="21"/>
-<smd name="1" x="-3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="14" x="-3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="2" x="-2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="3" x="-1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="13" x="-2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="12" x="-1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="4" x="0" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="11" x="0" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="5" x="1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="6" x="2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="10" x="1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="9" x="2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="7" x="3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="8" x="3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<text x="-3.175" y="-0.762" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.826" y="-1.905" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<rectangle x1="-0.254" y1="1.9558" x2="0.254" y2="3.0988" layer="51"/>
-<rectangle x1="-4.064" y1="-3.0988" x2="-3.556" y2="-1.9558" layer="51"/>
-<rectangle x1="-2.794" y1="-3.0988" x2="-2.286" y2="-1.9558" layer="51"/>
-<rectangle x1="-1.524" y1="-3.0734" x2="-1.016" y2="-1.9304" layer="51"/>
-<rectangle x1="-0.254" y1="-3.0988" x2="0.254" y2="-1.9558" layer="51"/>
-<rectangle x1="-1.524" y1="1.9558" x2="-1.016" y2="3.0988" layer="51"/>
-<rectangle x1="-2.794" y1="1.9558" x2="-2.286" y2="3.0988" layer="51"/>
-<rectangle x1="-4.064" y1="1.9558" x2="-3.556" y2="3.0988" layer="51"/>
-<rectangle x1="1.016" y1="1.9558" x2="1.524" y2="3.0988" layer="51"/>
-<rectangle x1="2.286" y1="1.9558" x2="2.794" y2="3.0988" layer="51"/>
-<rectangle x1="3.556" y1="1.9558" x2="4.064" y2="3.0988" layer="51"/>
-<rectangle x1="1.016" y1="-3.0988" x2="1.524" y2="-1.9558" layer="51"/>
-<rectangle x1="2.286" y1="-3.0988" x2="2.794" y2="-1.9558" layer="51"/>
-<rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
 </package>
 <package name="LCC20" urn="urn:adsk.eagle:footprint:1641/1" library_version="5">
 <description>&lt;b&gt;Leadless Chip Carrier&lt;/b&gt;&lt;p&gt; Ceramic Package</description>
@@ -1178,25 +1121,61 @@ Based on the following sources:
 <text x="-4.0051" y="6.065" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3.9751" y="-7.5601" size="1.778" layer="27">&gt;VALUE</text>
 </package>
+<package name="SO14" urn="urn:adsk.eagle:footprint:1630/1" library_version="1">
+<description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
+<wire x1="4.064" y1="1.9558" x2="-4.064" y2="1.9558" width="0.1524" layer="51"/>
+<wire x1="4.064" y1="-1.9558" x2="4.445" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.445" y1="1.5748" x2="-4.064" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
+<wire x1="4.064" y1="1.9558" x2="4.445" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.445" y1="-1.5748" x2="-4.064" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.064" y1="-1.9558" x2="4.064" y2="-1.9558" width="0.1524" layer="51"/>
+<wire x1="4.445" y1="-1.5748" x2="4.445" y2="1.5748" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.5748" x2="-4.445" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-0.508" x2="-4.445" y2="-1.5748" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.445" y1="-1.6002" x2="4.445" y2="-1.6002" width="0.0508" layer="21"/>
+<smd name="1" x="-3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="14" x="-3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="-1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="-2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="-1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="0" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="11" x="0" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="10" x="1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="9" x="2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<text x="-3.175" y="-0.762" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.826" y="-1.905" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-0.254" y1="1.9558" x2="0.254" y2="3.0988" layer="51"/>
+<rectangle x1="-4.064" y1="-3.0988" x2="-3.556" y2="-1.9558" layer="51"/>
+<rectangle x1="-2.794" y1="-3.0988" x2="-2.286" y2="-1.9558" layer="51"/>
+<rectangle x1="-1.524" y1="-3.0734" x2="-1.016" y2="-1.9304" layer="51"/>
+<rectangle x1="-0.254" y1="-3.0988" x2="0.254" y2="-1.9558" layer="51"/>
+<rectangle x1="-1.524" y1="1.9558" x2="-1.016" y2="3.0988" layer="51"/>
+<rectangle x1="-2.794" y1="1.9558" x2="-2.286" y2="3.0988" layer="51"/>
+<rectangle x1="-4.064" y1="1.9558" x2="-3.556" y2="3.0988" layer="51"/>
+<rectangle x1="1.016" y1="1.9558" x2="1.524" y2="3.0988" layer="51"/>
+<rectangle x1="2.286" y1="1.9558" x2="2.794" y2="3.0988" layer="51"/>
+<rectangle x1="3.556" y1="1.9558" x2="4.064" y2="3.0988" layer="51"/>
+<rectangle x1="1.016" y1="-3.0988" x2="1.524" y2="-1.9558" layer="51"/>
+<rectangle x1="2.286" y1="-3.0988" x2="2.794" y2="-1.9558" layer="51"/>
+<rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="DIL14" urn="urn:adsk.eagle:package:16407/2" type="model" library_version="5">
+<package3d name="DIL14" urn="urn:adsk.eagle:package:2008/1" type="box" library_version="1">
 <description>Dual In Line Package</description>
-<packageinstances>
-<packageinstance name="DIL14"/>
-</packageinstances>
-</package3d>
-<package3d name="SO14" urn="urn:adsk.eagle:package:1010/2" type="model" library_version="5">
-<description>Small Outline package 150 mil</description>
-<packageinstances>
-<packageinstance name="SO14"/>
-</packageinstances>
 </package3d>
 <package3d name="LCC20" urn="urn:adsk.eagle:package:2012/1" type="box" library_version="5">
 <description>Leadless Chip Carrier Ceramic Package</description>
-<packageinstances>
-<packageinstance name="LCC20"/>
-</packageinstances>
+</package3d>
+<package3d name="SO14" urn="urn:adsk.eagle:package:2007/1" type="box" library_version="1">
+<description>Small Outline package 150 mil</description>
 </package3d>
 </packages3d>
 <symbols>
@@ -1209,14 +1188,14 @@ Based on the following sources:
 <pin name="I1" x="-7.62" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
 <pin name="O" x="7.62" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
 </symbol>
-<symbol name="PWRN" urn="urn:adsk.eagle:symbol:1632/2" library_version="5">
+<symbol name="PWRN" urn="urn:adsk.eagle:symbol:1632/1" library_version="1">
 <text x="-0.635" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.905" y="-5.842" size="1.27" layer="95" rot="R90">GND</text>
 <text x="1.905" y="2.54" size="1.27" layer="95" rot="R90">VCC</text>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 <pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 </symbol>
-<symbol name="7474" urn="urn:adsk.eagle:symbol:2548/2" library_version="5">
+<symbol name="7474" urn="urn:adsk.eagle:symbol:1656/1" library_version="1">
 <wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
@@ -1232,7 +1211,7 @@ Based on the following sources:
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="74*00" urn="urn:adsk.eagle:component:2196/4" prefix="IC" library_version="5">
+<deviceset name="74*00" urn="urn:adsk.eagle:component:2196/1" prefix="IC" library_version="1">
 <description>Quad 2-input &lt;b&gt;NAND&lt;/b&gt; gate</description>
 <gates>
 <gate name="A" symbol="7400" x="20.32" y="0" swaplevel="1"/>
@@ -1260,36 +1239,18 @@ Based on the following sources:
 <connect gate="P" pin="VCC" pad="14"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16407/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2008/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="AC">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="ACT">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="ALS">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="AS">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="HC">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="HCT">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="LS">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="S">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
+<technology name="AC"/>
+<technology name="ACT"/>
+<technology name="ALS"/>
+<technology name="AS"/>
+<technology name="HC"/>
+<technology name="HCT"/>
+<technology name="LS"/>
+<technology name="S"/>
 </technologies>
 </device>
 <device name="D" package="SO14">
@@ -1310,36 +1271,18 @@ Based on the following sources:
 <connect gate="P" pin="VCC" pad="14"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1010/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2007/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="AC">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="ACT">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="ALS">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="AS">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="HC">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="HCT">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="LS">
-<attribute name="POPULARITY" value="3" constant="no"/>
-</technology>
-<technology name="S">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
+<technology name="AC"/>
+<technology name="ACT"/>
+<technology name="ALS"/>
+<technology name="AS"/>
+<technology name="HC"/>
+<technology name="HCT"/>
+<technology name="LS"/>
+<technology name="S"/>
 </technologies>
 </device>
 <device name="FK" package="LCC20">
@@ -1363,38 +1306,20 @@ Based on the following sources:
 <package3dinstance package3d_urn="urn:adsk.eagle:package:2012/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="AC">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="ACT">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="ALS">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="AS">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="HC">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="HCT">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="LS">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="S">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
+<technology name="AC"/>
+<technology name="ACT"/>
+<technology name="ALS"/>
+<technology name="AS"/>
+<technology name="HC"/>
+<technology name="HCT"/>
+<technology name="LS"/>
+<technology name="S"/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="74*74" urn="urn:adsk.eagle:component:2144/4" prefix="IC" library_version="5">
+<deviceset name="74*74" urn="urn:adsk.eagle:component:2144/1" prefix="IC" library_version="1">
 <description>Dual D type positive edge triggered &lt;b&gt;FLIP FLOP&lt;/b&gt;, preset and clear</description>
 <gates>
 <gate name="A" symbol="7474" x="20.32" y="0" swaplevel="1"/>
@@ -1420,27 +1345,15 @@ Based on the following sources:
 <connect gate="P" pin="VCC" pad="14"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16407/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2008/1"/>
 </package3dinstances>
 <technologies>
-<technology name="AC">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="ACT">
-<attribute name="POPULARITY" value="2" constant="no"/>
-</technology>
-<technology name="HC">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="HCT">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="LS">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="S">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name="AC"/>
+<technology name="ACT"/>
+<technology name="HC"/>
+<technology name="HCT"/>
+<technology name="LS"/>
+<technology name="S"/>
 </technologies>
 </device>
 <device name="D" package="SO14">
@@ -1461,27 +1374,15 @@ Based on the following sources:
 <connect gate="P" pin="VCC" pad="14"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1010/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2007/1"/>
 </package3dinstances>
 <technologies>
-<technology name="AC">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="ACT">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="HC">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="HCT">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="LS">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="S">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name="AC"/>
+<technology name="ACT"/>
+<technology name="HC"/>
+<technology name="HCT"/>
+<technology name="LS"/>
+<technology name="S"/>
 </technologies>
 </device>
 <device name="FK" package="LCC20">
@@ -1505,24 +1406,12 @@ Based on the following sources:
 <package3dinstance package3d_urn="urn:adsk.eagle:package:2012/1"/>
 </package3dinstances>
 <technologies>
-<technology name="AC">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="ACT">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="HC">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="HCT">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="LS">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="S">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name="AC"/>
+<technology name="ACT"/>
+<technology name="HC"/>
+<technology name="HCT"/>
+<technology name="LS"/>
+<technology name="S"/>
 </technologies>
 </device>
 </devices>
@@ -2578,22 +2467,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="R0402" urn="urn:adsk.eagle:footprint:23043/3" library_version="11">
-<description>&lt;b&gt;Chip RESISTOR 0402 EIA (1005 Metric)&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1" y1="0.483" x2="1" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1" y1="0.483" x2="1" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1" y1="-0.483" x2="-1" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1" y1="-0.483" x2="-1" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.35" x2="0.1999" y2="0.35" layer="35"/>
-</package>
 <package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" library_version="11">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
@@ -2915,23 +2788,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
 <smd name="1" x="-3.1" y="0" dx="1" dy="3.2" layer="1"/>
 <smd name="2" x="3.1" y="0" dx="1" dy="3.2" layer="1"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
-<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-</package>
-<package name="R6332W" urn="urn:adsk.eagle:footprint:25646/1" library_version="11">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt; wave soldering&lt;p&gt;
-Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
-<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
-<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<smd name="1" x="-3.196" y="0" dx="1.2" dy="3.2" layer="1"/>
-<smd name="2" x="3.196" y="0" dx="1.2" dy="3.2" layer="1"/>
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
@@ -3740,62 +3596,6 @@ source Beyschlag</description>
 <text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="MINI_MELF-0204R" urn="urn:adsk.eagle:footprint:25676/1" library_version="11">
-<description>&lt;b&gt;CECC Size RC3715&lt;/b&gt; Reflow Soldering&lt;p&gt;
-source Beyschlag</description>
-<wire x1="-1.7" y1="-0.6" x2="1.7" y2="-0.6" width="0.2032" layer="51"/>
-<wire x1="1.7" y1="-0.6" x2="1.7" y2="0.6" width="0.2032" layer="51"/>
-<wire x1="1.7" y1="0.6" x2="-1.7" y2="0.6" width="0.2032" layer="51"/>
-<wire x1="-1.7" y1="0.6" x2="-1.7" y2="-0.6" width="0.2032" layer="51"/>
-<wire x1="0.938" y1="0.6" x2="-0.938" y2="0.6" width="0.2032" layer="21"/>
-<wire x1="-0.938" y1="-0.6" x2="0.938" y2="-0.6" width="0.2032" layer="21"/>
-<smd name="1" x="-1.5" y="0" dx="0.8" dy="1.6" layer="1"/>
-<smd name="2" x="1.5" y="0" dx="0.8" dy="1.6" layer="1"/>
-<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="MINI_MELF-0204W" urn="urn:adsk.eagle:footprint:25677/1" library_version="11">
-<description>&lt;b&gt;CECC Size RC3715&lt;/b&gt; Wave Soldering&lt;p&gt;
-source Beyschlag</description>
-<wire x1="-1.7" y1="-0.6" x2="1.7" y2="-0.6" width="0.2032" layer="51"/>
-<wire x1="1.7" y1="-0.6" x2="1.7" y2="0.6" width="0.2032" layer="51"/>
-<wire x1="1.7" y1="0.6" x2="-1.7" y2="0.6" width="0.2032" layer="51"/>
-<wire x1="-1.7" y1="0.6" x2="-1.7" y2="-0.6" width="0.2032" layer="51"/>
-<wire x1="0.684" y1="0.6" x2="-0.684" y2="0.6" width="0.2032" layer="21"/>
-<wire x1="-0.684" y1="-0.6" x2="0.684" y2="-0.6" width="0.2032" layer="21"/>
-<smd name="1" x="-1.5" y="0" dx="1.2" dy="1.6" layer="1"/>
-<smd name="2" x="1.5" y="0" dx="1.2" dy="1.6" layer="1"/>
-<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="MINI_MELF-0207R" urn="urn:adsk.eagle:footprint:25678/1" library_version="11">
-<description>&lt;b&gt;CECC Size RC6123&lt;/b&gt; Reflow Soldering&lt;p&gt;
-source Beyschlag</description>
-<wire x1="-2.8" y1="-1" x2="2.8" y2="-1" width="0.2032" layer="51"/>
-<wire x1="2.8" y1="-1" x2="2.8" y2="1" width="0.2032" layer="51"/>
-<wire x1="2.8" y1="1" x2="-2.8" y2="1" width="0.2032" layer="51"/>
-<wire x1="-2.8" y1="1" x2="-2.8" y2="-1" width="0.2032" layer="51"/>
-<wire x1="1.2125" y1="1" x2="-1.2125" y2="1" width="0.2032" layer="21"/>
-<wire x1="-1.2125" y1="-1" x2="1.2125" y2="-1" width="0.2032" layer="21"/>
-<smd name="1" x="-2.25" y="0" dx="1.6" dy="2.5" layer="1"/>
-<smd name="2" x="2.25" y="0" dx="1.6" dy="2.5" layer="1"/>
-<text x="-2.2225" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.2225" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="MINI_MELF-0207W" urn="urn:adsk.eagle:footprint:25679/1" library_version="11">
-<description>&lt;b&gt;CECC Size RC6123&lt;/b&gt; Wave Soldering&lt;p&gt;
-source Beyschlag</description>
-<wire x1="-2.8" y1="-1" x2="2.8" y2="-1" width="0.2032" layer="51"/>
-<wire x1="2.8" y1="-1" x2="2.8" y2="1" width="0.2032" layer="51"/>
-<wire x1="2.8" y1="1" x2="-2.8" y2="1" width="0.2032" layer="51"/>
-<wire x1="-2.8" y1="1" x2="-2.8" y2="-1" width="0.2032" layer="51"/>
-<wire x1="1.149" y1="1" x2="-1.149" y2="1" width="0.2032" layer="21"/>
-<wire x1="-1.149" y1="-1" x2="1.149" y2="-1" width="0.2032" layer="21"/>
-<smd name="1" x="-2.6" y="0" dx="2.4" dy="2.5" layer="1"/>
-<smd name="2" x="2.6" y="0" dx="2.4" dy="2.5" layer="1"/>
-<text x="-2.54" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 <package name="0922V" urn="urn:adsk.eagle:footprint:23098/1" library_version="11">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0922, grid 7.5 mm</description>
@@ -3852,290 +3652,6 @@ type RDH, grid 15 mm</description>
 <text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
 <hole x="0" y="0" drill="1.3"/>
-</package>
-<package name="R0201" urn="urn:adsk.eagle:footprint:25683/1" library_version="11">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt; chip&lt;p&gt;
-Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
-<smd name="1" x="-0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
-<smd name="2" x="0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
-<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
-<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="21"/>
-</package>
-<package name="VTA52" urn="urn:adsk.eagle:footprint:25684/1" library_version="11">
-<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
-MIL SIZE RBR52&lt;br&gt;
-Source: VISHAY .. vta56.pdf</description>
-<wire x1="-15.24" y1="0" x2="-13.97" y2="0" width="0.6096" layer="51"/>
-<wire x1="12.6225" y1="0.025" x2="12.6225" y2="4.725" width="0.1524" layer="21"/>
-<wire x1="12.6225" y1="4.725" x2="-12.6225" y2="4.725" width="0.1524" layer="21"/>
-<wire x1="-12.6225" y1="4.725" x2="-12.6225" y2="0.025" width="0.1524" layer="21"/>
-<wire x1="-12.6225" y1="0.025" x2="-12.6225" y2="-4.65" width="0.1524" layer="21"/>
-<wire x1="-12.6225" y1="-4.65" x2="12.6225" y2="-4.65" width="0.1524" layer="21"/>
-<wire x1="12.6225" y1="-4.65" x2="12.6225" y2="0.025" width="0.1524" layer="21"/>
-<wire x1="13.97" y1="0" x2="15.24" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-15.24" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="15.24" y="0" drill="1.1" shape="octagon"/>
-<text x="-3.81" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-13.97" y1="-0.3048" x2="-12.5675" y2="0.3048" layer="21"/>
-<rectangle x1="12.5675" y1="-0.3048" x2="13.97" y2="0.3048" layer="21"/>
-</package>
-<package name="VTA53" urn="urn:adsk.eagle:footprint:25685/1" library_version="11">
-<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
-MIL SIZE RBR53&lt;br&gt;
-Source: VISHAY .. vta56.pdf</description>
-<wire x1="-12.065" y1="0" x2="-10.795" y2="0" width="0.6096" layer="51"/>
-<wire x1="9.8975" y1="0" x2="9.8975" y2="4.7" width="0.1524" layer="21"/>
-<wire x1="9.8975" y1="4.7" x2="-9.8975" y2="4.7" width="0.1524" layer="21"/>
-<wire x1="-9.8975" y1="4.7" x2="-9.8975" y2="0" width="0.1524" layer="21"/>
-<wire x1="-9.8975" y1="0" x2="-9.8975" y2="-4.675" width="0.1524" layer="21"/>
-<wire x1="-9.8975" y1="-4.675" x2="9.8975" y2="-4.675" width="0.1524" layer="21"/>
-<wire x1="9.8975" y1="-4.675" x2="9.8975" y2="0" width="0.1524" layer="21"/>
-<wire x1="10.795" y1="0" x2="12.065" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-12.065" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="12.065" y="0" drill="1.1" shape="octagon"/>
-<text x="-3.81" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-10.795" y1="-0.3048" x2="-9.8425" y2="0.3048" layer="21"/>
-<rectangle x1="9.8425" y1="-0.3048" x2="10.795" y2="0.3048" layer="21"/>
-</package>
-<package name="VTA54" urn="urn:adsk.eagle:footprint:25686/1" library_version="11">
-<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
-MIL SIZE RBR54&lt;br&gt;
-Source: VISHAY .. vta56.pdf</description>
-<wire x1="-12.065" y1="0" x2="-10.795" y2="0" width="0.6096" layer="51"/>
-<wire x1="9.8975" y1="0" x2="9.8975" y2="3.3" width="0.1524" layer="21"/>
-<wire x1="9.8975" y1="3.3" x2="-9.8975" y2="3.3" width="0.1524" layer="21"/>
-<wire x1="-9.8975" y1="3.3" x2="-9.8975" y2="0" width="0.1524" layer="21"/>
-<wire x1="-9.8975" y1="0" x2="-9.8975" y2="-3.3" width="0.1524" layer="21"/>
-<wire x1="-9.8975" y1="-3.3" x2="9.8975" y2="-3.3" width="0.1524" layer="21"/>
-<wire x1="9.8975" y1="-3.3" x2="9.8975" y2="0" width="0.1524" layer="21"/>
-<wire x1="10.795" y1="0" x2="12.065" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-12.065" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="12.065" y="0" drill="1.1" shape="octagon"/>
-<text x="-3.81" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-10.795" y1="-0.3048" x2="-9.8425" y2="0.3048" layer="21"/>
-<rectangle x1="9.8425" y1="-0.3048" x2="10.795" y2="0.3048" layer="21"/>
-</package>
-<package name="VTA55" urn="urn:adsk.eagle:footprint:25687/1" library_version="11">
-<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
-MIL SIZE RBR55&lt;br&gt;
-Source: VISHAY .. vta56.pdf</description>
-<wire x1="-8.255" y1="0" x2="-6.985" y2="0" width="0.6096" layer="51"/>
-<wire x1="6.405" y1="0" x2="6.405" y2="3.3" width="0.1524" layer="21"/>
-<wire x1="6.405" y1="3.3" x2="-6.405" y2="3.3" width="0.1524" layer="21"/>
-<wire x1="-6.405" y1="3.3" x2="-6.405" y2="0" width="0.1524" layer="21"/>
-<wire x1="-6.405" y1="0" x2="-6.405" y2="-3.3" width="0.1524" layer="21"/>
-<wire x1="-6.405" y1="-3.3" x2="6.405" y2="-3.3" width="0.1524" layer="21"/>
-<wire x1="6.405" y1="-3.3" x2="6.405" y2="0" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="0" x2="8.255" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-8.255" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="8.255" y="0" drill="1.1" shape="octagon"/>
-<text x="-3.81" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-6.985" y1="-0.3048" x2="-6.35" y2="0.3048" layer="21"/>
-<rectangle x1="6.35" y1="-0.3048" x2="6.985" y2="0.3048" layer="21"/>
-</package>
-<package name="VTA56" urn="urn:adsk.eagle:footprint:25688/1" library_version="11">
-<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
-MIL SIZE RBR56&lt;br&gt;
-Source: VISHAY .. vta56.pdf</description>
-<wire x1="-6.35" y1="0" x2="-5.08" y2="0" width="0.6096" layer="51"/>
-<wire x1="4.5" y1="0" x2="4.5" y2="3.3" width="0.1524" layer="21"/>
-<wire x1="4.5" y1="3.3" x2="-4.5" y2="3.3" width="0.1524" layer="21"/>
-<wire x1="-4.5" y1="3.3" x2="-4.5" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.5" y1="0" x2="-4.5" y2="-3.3" width="0.1524" layer="21"/>
-<wire x1="-4.5" y1="-3.3" x2="4.5" y2="-3.3" width="0.1524" layer="21"/>
-<wire x1="4.5" y1="-3.3" x2="4.5" y2="0" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0" x2="6.35" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-6.35" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="6.35" y="0" drill="1.1" shape="octagon"/>
-<text x="-3.81" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-5.08" y1="-0.3048" x2="-4.445" y2="0.3048" layer="21"/>
-<rectangle x1="4.445" y1="-0.3048" x2="5.08" y2="0.3048" layer="21"/>
-</package>
-<package name="VMTA55" urn="urn:adsk.eagle:footprint:25689/1" library_version="11">
-<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
-MIL SIZE RNC55&lt;br&gt;
-Source: VISHAY .. vta56.pdf</description>
-<wire x1="-5.08" y1="0" x2="-4.26" y2="0" width="0.6096" layer="51"/>
-<wire x1="3.3375" y1="-1.45" x2="3.3375" y2="1.45" width="0.1524" layer="21"/>
-<wire x1="3.3375" y1="1.45" x2="-3.3625" y2="1.45" width="0.1524" layer="21"/>
-<wire x1="-3.3625" y1="1.45" x2="-3.3625" y2="-1.45" width="0.1524" layer="21"/>
-<wire x1="-3.3625" y1="-1.45" x2="3.3375" y2="-1.45" width="0.1524" layer="21"/>
-<wire x1="4.235" y1="0" x2="5.08" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-5.08" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="5.08" y="0" drill="1.1" shape="octagon"/>
-<text x="-3.175" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-4.26" y1="-0.3048" x2="-3.3075" y2="0.3048" layer="21"/>
-<rectangle x1="3.2825" y1="-0.3048" x2="4.235" y2="0.3048" layer="21"/>
-</package>
-<package name="VMTB60" urn="urn:adsk.eagle:footprint:25690/1" library_version="11">
-<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
-MIL SIZE RNC60&lt;br&gt;
-Source: VISHAY .. vta56.pdf</description>
-<wire x1="-6.35" y1="0" x2="-5.585" y2="0" width="0.6096" layer="51"/>
-<wire x1="4.6875" y1="-1.95" x2="4.6875" y2="1.95" width="0.1524" layer="21"/>
-<wire x1="4.6875" y1="1.95" x2="-4.6875" y2="1.95" width="0.1524" layer="21"/>
-<wire x1="-4.6875" y1="1.95" x2="-4.6875" y2="-1.95" width="0.1524" layer="21"/>
-<wire x1="-4.6875" y1="-1.95" x2="4.6875" y2="-1.95" width="0.1524" layer="21"/>
-<wire x1="5.585" y1="0" x2="6.35" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-6.35" y="0" drill="1.1" shape="octagon"/>
-<pad name="2" x="6.35" y="0" drill="1.1" shape="octagon"/>
-<text x="-4.445" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.445" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-5.585" y1="-0.3048" x2="-4.6325" y2="0.3048" layer="21"/>
-<rectangle x1="4.6325" y1="-0.3048" x2="5.585" y2="0.3048" layer="21"/>
-</package>
-<package name="R4527" urn="urn:adsk.eagle:footprint:13246/1" library_version="11">
-<description>&lt;b&gt;Package 4527&lt;/b&gt;&lt;p&gt;
-Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
-<wire x1="-5.675" y1="-3.375" x2="5.65" y2="-3.375" width="0.2032" layer="21"/>
-<wire x1="5.65" y1="-3.375" x2="5.65" y2="3.375" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="3.375" x2="-5.675" y2="3.375" width="0.2032" layer="21"/>
-<wire x1="-5.675" y1="3.375" x2="-5.675" y2="-3.375" width="0.2032" layer="51"/>
-<smd name="1" x="-4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
-<smd name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
-<text x="-5.715" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.715" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WSC0001" urn="urn:adsk.eagle:footprint:25692/1" library_version="11">
-<description>&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
-Source: VISHAY wscwsn.pdf</description>
-<wire x1="-3.075" y1="1.8" x2="-3.075" y2="-1.8" width="0.2032" layer="51"/>
-<wire x1="-3.075" y1="-1.8" x2="3.075" y2="-1.8" width="0.2032" layer="21"/>
-<wire x1="3.075" y1="-1.8" x2="3.075" y2="1.8" width="0.2032" layer="51"/>
-<wire x1="3.075" y1="1.8" x2="-3.075" y2="1.8" width="0.2032" layer="21"/>
-<wire x1="-3.075" y1="1.8" x2="-3.075" y2="1.606" width="0.2032" layer="21"/>
-<wire x1="-3.075" y1="-1.606" x2="-3.075" y2="-1.8" width="0.2032" layer="21"/>
-<wire x1="3.075" y1="1.606" x2="3.075" y2="1.8" width="0.2032" layer="21"/>
-<wire x1="3.075" y1="-1.8" x2="3.075" y2="-1.606" width="0.2032" layer="21"/>
-<smd name="1" x="-2.675" y="0" dx="2.29" dy="2.92" layer="1"/>
-<smd name="2" x="2.675" y="0" dx="2.29" dy="2.92" layer="1"/>
-<text x="-2.544" y="2.229" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.544" y="-3.501" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WSC0002" urn="urn:adsk.eagle:footprint:25693/1" library_version="11">
-<description>&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
-Source: VISHAY wscwsn.pdf</description>
-<wire x1="-5.55" y1="3.375" x2="-5.55" y2="-3.375" width="0.2032" layer="51"/>
-<wire x1="-5.55" y1="-3.375" x2="5.55" y2="-3.375" width="0.2032" layer="21"/>
-<wire x1="5.55" y1="-3.375" x2="5.55" y2="3.375" width="0.2032" layer="51"/>
-<wire x1="5.55" y1="3.375" x2="-5.55" y2="3.375" width="0.2032" layer="21"/>
-<smd name="1" x="-4.575" y="0.025" dx="3.94" dy="5.84" layer="1"/>
-<smd name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
-<text x="-5.65" y="3.9" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.65" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WSC01/2" urn="urn:adsk.eagle:footprint:25694/1" library_version="11">
-<description>&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
-Source: VISHAY wscwsn.pdf</description>
-<wire x1="-2.45" y1="1.475" x2="-2.45" y2="-1.475" width="0.2032" layer="51"/>
-<wire x1="-2.45" y1="-1.475" x2="2.45" y2="-1.475" width="0.2032" layer="21"/>
-<wire x1="2.45" y1="-1.475" x2="2.45" y2="1.475" width="0.2032" layer="51"/>
-<wire x1="2.45" y1="1.475" x2="-2.45" y2="1.475" width="0.2032" layer="21"/>
-<wire x1="-2.45" y1="1.475" x2="-2.45" y2="1.106" width="0.2032" layer="21"/>
-<wire x1="-2.45" y1="-1.106" x2="-2.45" y2="-1.475" width="0.2032" layer="21"/>
-<wire x1="2.45" y1="1.106" x2="2.45" y2="1.475" width="0.2032" layer="21"/>
-<wire x1="2.45" y1="-1.475" x2="2.45" y2="-1.106" width="0.2032" layer="21"/>
-<smd name="1" x="-2.1" y="0" dx="2.16" dy="1.78" layer="1"/>
-<smd name="2" x="2.1" y="0" dx="2.16" dy="1.78" layer="1"/>
-<text x="-2.544" y="1.904" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.544" y="-3.176" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WSC2515" urn="urn:adsk.eagle:footprint:25695/1" library_version="11">
-<description>&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
-Source: VISHAY wscwsn.pdf</description>
-<wire x1="-3.075" y1="1.8" x2="-3.075" y2="-1.8" width="0.2032" layer="51"/>
-<wire x1="-3.075" y1="-1.8" x2="3.05" y2="-1.8" width="0.2032" layer="21"/>
-<wire x1="3.05" y1="-1.8" x2="3.05" y2="1.8" width="0.2032" layer="51"/>
-<wire x1="3.05" y1="1.8" x2="-3.075" y2="1.8" width="0.2032" layer="21"/>
-<wire x1="-3.075" y1="1.8" x2="-3.075" y2="1.606" width="0.2032" layer="21"/>
-<wire x1="-3.075" y1="-1.606" x2="-3.075" y2="-1.8" width="0.2032" layer="21"/>
-<wire x1="3.05" y1="1.606" x2="3.05" y2="1.8" width="0.2032" layer="21"/>
-<wire x1="3.05" y1="-1.8" x2="3.05" y2="-1.606" width="0.2032" layer="21"/>
-<smd name="1" x="-2.675" y="0" dx="2.29" dy="2.92" layer="1"/>
-<smd name="2" x="2.675" y="0" dx="2.29" dy="2.92" layer="1"/>
-<text x="-3.2" y="2.15" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.2" y="-3.4" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WSC4527" urn="urn:adsk.eagle:footprint:25696/1" library_version="11">
-<description>&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
-Source: VISHAY wscwsn.pdf</description>
-<wire x1="-5.675" y1="3.4" x2="-5.675" y2="-3.375" width="0.2032" layer="51"/>
-<wire x1="-5.675" y1="-3.375" x2="5.675" y2="-3.375" width="0.2032" layer="21"/>
-<wire x1="5.675" y1="-3.375" x2="5.675" y2="3.4" width="0.2032" layer="51"/>
-<wire x1="5.675" y1="3.4" x2="-5.675" y2="3.4" width="0.2032" layer="21"/>
-<smd name="1" x="-4.575" y="0.025" dx="3.94" dy="5.84" layer="1"/>
-<smd name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
-<text x="-5.775" y="3.925" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.775" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WSC6927" urn="urn:adsk.eagle:footprint:25697/1" library_version="11">
-<description>&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
-Source: VISHAY wscwsn.pdf</description>
-<wire x1="-8.65" y1="3.375" x2="-8.65" y2="-3.375" width="0.2032" layer="51"/>
-<wire x1="-8.65" y1="-3.375" x2="8.65" y2="-3.375" width="0.2032" layer="21"/>
-<wire x1="8.65" y1="-3.375" x2="8.65" y2="3.375" width="0.2032" layer="51"/>
-<wire x1="8.65" y1="3.375" x2="-8.65" y2="3.375" width="0.2032" layer="21"/>
-<smd name="1" x="-7.95" y="0.025" dx="3.94" dy="5.97" layer="1"/>
-<smd name="2" x="7.95" y="0" dx="3.94" dy="5.97" layer="1"/>
-<text x="-8.75" y="3.9" size="1.27" layer="25">&gt;NAME</text>
-<text x="-8.75" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="R1218" urn="urn:adsk.eagle:footprint:25698/1" library_version="11">
-<description>&lt;b&gt;CRCW1218 Thick Film, Rectangular Chip Resistors&lt;/b&gt;&lt;p&gt;
-Source: http://www.vishay.com .. dcrcw.pdf</description>
-<wire x1="-0.913" y1="-2.219" x2="0.939" y2="-2.219" width="0.1524" layer="51"/>
-<wire x1="0.913" y1="2.219" x2="-0.939" y2="2.219" width="0.1524" layer="51"/>
-<smd name="1" x="-1.475" y="0" dx="1.05" dy="4.9" layer="1"/>
-<smd name="2" x="1.475" y="0" dx="1.05" dy="4.9" layer="1"/>
-<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-2.3" x2="-0.9009" y2="2.3" layer="51"/>
-<rectangle x1="0.9144" y1="-2.3" x2="1.6645" y2="2.3" layer="51"/>
-</package>
-<package name="1812X7R" urn="urn:adsk.eagle:footprint:25699/1" library_version="11">
-<description>&lt;b&gt;Chip Monolithic Ceramic Capacitors&lt;/b&gt; Medium Voltage High Capacitance for General Use&lt;p&gt;
-Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
-<wire x1="-1.1" y1="1.5" x2="1.1" y2="1.5" width="0.2032" layer="51"/>
-<wire x1="1.1" y1="-1.5" x2="-1.1" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="-0.6" y1="1.5" x2="0.6" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="0.6" y1="-1.5" x2="-0.6" y2="-1.5" width="0.2032" layer="21"/>
-<smd name="1" x="-1.425" y="0" dx="0.8" dy="3.5" layer="1"/>
-<smd name="2" x="1.425" y="0" dx="0.8" dy="3.5" layer="1" rot="R180"/>
-<text x="-1.9456" y="1.9958" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.9456" y="-3.7738" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.4" y1="-1.6" x2="-1.1" y2="1.6" layer="51"/>
-<rectangle x1="1.1" y1="-1.6" x2="1.4" y2="1.6" layer="51" rot="R180"/>
-</package>
-<package name="PRL1632" urn="urn:adsk.eagle:footprint:25700/1" library_version="11">
-<description>&lt;b&gt;PRL1632 are realized as 1W for 3.2 × 1.6mm(1206)&lt;/b&gt;&lt;p&gt;
-Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
-<wire x1="0.7275" y1="-1.5228" x2="-0.7277" y2="-1.5228" width="0.1524" layer="51"/>
-<wire x1="0.7275" y1="1.5228" x2="-0.7152" y2="1.5228" width="0.1524" layer="51"/>
-<smd name="2" x="0.822" y="0" dx="1" dy="3.2" layer="1"/>
-<smd name="1" x="-0.822" y="0" dx="1" dy="3.2" layer="1"/>
-<text x="-1.4" y="1.8" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.4" y="-3" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8" y1="-1.6" x2="-0.4" y2="1.6" layer="51"/>
-<rectangle x1="0.4" y1="-1.6" x2="0.8" y2="1.6" layer="51"/>
-</package>
-<package name="R01005" urn="urn:adsk.eagle:footprint:25701/1" library_version="11">
-<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
-<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
-<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
-<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
-<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
-<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
 <package name="C0402" urn="urn:adsk.eagle:footprint:23121/1" library_version="11">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
@@ -5652,15 +5168,6 @@ Metric Code Size 4564</description>
 <rectangle x1="-2.8" y1="-3.15" x2="-2.2" y2="3.15" layer="51"/>
 <rectangle x1="2.2" y1="-3.15" x2="2.8" y2="3.15" layer="51"/>
 </package>
-<package name="HPC0201" urn="urn:adsk.eagle:footprint:25783/1" library_version="11">
-<description>&lt;b&gt; &lt;/b&gt;&lt;p&gt;
-Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
-<smd name="1" x="-0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
-<smd name="2" x="0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
-<text x="-0.75" y="0.74" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.785" y="-1.865" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.305" y1="-0.15" x2="0.305" y2="0.15" layer="51"/>
-</package>
 <package name="C0201" urn="urn:adsk.eagle:footprint:23196/1" library_version="11">
 <description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
 <smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
@@ -5708,1138 +5215,1022 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="R0402" urn="urn:adsk.eagle:footprint:23043/1" library_version="2">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="R6332W" urn="urn:adsk.eagle:footprint:23064/1" library_version="2">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt; wave soldering&lt;p&gt;
+Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
+<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
+<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
+<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
+<smd name="1" x="-3.196" y="0" dx="1.2" dy="3.2" layer="1"/>
+<smd name="2" x="3.196" y="0" dx="1.2" dy="3.2" layer="1"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
+<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+</package>
+<package name="MINI_MELF-0204R" urn="urn:adsk.eagle:footprint:23094/1" library_version="2">
+<description>&lt;b&gt;CECC Size RC3715&lt;/b&gt; Reflow Soldering&lt;p&gt;
+source Beyschlag</description>
+<wire x1="-1.7" y1="-0.6" x2="1.7" y2="-0.6" width="0.2032" layer="51"/>
+<wire x1="1.7" y1="-0.6" x2="1.7" y2="0.6" width="0.2032" layer="51"/>
+<wire x1="1.7" y1="0.6" x2="-1.7" y2="0.6" width="0.2032" layer="51"/>
+<wire x1="-1.7" y1="0.6" x2="-1.7" y2="-0.6" width="0.2032" layer="51"/>
+<wire x1="0.938" y1="0.6" x2="-0.938" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="-0.938" y1="-0.6" x2="0.938" y2="-0.6" width="0.2032" layer="21"/>
+<smd name="1" x="-1.5" y="0" dx="0.8" dy="1.6" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="0.8" dy="1.6" layer="1"/>
+<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MINI_MELF-0204W" urn="urn:adsk.eagle:footprint:23095/1" library_version="2">
+<description>&lt;b&gt;CECC Size RC3715&lt;/b&gt; Wave Soldering&lt;p&gt;
+source Beyschlag</description>
+<wire x1="-1.7" y1="-0.6" x2="1.7" y2="-0.6" width="0.2032" layer="51"/>
+<wire x1="1.7" y1="-0.6" x2="1.7" y2="0.6" width="0.2032" layer="51"/>
+<wire x1="1.7" y1="0.6" x2="-1.7" y2="0.6" width="0.2032" layer="51"/>
+<wire x1="-1.7" y1="0.6" x2="-1.7" y2="-0.6" width="0.2032" layer="51"/>
+<wire x1="0.684" y1="0.6" x2="-0.684" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="-0.684" y1="-0.6" x2="0.684" y2="-0.6" width="0.2032" layer="21"/>
+<smd name="1" x="-1.5" y="0" dx="1.2" dy="1.6" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1.2" dy="1.6" layer="1"/>
+<text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MINI_MELF-0207R" urn="urn:adsk.eagle:footprint:23096/1" library_version="2">
+<description>&lt;b&gt;CECC Size RC6123&lt;/b&gt; Reflow Soldering&lt;p&gt;
+source Beyschlag</description>
+<wire x1="-2.8" y1="-1" x2="2.8" y2="-1" width="0.2032" layer="51"/>
+<wire x1="2.8" y1="-1" x2="2.8" y2="1" width="0.2032" layer="51"/>
+<wire x1="2.8" y1="1" x2="-2.8" y2="1" width="0.2032" layer="51"/>
+<wire x1="-2.8" y1="1" x2="-2.8" y2="-1" width="0.2032" layer="51"/>
+<wire x1="1.2125" y1="1" x2="-1.2125" y2="1" width="0.2032" layer="21"/>
+<wire x1="-1.2125" y1="-1" x2="1.2125" y2="-1" width="0.2032" layer="21"/>
+<smd name="1" x="-2.25" y="0" dx="1.6" dy="2.5" layer="1"/>
+<smd name="2" x="2.25" y="0" dx="1.6" dy="2.5" layer="1"/>
+<text x="-2.2225" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.2225" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MINI_MELF-0207W" urn="urn:adsk.eagle:footprint:23097/1" library_version="2">
+<description>&lt;b&gt;CECC Size RC6123&lt;/b&gt; Wave Soldering&lt;p&gt;
+source Beyschlag</description>
+<wire x1="-2.8" y1="-1" x2="2.8" y2="-1" width="0.2032" layer="51"/>
+<wire x1="2.8" y1="-1" x2="2.8" y2="1" width="0.2032" layer="51"/>
+<wire x1="2.8" y1="1" x2="-2.8" y2="1" width="0.2032" layer="51"/>
+<wire x1="-2.8" y1="1" x2="-2.8" y2="-1" width="0.2032" layer="51"/>
+<wire x1="1.149" y1="1" x2="-1.149" y2="1" width="0.2032" layer="21"/>
+<wire x1="-1.149" y1="-1" x2="1.149" y2="-1" width="0.2032" layer="21"/>
+<smd name="1" x="-2.6" y="0" dx="2.4" dy="2.5" layer="1"/>
+<smd name="2" x="2.6" y="0" dx="2.4" dy="2.5" layer="1"/>
+<text x="-2.54" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="R0201" urn="urn:adsk.eagle:footprint:23101/1" library_version="2">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt; chip&lt;p&gt;
+Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
+<smd name="1" x="-0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
+<smd name="2" x="0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
+<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
+<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="21"/>
+</package>
+<package name="VTA52" urn="urn:adsk.eagle:footprint:23102/1" library_version="2">
+<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
+MIL SIZE RBR52&lt;br&gt;
+Source: VISHAY .. vta56.pdf</description>
+<wire x1="-15.24" y1="0" x2="-13.97" y2="0" width="0.6096" layer="51"/>
+<wire x1="12.6225" y1="0.025" x2="12.6225" y2="4.725" width="0.1524" layer="21"/>
+<wire x1="12.6225" y1="4.725" x2="-12.6225" y2="4.725" width="0.1524" layer="21"/>
+<wire x1="-12.6225" y1="4.725" x2="-12.6225" y2="0.025" width="0.1524" layer="21"/>
+<wire x1="-12.6225" y1="0.025" x2="-12.6225" y2="-4.65" width="0.1524" layer="21"/>
+<wire x1="-12.6225" y1="-4.65" x2="12.6225" y2="-4.65" width="0.1524" layer="21"/>
+<wire x1="12.6225" y1="-4.65" x2="12.6225" y2="0.025" width="0.1524" layer="21"/>
+<wire x1="13.97" y1="0" x2="15.24" y2="0" width="0.6096" layer="51"/>
+<pad name="1" x="-15.24" y="0" drill="1.1" shape="octagon"/>
+<pad name="2" x="15.24" y="0" drill="1.1" shape="octagon"/>
+<text x="-3.81" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-13.97" y1="-0.3048" x2="-12.5675" y2="0.3048" layer="21"/>
+<rectangle x1="12.5675" y1="-0.3048" x2="13.97" y2="0.3048" layer="21"/>
+</package>
+<package name="VTA53" urn="urn:adsk.eagle:footprint:23103/1" library_version="2">
+<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
+MIL SIZE RBR53&lt;br&gt;
+Source: VISHAY .. vta56.pdf</description>
+<wire x1="-12.065" y1="0" x2="-10.795" y2="0" width="0.6096" layer="51"/>
+<wire x1="9.8975" y1="0" x2="9.8975" y2="4.7" width="0.1524" layer="21"/>
+<wire x1="9.8975" y1="4.7" x2="-9.8975" y2="4.7" width="0.1524" layer="21"/>
+<wire x1="-9.8975" y1="4.7" x2="-9.8975" y2="0" width="0.1524" layer="21"/>
+<wire x1="-9.8975" y1="0" x2="-9.8975" y2="-4.675" width="0.1524" layer="21"/>
+<wire x1="-9.8975" y1="-4.675" x2="9.8975" y2="-4.675" width="0.1524" layer="21"/>
+<wire x1="9.8975" y1="-4.675" x2="9.8975" y2="0" width="0.1524" layer="21"/>
+<wire x1="10.795" y1="0" x2="12.065" y2="0" width="0.6096" layer="51"/>
+<pad name="1" x="-12.065" y="0" drill="1.1" shape="octagon"/>
+<pad name="2" x="12.065" y="0" drill="1.1" shape="octagon"/>
+<text x="-3.81" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-10.795" y1="-0.3048" x2="-9.8425" y2="0.3048" layer="21"/>
+<rectangle x1="9.8425" y1="-0.3048" x2="10.795" y2="0.3048" layer="21"/>
+</package>
+<package name="VTA54" urn="urn:adsk.eagle:footprint:23104/1" library_version="2">
+<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
+MIL SIZE RBR54&lt;br&gt;
+Source: VISHAY .. vta56.pdf</description>
+<wire x1="-12.065" y1="0" x2="-10.795" y2="0" width="0.6096" layer="51"/>
+<wire x1="9.8975" y1="0" x2="9.8975" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="9.8975" y1="3.3" x2="-9.8975" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="-9.8975" y1="3.3" x2="-9.8975" y2="0" width="0.1524" layer="21"/>
+<wire x1="-9.8975" y1="0" x2="-9.8975" y2="-3.3" width="0.1524" layer="21"/>
+<wire x1="-9.8975" y1="-3.3" x2="9.8975" y2="-3.3" width="0.1524" layer="21"/>
+<wire x1="9.8975" y1="-3.3" x2="9.8975" y2="0" width="0.1524" layer="21"/>
+<wire x1="10.795" y1="0" x2="12.065" y2="0" width="0.6096" layer="51"/>
+<pad name="1" x="-12.065" y="0" drill="1.1" shape="octagon"/>
+<pad name="2" x="12.065" y="0" drill="1.1" shape="octagon"/>
+<text x="-3.81" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-10.795" y1="-0.3048" x2="-9.8425" y2="0.3048" layer="21"/>
+<rectangle x1="9.8425" y1="-0.3048" x2="10.795" y2="0.3048" layer="21"/>
+</package>
+<package name="VTA55" urn="urn:adsk.eagle:footprint:23105/1" library_version="2">
+<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
+MIL SIZE RBR55&lt;br&gt;
+Source: VISHAY .. vta56.pdf</description>
+<wire x1="-8.255" y1="0" x2="-6.985" y2="0" width="0.6096" layer="51"/>
+<wire x1="6.405" y1="0" x2="6.405" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="6.405" y1="3.3" x2="-6.405" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="-6.405" y1="3.3" x2="-6.405" y2="0" width="0.1524" layer="21"/>
+<wire x1="-6.405" y1="0" x2="-6.405" y2="-3.3" width="0.1524" layer="21"/>
+<wire x1="-6.405" y1="-3.3" x2="6.405" y2="-3.3" width="0.1524" layer="21"/>
+<wire x1="6.405" y1="-3.3" x2="6.405" y2="0" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="0" x2="8.255" y2="0" width="0.6096" layer="51"/>
+<pad name="1" x="-8.255" y="0" drill="1.1" shape="octagon"/>
+<pad name="2" x="8.255" y="0" drill="1.1" shape="octagon"/>
+<text x="-3.81" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-6.985" y1="-0.3048" x2="-6.35" y2="0.3048" layer="21"/>
+<rectangle x1="6.35" y1="-0.3048" x2="6.985" y2="0.3048" layer="21"/>
+</package>
+<package name="VTA56" urn="urn:adsk.eagle:footprint:23106/1" library_version="2">
+<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
+MIL SIZE RBR56&lt;br&gt;
+Source: VISHAY .. vta56.pdf</description>
+<wire x1="-6.35" y1="0" x2="-5.08" y2="0" width="0.6096" layer="51"/>
+<wire x1="4.5" y1="0" x2="4.5" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="4.5" y1="3.3" x2="-4.5" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="3.3" x2="-4.5" y2="0" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="0" x2="-4.5" y2="-3.3" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-3.3" x2="4.5" y2="-3.3" width="0.1524" layer="21"/>
+<wire x1="4.5" y1="-3.3" x2="4.5" y2="0" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0" x2="6.35" y2="0" width="0.6096" layer="51"/>
+<pad name="1" x="-6.35" y="0" drill="1.1" shape="octagon"/>
+<pad name="2" x="6.35" y="0" drill="1.1" shape="octagon"/>
+<text x="-3.81" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-5.08" y1="-0.3048" x2="-4.445" y2="0.3048" layer="21"/>
+<rectangle x1="4.445" y1="-0.3048" x2="5.08" y2="0.3048" layer="21"/>
+</package>
+<package name="VMTA55" urn="urn:adsk.eagle:footprint:23107/1" library_version="2">
+<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
+MIL SIZE RNC55&lt;br&gt;
+Source: VISHAY .. vta56.pdf</description>
+<wire x1="-5.08" y1="0" x2="-4.26" y2="0" width="0.6096" layer="51"/>
+<wire x1="3.3375" y1="-1.45" x2="3.3375" y2="1.45" width="0.1524" layer="21"/>
+<wire x1="3.3375" y1="1.45" x2="-3.3625" y2="1.45" width="0.1524" layer="21"/>
+<wire x1="-3.3625" y1="1.45" x2="-3.3625" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="-3.3625" y1="-1.45" x2="3.3375" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="4.235" y1="0" x2="5.08" y2="0" width="0.6096" layer="51"/>
+<pad name="1" x="-5.08" y="0" drill="1.1" shape="octagon"/>
+<pad name="2" x="5.08" y="0" drill="1.1" shape="octagon"/>
+<text x="-3.175" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-4.26" y1="-0.3048" x2="-3.3075" y2="0.3048" layer="21"/>
+<rectangle x1="3.2825" y1="-0.3048" x2="4.235" y2="0.3048" layer="21"/>
+</package>
+<package name="VMTB60" urn="urn:adsk.eagle:footprint:23108/1" library_version="2">
+<description>&lt;b&gt;Bulk Metal® Foil Technology&lt;/b&gt;, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p&gt;
+MIL SIZE RNC60&lt;br&gt;
+Source: VISHAY .. vta56.pdf</description>
+<wire x1="-6.35" y1="0" x2="-5.585" y2="0" width="0.6096" layer="51"/>
+<wire x1="4.6875" y1="-1.95" x2="4.6875" y2="1.95" width="0.1524" layer="21"/>
+<wire x1="4.6875" y1="1.95" x2="-4.6875" y2="1.95" width="0.1524" layer="21"/>
+<wire x1="-4.6875" y1="1.95" x2="-4.6875" y2="-1.95" width="0.1524" layer="21"/>
+<wire x1="-4.6875" y1="-1.95" x2="4.6875" y2="-1.95" width="0.1524" layer="21"/>
+<wire x1="5.585" y1="0" x2="6.35" y2="0" width="0.6096" layer="51"/>
+<pad name="1" x="-6.35" y="0" drill="1.1" shape="octagon"/>
+<pad name="2" x="6.35" y="0" drill="1.1" shape="octagon"/>
+<text x="-4.445" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4.445" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-5.585" y1="-0.3048" x2="-4.6325" y2="0.3048" layer="21"/>
+<rectangle x1="4.6325" y1="-0.3048" x2="5.585" y2="0.3048" layer="21"/>
+</package>
+<package name="R4527" urn="urn:adsk.eagle:footprint:23109/1" library_version="2">
+<description>&lt;b&gt;Package 4527&lt;/b&gt;&lt;p&gt;
+Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
+<wire x1="-5.675" y1="-3.375" x2="5.65" y2="-3.375" width="0.2032" layer="21"/>
+<wire x1="5.65" y1="-3.375" x2="5.65" y2="3.375" width="0.2032" layer="51"/>
+<wire x1="5.65" y1="3.375" x2="-5.675" y2="3.375" width="0.2032" layer="21"/>
+<wire x1="-5.675" y1="3.375" x2="-5.675" y2="-3.375" width="0.2032" layer="51"/>
+<smd name="1" x="-4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
+<smd name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
+<text x="-5.715" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.715" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="WSC0001" urn="urn:adsk.eagle:footprint:23110/1" library_version="2">
+<description>&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
+Source: VISHAY wscwsn.pdf</description>
+<wire x1="-3.075" y1="1.8" x2="-3.075" y2="-1.8" width="0.2032" layer="51"/>
+<wire x1="-3.075" y1="-1.8" x2="3.075" y2="-1.8" width="0.2032" layer="21"/>
+<wire x1="3.075" y1="-1.8" x2="3.075" y2="1.8" width="0.2032" layer="51"/>
+<wire x1="3.075" y1="1.8" x2="-3.075" y2="1.8" width="0.2032" layer="21"/>
+<wire x1="-3.075" y1="1.8" x2="-3.075" y2="1.606" width="0.2032" layer="21"/>
+<wire x1="-3.075" y1="-1.606" x2="-3.075" y2="-1.8" width="0.2032" layer="21"/>
+<wire x1="3.075" y1="1.606" x2="3.075" y2="1.8" width="0.2032" layer="21"/>
+<wire x1="3.075" y1="-1.8" x2="3.075" y2="-1.606" width="0.2032" layer="21"/>
+<smd name="1" x="-2.675" y="0" dx="2.29" dy="2.92" layer="1"/>
+<smd name="2" x="2.675" y="0" dx="2.29" dy="2.92" layer="1"/>
+<text x="-2.544" y="2.229" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.544" y="-3.501" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="WSC0002" urn="urn:adsk.eagle:footprint:23111/1" library_version="2">
+<description>&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
+Source: VISHAY wscwsn.pdf</description>
+<wire x1="-5.55" y1="3.375" x2="-5.55" y2="-3.375" width="0.2032" layer="51"/>
+<wire x1="-5.55" y1="-3.375" x2="5.55" y2="-3.375" width="0.2032" layer="21"/>
+<wire x1="5.55" y1="-3.375" x2="5.55" y2="3.375" width="0.2032" layer="51"/>
+<wire x1="5.55" y1="3.375" x2="-5.55" y2="3.375" width="0.2032" layer="21"/>
+<smd name="1" x="-4.575" y="0.025" dx="3.94" dy="5.84" layer="1"/>
+<smd name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
+<text x="-5.65" y="3.9" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.65" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="WSC01/2" urn="urn:adsk.eagle:footprint:23112/1" library_version="2">
+<description>&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
+Source: VISHAY wscwsn.pdf</description>
+<wire x1="-2.45" y1="1.475" x2="-2.45" y2="-1.475" width="0.2032" layer="51"/>
+<wire x1="-2.45" y1="-1.475" x2="2.45" y2="-1.475" width="0.2032" layer="21"/>
+<wire x1="2.45" y1="-1.475" x2="2.45" y2="1.475" width="0.2032" layer="51"/>
+<wire x1="2.45" y1="1.475" x2="-2.45" y2="1.475" width="0.2032" layer="21"/>
+<wire x1="-2.45" y1="1.475" x2="-2.45" y2="1.106" width="0.2032" layer="21"/>
+<wire x1="-2.45" y1="-1.106" x2="-2.45" y2="-1.475" width="0.2032" layer="21"/>
+<wire x1="2.45" y1="1.106" x2="2.45" y2="1.475" width="0.2032" layer="21"/>
+<wire x1="2.45" y1="-1.475" x2="2.45" y2="-1.106" width="0.2032" layer="21"/>
+<smd name="1" x="-2.1" y="0" dx="2.16" dy="1.78" layer="1"/>
+<smd name="2" x="2.1" y="0" dx="2.16" dy="1.78" layer="1"/>
+<text x="-2.544" y="1.904" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.544" y="-3.176" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="WSC2515" urn="urn:adsk.eagle:footprint:23113/1" library_version="2">
+<description>&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
+Source: VISHAY wscwsn.pdf</description>
+<wire x1="-3.075" y1="1.8" x2="-3.075" y2="-1.8" width="0.2032" layer="51"/>
+<wire x1="-3.075" y1="-1.8" x2="3.05" y2="-1.8" width="0.2032" layer="21"/>
+<wire x1="3.05" y1="-1.8" x2="3.05" y2="1.8" width="0.2032" layer="51"/>
+<wire x1="3.05" y1="1.8" x2="-3.075" y2="1.8" width="0.2032" layer="21"/>
+<wire x1="-3.075" y1="1.8" x2="-3.075" y2="1.606" width="0.2032" layer="21"/>
+<wire x1="-3.075" y1="-1.606" x2="-3.075" y2="-1.8" width="0.2032" layer="21"/>
+<wire x1="3.05" y1="1.606" x2="3.05" y2="1.8" width="0.2032" layer="21"/>
+<wire x1="3.05" y1="-1.8" x2="3.05" y2="-1.606" width="0.2032" layer="21"/>
+<smd name="1" x="-2.675" y="0" dx="2.29" dy="2.92" layer="1"/>
+<smd name="2" x="2.675" y="0" dx="2.29" dy="2.92" layer="1"/>
+<text x="-3.2" y="2.15" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.2" y="-3.4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="WSC4527" urn="urn:adsk.eagle:footprint:23114/1" library_version="2">
+<description>&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
+Source: VISHAY wscwsn.pdf</description>
+<wire x1="-5.675" y1="3.4" x2="-5.675" y2="-3.375" width="0.2032" layer="51"/>
+<wire x1="-5.675" y1="-3.375" x2="5.675" y2="-3.375" width="0.2032" layer="21"/>
+<wire x1="5.675" y1="-3.375" x2="5.675" y2="3.4" width="0.2032" layer="51"/>
+<wire x1="5.675" y1="3.4" x2="-5.675" y2="3.4" width="0.2032" layer="21"/>
+<smd name="1" x="-4.575" y="0.025" dx="3.94" dy="5.84" layer="1"/>
+<smd name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
+<text x="-5.775" y="3.925" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.775" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="WSC6927" urn="urn:adsk.eagle:footprint:23115/1" library_version="2">
+<description>&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
+Source: VISHAY wscwsn.pdf</description>
+<wire x1="-8.65" y1="3.375" x2="-8.65" y2="-3.375" width="0.2032" layer="51"/>
+<wire x1="-8.65" y1="-3.375" x2="8.65" y2="-3.375" width="0.2032" layer="21"/>
+<wire x1="8.65" y1="-3.375" x2="8.65" y2="3.375" width="0.2032" layer="51"/>
+<wire x1="8.65" y1="3.375" x2="-8.65" y2="3.375" width="0.2032" layer="21"/>
+<smd name="1" x="-7.95" y="0.025" dx="3.94" dy="5.97" layer="1"/>
+<smd name="2" x="7.95" y="0" dx="3.94" dy="5.97" layer="1"/>
+<text x="-8.75" y="3.9" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.75" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="R1218" urn="urn:adsk.eagle:footprint:23116/1" library_version="2">
+<description>&lt;b&gt;CRCW1218 Thick Film, Rectangular Chip Resistors&lt;/b&gt;&lt;p&gt;
+Source: http://www.vishay.com .. dcrcw.pdf</description>
+<wire x1="-0.913" y1="-2.219" x2="0.939" y2="-2.219" width="0.1524" layer="51"/>
+<wire x1="0.913" y1="2.219" x2="-0.939" y2="2.219" width="0.1524" layer="51"/>
+<smd name="1" x="-1.475" y="0" dx="1.05" dy="4.9" layer="1"/>
+<smd name="2" x="1.475" y="0" dx="1.05" dy="4.9" layer="1"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-2.3" x2="-0.9009" y2="2.3" layer="51"/>
+<rectangle x1="0.9144" y1="-2.3" x2="1.6645" y2="2.3" layer="51"/>
+</package>
+<package name="1812X7R" urn="urn:adsk.eagle:footprint:23117/1" library_version="2">
+<description>&lt;b&gt;Chip Monolithic Ceramic Capacitors&lt;/b&gt; Medium Voltage High Capacitance for General Use&lt;p&gt;
+Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
+<wire x1="-1.1" y1="1.5" x2="1.1" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="1.1" y1="-1.5" x2="-1.1" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="1.5" x2="0.6" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="0.6" y1="-1.5" x2="-0.6" y2="-1.5" width="0.2032" layer="21"/>
+<smd name="1" x="-1.425" y="0" dx="0.8" dy="3.5" layer="1"/>
+<smd name="2" x="1.425" y="0" dx="0.8" dy="3.5" layer="1" rot="R180"/>
+<text x="-1.9456" y="1.9958" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.9456" y="-3.7738" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.4" y1="-1.6" x2="-1.1" y2="1.6" layer="51"/>
+<rectangle x1="1.1" y1="-1.6" x2="1.4" y2="1.6" layer="51" rot="R180"/>
+</package>
+<package name="PRL1632" urn="urn:adsk.eagle:footprint:23118/1" library_version="2">
+<description>&lt;b&gt;PRL1632 are realized as 1W for 3.2 × 1.6mm(1206)&lt;/b&gt;&lt;p&gt;
+Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
+<wire x1="0.7275" y1="-1.5228" x2="-0.7277" y2="-1.5228" width="0.1524" layer="51"/>
+<wire x1="0.7275" y1="1.5228" x2="-0.7152" y2="1.5228" width="0.1524" layer="51"/>
+<smd name="2" x="0.822" y="0" dx="1" dy="3.2" layer="1"/>
+<smd name="1" x="-0.822" y="0" dx="1" dy="3.2" layer="1"/>
+<text x="-1.4" y="1.8" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.4" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-1.6" x2="-0.4" y2="1.6" layer="51"/>
+<rectangle x1="0.4" y1="-1.6" x2="0.8" y2="1.6" layer="51"/>
+</package>
+<package name="R01005" urn="urn:adsk.eagle:footprint:23119/1" library_version="2">
+<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
+<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
+</package>
+<package name="HPC0201" urn="urn:adsk.eagle:footprint:23195/1" library_version="2">
+<description>&lt;b&gt; &lt;/b&gt;&lt;p&gt;
+Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
+<smd name="1" x="-0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
+<smd name="2" x="0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
+<text x="-0.75" y="0.74" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.785" y="-1.865" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.305" y1="-0.15" x2="0.305" y2="0.15" layer="51"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="R0402" urn="urn:adsk.eagle:package:23547/3" type="model" library_version="11">
-<description>Chip RESISTOR 0402 EIA (1005 Metric)</description>
-<packageinstances>
-<packageinstance name="R0402"/>
-</packageinstances>
-</package3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:23555/3" type="model" library_version="11">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0603"/>
-</packageinstances>
-</package3d>
 <package3d name="R0805" urn="urn:adsk.eagle:package:23553/2" type="model" library_version="11">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0805"/>
-</packageinstances>
-</package3d>
-<package3d name="R0805W" urn="urn:adsk.eagle:package:23537/2" type="model" library_version="11">
-<description>RESISTOR wave soldering</description>
-<packageinstances>
-<packageinstance name="R0805W"/>
-</packageinstances>
 </package3d>
 <package3d name="R1206" urn="urn:adsk.eagle:package:23540/2" type="model" library_version="11">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R1206"/>
-</packageinstances>
-</package3d>
-<package3d name="R1206W" urn="urn:adsk.eagle:package:23539/2" type="model" library_version="11">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R1206W"/>
-</packageinstances>
 </package3d>
 <package3d name="R1210" urn="urn:adsk.eagle:package:23554/2" type="model" library_version="11">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R1210"/>
-</packageinstances>
-</package3d>
-<package3d name="R1210W" urn="urn:adsk.eagle:package:23541/2" type="model" library_version="11">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R1210W"/>
-</packageinstances>
 </package3d>
 <package3d name="R2010" urn="urn:adsk.eagle:package:23551/2" type="model" library_version="11">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R2010"/>
-</packageinstances>
-</package3d>
-<package3d name="R2010W" urn="urn:adsk.eagle:package:23542/2" type="model" library_version="11">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R2010W"/>
-</packageinstances>
 </package3d>
 <package3d name="R2012" urn="urn:adsk.eagle:package:23543/2" type="model" library_version="11">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R2012"/>
-</packageinstances>
-</package3d>
-<package3d name="R2012W" urn="urn:adsk.eagle:package:23544/2" type="model" library_version="11">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R2012W"/>
-</packageinstances>
 </package3d>
 <package3d name="R2512" urn="urn:adsk.eagle:package:23545/2" type="model" library_version="11">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R2512"/>
-</packageinstances>
-</package3d>
-<package3d name="R2512W" urn="urn:adsk.eagle:package:23565/2" type="model" library_version="11">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R2512W"/>
-</packageinstances>
 </package3d>
 <package3d name="R3216" urn="urn:adsk.eagle:package:23557/2" type="model" library_version="11">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R3216"/>
-</packageinstances>
-</package3d>
-<package3d name="R3216W" urn="urn:adsk.eagle:package:23548/2" type="model" library_version="11">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R3216W"/>
-</packageinstances>
 </package3d>
 <package3d name="R3225" urn="urn:adsk.eagle:package:23549/2" type="model" library_version="11">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R3225"/>
-</packageinstances>
-</package3d>
-<package3d name="R3225W" urn="urn:adsk.eagle:package:23550/2" type="model" library_version="11">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R3225W"/>
-</packageinstances>
 </package3d>
 <package3d name="R5025" urn="urn:adsk.eagle:package:23552/2" type="model" library_version="11">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R5025"/>
-</packageinstances>
-</package3d>
-<package3d name="R5025W" urn="urn:adsk.eagle:package:23558/2" type="model" library_version="11">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R5025W"/>
-</packageinstances>
 </package3d>
 <package3d name="R6332" urn="urn:adsk.eagle:package:23559/2" type="model" library_version="11">
 <description>RESISTOR
 Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
-<packageinstances>
-<packageinstance name="R6332"/>
-</packageinstances>
-</package3d>
-<package3d name="R6332W" urn="urn:adsk.eagle:package:26078/2" type="model" library_version="11">
-<description>RESISTOR wave soldering
-Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
-<packageinstances>
-<packageinstance name="R6332W"/>
-</packageinstances>
-</package3d>
-<package3d name="M0805" urn="urn:adsk.eagle:package:23556/2" type="model" library_version="11">
-<description>RESISTOR
-MELF 0.10 W</description>
-<packageinstances>
-<packageinstance name="M0805"/>
-</packageinstances>
-</package3d>
-<package3d name="M1206" urn="urn:adsk.eagle:package:23566/2" type="model" library_version="11">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M1206"/>
-</packageinstances>
-</package3d>
-<package3d name="M1406" urn="urn:adsk.eagle:package:23569/2" type="model" library_version="11">
-<description>RESISTOR
-MELF 0.12 W</description>
-<packageinstances>
-<packageinstance name="M1406"/>
-</packageinstances>
-</package3d>
-<package3d name="M2012" urn="urn:adsk.eagle:package:23561/2" type="model" library_version="11">
-<description>RESISTOR
-MELF 0.10 W</description>
-<packageinstances>
-<packageinstance name="M2012"/>
-</packageinstances>
-</package3d>
-<package3d name="M2309" urn="urn:adsk.eagle:package:23562/2" type="model" library_version="11">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M2309"/>
-</packageinstances>
-</package3d>
-<package3d name="M3216" urn="urn:adsk.eagle:package:23563/2" type="model" library_version="11">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M3216"/>
-</packageinstances>
-</package3d>
-<package3d name="M3516" urn="urn:adsk.eagle:package:23573/2" type="model" library_version="11">
-<description>RESISTOR
-MELF 0.12 W</description>
-<packageinstances>
-<packageinstance name="M3516"/>
-</packageinstances>
-</package3d>
-<package3d name="M5923" urn="urn:adsk.eagle:package:23564/3" type="model" library_version="11">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M5923"/>
-</packageinstances>
 </package3d>
 <package3d name="0204/5" urn="urn:adsk.eagle:package:23488/1" type="box" library_version="11">
 <description>RESISTOR
 type 0204, grid 5 mm</description>
-<packageinstances>
-<packageinstance name="0204/5"/>
-</packageinstances>
-</package3d>
-<package3d name="0204/7" urn="urn:adsk.eagle:package:23498/2" type="model" library_version="11">
-<description>RESISTOR
-type 0204, grid 7.5 mm</description>
-<packageinstances>
-<packageinstance name="0204/7"/>
-</packageinstances>
 </package3d>
 <package3d name="0204V" urn="urn:adsk.eagle:package:23495/1" type="box" library_version="11">
 <description>RESISTOR
 type 0204, grid 2.5 mm</description>
-<packageinstances>
-<packageinstance name="0204V"/>
-</packageinstances>
 </package3d>
-<package3d name="0207/10" urn="urn:adsk.eagle:package:23491/2" type="model" library_version="11">
+<package3d name="0207/10" urn="urn:adsk.eagle:package:23491/1" type="box" library_version="2">
 <description>RESISTOR
 type 0207, grid 10 mm</description>
-<packageinstances>
-<packageinstance name="0207/10"/>
-</packageinstances>
 </package3d>
 <package3d name="0207/12" urn="urn:adsk.eagle:package:23489/1" type="box" library_version="11">
 <description>RESISTOR
 type 0207, grid 12 mm</description>
-<packageinstances>
-<packageinstance name="0207/12"/>
-</packageinstances>
 </package3d>
 <package3d name="0207/15" urn="urn:adsk.eagle:package:23492/1" type="box" library_version="11">
 <description>RESISTOR
 type 0207, grid 15mm</description>
-<packageinstances>
-<packageinstance name="0207/15"/>
-</packageinstances>
 </package3d>
 <package3d name="0207/2V" urn="urn:adsk.eagle:package:23490/1" type="box" library_version="11">
 <description>RESISTOR
 type 0207, grid 2.5 mm</description>
-<packageinstances>
-<packageinstance name="0207/2V"/>
-</packageinstances>
 </package3d>
 <package3d name="0207/5V" urn="urn:adsk.eagle:package:23502/1" type="box" library_version="11">
 <description>RESISTOR
 type 0207, grid 5 mm</description>
-<packageinstances>
-<packageinstance name="0207/5V"/>
-</packageinstances>
-</package3d>
-<package3d name="0207/7" urn="urn:adsk.eagle:package:23493/2" type="model" library_version="11">
-<description>RESISTOR
-type 0207, grid 7.5 mm</description>
-<packageinstances>
-<packageinstance name="0207/7"/>
-</packageinstances>
-</package3d>
-<package3d name="0309/10" urn="urn:adsk.eagle:package:23567/2" type="model" library_version="11">
-<description>RESISTOR
-type 0309, grid 10mm</description>
-<packageinstances>
-<packageinstance name="0309/10"/>
-</packageinstances>
 </package3d>
 <package3d name="0309/12" urn="urn:adsk.eagle:package:23571/1" type="box" library_version="11">
 <description>RESISTOR
 type 0309, grid 12.5 mm</description>
-<packageinstances>
-<packageinstance name="0309/12"/>
-</packageinstances>
 </package3d>
 <package3d name="0309V" urn="urn:adsk.eagle:package:23572/1" type="box" library_version="11">
 <description>RESISTOR
 type 0309, grid 2.5 mm</description>
-<packageinstances>
-<packageinstance name="0309V"/>
-</packageinstances>
 </package3d>
 <package3d name="0411/12" urn="urn:adsk.eagle:package:23578/1" type="box" library_version="11">
 <description>RESISTOR
 type 0411, grid 12.5 mm</description>
-<packageinstances>
-<packageinstance name="0411/12"/>
-</packageinstances>
-</package3d>
-<package3d name="0411/15" urn="urn:adsk.eagle:package:23568/2" type="model" library_version="11">
-<description>RESISTOR
-type 0411, grid 15 mm</description>
-<packageinstances>
-<packageinstance name="0411/15"/>
-</packageinstances>
 </package3d>
 <package3d name="0411V" urn="urn:adsk.eagle:package:23570/1" type="box" library_version="11">
 <description>RESISTOR
 type 0411, grid 3.81 mm</description>
-<packageinstances>
-<packageinstance name="0411V"/>
-</packageinstances>
-</package3d>
-<package3d name="0414/15" urn="urn:adsk.eagle:package:23579/2" type="model" library_version="11">
-<description>RESISTOR
-type 0414, grid 15 mm</description>
-<packageinstances>
-<packageinstance name="0414/15"/>
-</packageinstances>
 </package3d>
 <package3d name="0414V" urn="urn:adsk.eagle:package:23574/1" type="box" library_version="11">
 <description>RESISTOR
 type 0414, grid 5 mm</description>
-<packageinstances>
-<packageinstance name="0414V"/>
-</packageinstances>
-</package3d>
-<package3d name="0617/17" urn="urn:adsk.eagle:package:23575/2" type="model" library_version="11">
-<description>RESISTOR
-type 0617, grid 17.5 mm</description>
-<packageinstances>
-<packageinstance name="0617/17"/>
-</packageinstances>
 </package3d>
 <package3d name="0617/22" urn="urn:adsk.eagle:package:23577/1" type="box" library_version="11">
 <description>RESISTOR
 type 0617, grid 22.5 mm</description>
-<packageinstances>
-<packageinstance name="0617/22"/>
-</packageinstances>
 </package3d>
 <package3d name="0617V" urn="urn:adsk.eagle:package:23576/1" type="box" library_version="11">
 <description>RESISTOR
 type 0617, grid 5 mm</description>
-<packageinstances>
-<packageinstance name="0617V"/>
-</packageinstances>
-</package3d>
-<package3d name="0922/22" urn="urn:adsk.eagle:package:23580/2" type="model" library_version="11">
-<description>RESISTOR
-type 0922, grid 22.5 mm</description>
-<packageinstances>
-<packageinstance name="0922/22"/>
-</packageinstances>
 </package3d>
 <package3d name="P0613V" urn="urn:adsk.eagle:package:23582/1" type="box" library_version="11">
 <description>RESISTOR
 type 0613, grid 5 mm</description>
-<packageinstances>
-<packageinstance name="P0613V"/>
-</packageinstances>
-</package3d>
-<package3d name="P0613/15" urn="urn:adsk.eagle:package:23581/2" type="model" library_version="11">
-<description>RESISTOR
-type 0613, grid 15 mm</description>
-<packageinstances>
-<packageinstance name="P0613/15"/>
-</packageinstances>
 </package3d>
 <package3d name="P0817/22" urn="urn:adsk.eagle:package:23583/1" type="box" library_version="11">
 <description>RESISTOR
 type 0817, grid 22.5 mm</description>
-<packageinstances>
-<packageinstance name="P0817/22"/>
-</packageinstances>
 </package3d>
 <package3d name="P0817V" urn="urn:adsk.eagle:package:23608/1" type="box" library_version="11">
 <description>RESISTOR
 type 0817, grid 6.35 mm</description>
-<packageinstances>
-<packageinstance name="P0817V"/>
-</packageinstances>
 </package3d>
 <package3d name="V234/12" urn="urn:adsk.eagle:package:23592/1" type="box" library_version="11">
 <description>RESISTOR
 type V234, grid 12.5 mm</description>
-<packageinstances>
-<packageinstance name="V234/12"/>
-</packageinstances>
-</package3d>
-<package3d name="V235/17" urn="urn:adsk.eagle:package:23586/2" type="model" library_version="11">
-<description>RESISTOR
-type V235, grid 17.78 mm</description>
-<packageinstances>
-<packageinstance name="V235/17"/>
-</packageinstances>
 </package3d>
 <package3d name="V526-0" urn="urn:adsk.eagle:package:23590/1" type="box" library_version="11">
 <description>RESISTOR
 type V526-0, grid 2.5 mm</description>
-<packageinstances>
-<packageinstance name="V526-0"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0102R" urn="urn:adsk.eagle:package:23591/2" type="model" library_version="11">
-<description>CECC Size RC2211 Reflow Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0102R"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0102W" urn="urn:adsk.eagle:package:23588/2" type="model" library_version="11">
-<description>CECC Size RC2211 Wave Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0102W"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0204R" urn="urn:adsk.eagle:package:26109/2" type="model" library_version="11">
-<description>CECC Size RC3715 Reflow Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0204R"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0204W" urn="urn:adsk.eagle:package:26111/2" type="model" library_version="11">
-<description>CECC Size RC3715 Wave Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0204W"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0207R" urn="urn:adsk.eagle:package:26113/2" type="model" library_version="11">
-<description>CECC Size RC6123 Reflow Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0207R"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0207W" urn="urn:adsk.eagle:package:26112/2" type="model" library_version="11">
-<description>CECC Size RC6123 Wave Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0207W"/>
-</packageinstances>
 </package3d>
 <package3d name="0922V" urn="urn:adsk.eagle:package:23589/1" type="box" library_version="11">
 <description>RESISTOR
 type 0922, grid 7.5 mm</description>
-<packageinstances>
-<packageinstance name="0922V"/>
-</packageinstances>
 </package3d>
 <package3d name="RDH/15" urn="urn:adsk.eagle:package:23595/1" type="box" library_version="11">
 <description>RESISTOR
 type RDH, grid 15 mm</description>
-<packageinstances>
-<packageinstance name="RDH/15"/>
-</packageinstances>
 </package3d>
 <package3d name="MINI_MELF-0102AX" urn="urn:adsk.eagle:package:23594/1" type="box" library_version="11">
 <description>Mini MELF 0102 Axial</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0102AX"/>
-</packageinstances>
-</package3d>
-<package3d name="R0201" urn="urn:adsk.eagle:package:26117/2" type="model" library_version="11">
-<description>RESISTOR chip
-Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
-<packageinstances>
-<packageinstance name="R0201"/>
-</packageinstances>
-</package3d>
-<package3d name="VTA52" urn="urn:adsk.eagle:package:26116/2" type="model" library_version="11">
-<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
-MIL SIZE RBR52
-Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VTA52"/>
-</packageinstances>
-</package3d>
-<package3d name="VTA53" urn="urn:adsk.eagle:package:26118/2" type="model" library_version="11">
-<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
-MIL SIZE RBR53
-Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VTA53"/>
-</packageinstances>
-</package3d>
-<package3d name="VTA54" urn="urn:adsk.eagle:package:26119/2" type="model" library_version="11">
-<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
-MIL SIZE RBR54
-Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VTA54"/>
-</packageinstances>
-</package3d>
-<package3d name="VTA55" urn="urn:adsk.eagle:package:26120/2" type="model" library_version="11">
-<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
-MIL SIZE RBR55
-Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VTA55"/>
-</packageinstances>
-</package3d>
-<package3d name="VTA56" urn="urn:adsk.eagle:package:26129/3" type="model" library_version="11">
-<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
-MIL SIZE RBR56
-Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VTA56"/>
-</packageinstances>
-</package3d>
-<package3d name="VMTA55" urn="urn:adsk.eagle:package:26121/2" type="model" library_version="11">
-<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
-MIL SIZE RNC55
-Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VMTA55"/>
-</packageinstances>
-</package3d>
-<package3d name="VMTB60" urn="urn:adsk.eagle:package:26122/2" type="model" library_version="11">
-<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
-MIL SIZE RNC60
-Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VMTB60"/>
-</packageinstances>
-</package3d>
-<package3d name="R4527" urn="urn:adsk.eagle:package:13310/2" type="model" library_version="11">
-<description>Package 4527
-Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
-<packageinstances>
-<packageinstance name="R4527"/>
-</packageinstances>
-</package3d>
-<package3d name="WSC0001" urn="urn:adsk.eagle:package:26123/2" type="model" library_version="11">
-<description>Wirewound Resistors, Precision Power
-Source: VISHAY wscwsn.pdf</description>
-<packageinstances>
-<packageinstance name="WSC0001"/>
-</packageinstances>
-</package3d>
-<package3d name="WSC0002" urn="urn:adsk.eagle:package:26125/2" type="model" library_version="11">
-<description>Wirewound Resistors, Precision Power
-Source: VISHAY wscwsn.pdf</description>
-<packageinstances>
-<packageinstance name="WSC0002"/>
-</packageinstances>
-</package3d>
-<package3d name="WSC01/2" urn="urn:adsk.eagle:package:26127/2" type="model" library_version="11">
-<description>Wirewound Resistors, Precision Power
-Source: VISHAY wscwsn.pdf</description>
-<packageinstances>
-<packageinstance name="WSC01/2"/>
-</packageinstances>
-</package3d>
-<package3d name="WSC2515" urn="urn:adsk.eagle:package:26134/2" type="model" library_version="11">
-<description>Wirewound Resistors, Precision Power
-Source: VISHAY wscwsn.pdf</description>
-<packageinstances>
-<packageinstance name="WSC2515"/>
-</packageinstances>
-</package3d>
-<package3d name="WSC4527" urn="urn:adsk.eagle:package:26126/2" type="model" library_version="11">
-<description>Wirewound Resistors, Precision Power
-Source: VISHAY wscwsn.pdf</description>
-<packageinstances>
-<packageinstance name="WSC4527"/>
-</packageinstances>
-</package3d>
-<package3d name="WSC6927" urn="urn:adsk.eagle:package:26128/2" type="model" library_version="11">
-<description>Wirewound Resistors, Precision Power
-Source: VISHAY wscwsn.pdf</description>
-<packageinstances>
-<packageinstance name="WSC6927"/>
-</packageinstances>
-</package3d>
-<package3d name="R1218" urn="urn:adsk.eagle:package:26131/2" type="model" library_version="11">
-<description>CRCW1218 Thick Film, Rectangular Chip Resistors
-Source: http://www.vishay.com .. dcrcw.pdf</description>
-<packageinstances>
-<packageinstance name="R1218"/>
-</packageinstances>
-</package3d>
-<package3d name="1812X7R" urn="urn:adsk.eagle:package:26130/2" type="model" library_version="11">
-<description>Chip Monolithic Ceramic Capacitors Medium Voltage High Capacitance for General Use
-Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
-<packageinstances>
-<packageinstance name="1812X7R"/>
-</packageinstances>
-</package3d>
-<package3d name="PRL1632" urn="urn:adsk.eagle:package:26132/2" type="model" library_version="11">
-<description>PRL1632 are realized as 1W for 3.2 × 1.6mm(1206)
-Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
-<packageinstances>
-<packageinstance name="PRL1632"/>
-</packageinstances>
-</package3d>
-<package3d name="R01005" urn="urn:adsk.eagle:package:26133/2" type="model" library_version="11">
-<description>Chip, 0.40 X 0.20 X 0.16 mm body
-&lt;p&gt;Chip package with body size 0.40 X 0.20 X 0.16 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="R01005"/>
-</packageinstances>
-</package3d>
-<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model" library_version="11">
-<description>Chip, 1.00 X 0.50 X 0.60 mm body
-&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="C0402"/>
-</packageinstances>
-</package3d>
-<package3d name="C0504" urn="urn:adsk.eagle:package:23624/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0504"/>
-</packageinstances>
 </package3d>
 <package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0603"/>
-</packageinstances>
 </package3d>
 <package3d name="C0805" urn="urn:adsk.eagle:package:23617/2" type="model" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0805"/>
-</packageinstances>
 </package3d>
 <package3d name="C1206" urn="urn:adsk.eagle:package:23618/2" type="model" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1206"/>
-</packageinstances>
 </package3d>
 <package3d name="C1210" urn="urn:adsk.eagle:package:23619/2" type="model" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1210"/>
-</packageinstances>
-</package3d>
-<package3d name="C1310" urn="urn:adsk.eagle:package:23620/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1310"/>
-</packageinstances>
 </package3d>
 <package3d name="C1608" urn="urn:adsk.eagle:package:23621/2" type="model" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1608"/>
-</packageinstances>
 </package3d>
 <package3d name="C1812" urn="urn:adsk.eagle:package:23622/2" type="model" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1812"/>
-</packageinstances>
 </package3d>
 <package3d name="C1825" urn="urn:adsk.eagle:package:23623/2" type="model" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1825"/>
-</packageinstances>
 </package3d>
 <package3d name="C2012" urn="urn:adsk.eagle:package:23625/2" type="model" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C2012"/>
-</packageinstances>
 </package3d>
 <package3d name="C3216" urn="urn:adsk.eagle:package:23628/2" type="model" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C3216"/>
-</packageinstances>
 </package3d>
 <package3d name="C3225" urn="urn:adsk.eagle:package:23655/2" type="model" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C3225"/>
-</packageinstances>
 </package3d>
 <package3d name="C4532" urn="urn:adsk.eagle:package:23627/2" type="model" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C4532"/>
-</packageinstances>
 </package3d>
 <package3d name="C4564" urn="urn:adsk.eagle:package:23648/2" type="model" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C4564"/>
-</packageinstances>
 </package3d>
 <package3d name="C025-024X044" urn="urn:adsk.eagle:package:23630/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 2.5 mm, outline 2.4 x 4.4 mm</description>
-<packageinstances>
-<packageinstance name="C025-024X044"/>
-</packageinstances>
 </package3d>
 <package3d name="C025-025X050" urn="urn:adsk.eagle:package:23629/2" type="model" library_version="11">
 <description>CAPACITOR
 grid 2.5 mm, outline 2.5 x 5 mm</description>
-<packageinstances>
-<packageinstance name="C025-025X050"/>
-</packageinstances>
 </package3d>
 <package3d name="C025-030X050" urn="urn:adsk.eagle:package:23631/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 2.5 mm, outline 3 x 5 mm</description>
-<packageinstances>
-<packageinstance name="C025-030X050"/>
-</packageinstances>
 </package3d>
 <package3d name="C025-040X050" urn="urn:adsk.eagle:package:23634/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 2.5 mm, outline 4 x 5 mm</description>
-<packageinstances>
-<packageinstance name="C025-040X050"/>
-</packageinstances>
 </package3d>
 <package3d name="C025-050X050" urn="urn:adsk.eagle:package:23633/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 2.5 mm, outline 5 x 5 mm</description>
-<packageinstances>
-<packageinstance name="C025-050X050"/>
-</packageinstances>
 </package3d>
 <package3d name="C025-060X050" urn="urn:adsk.eagle:package:23632/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 2.5 mm, outline 6 x 5 mm</description>
-<packageinstances>
-<packageinstance name="C025-060X050"/>
-</packageinstances>
 </package3d>
 <package3d name="C025_050-024X070" urn="urn:adsk.eagle:package:23639/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 2.5 mm + 5 mm, outline 2.4 x 7 mm</description>
-<packageinstances>
-<packageinstance name="C025_050-024X070"/>
-</packageinstances>
 </package3d>
 <package3d name="C025_050-025X075" urn="urn:adsk.eagle:package:23641/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 2.5 + 5 mm, outline 2.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C025_050-025X075"/>
-</packageinstances>
 </package3d>
 <package3d name="C025_050-035X075" urn="urn:adsk.eagle:package:23651/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 2.5 + 5 mm, outline 3.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C025_050-035X075"/>
-</packageinstances>
 </package3d>
 <package3d name="C025_050-045X075" urn="urn:adsk.eagle:package:23635/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 2.5 + 5 mm, outline 4.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C025_050-045X075"/>
-</packageinstances>
 </package3d>
 <package3d name="C025_050-055X075" urn="urn:adsk.eagle:package:23636/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 2.5 + 5 mm, outline 5.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C025_050-055X075"/>
-</packageinstances>
 </package3d>
 <package3d name="C050-024X044" urn="urn:adsk.eagle:package:23643/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 5 mm, outline 2.4 x 4.4 mm</description>
-<packageinstances>
-<packageinstance name="C050-024X044"/>
-</packageinstances>
 </package3d>
 <package3d name="C050-025X075" urn="urn:adsk.eagle:package:23637/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 5 mm, outline 2.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-025X075"/>
-</packageinstances>
 </package3d>
 <package3d name="C050-045X075" urn="urn:adsk.eagle:package:23638/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 5 mm, outline 4.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-045X075"/>
-</packageinstances>
 </package3d>
 <package3d name="C050-030X075" urn="urn:adsk.eagle:package:23640/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 5 mm, outline 3 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-030X075"/>
-</packageinstances>
 </package3d>
 <package3d name="C050-050X075" urn="urn:adsk.eagle:package:23665/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 5 mm, outline 5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-050X075"/>
-</packageinstances>
 </package3d>
 <package3d name="C050-055X075" urn="urn:adsk.eagle:package:23642/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 5 mm, outline 5.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-055X075"/>
-</packageinstances>
 </package3d>
 <package3d name="C050-075X075" urn="urn:adsk.eagle:package:23645/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 5 mm, outline 7.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-075X075"/>
-</packageinstances>
 </package3d>
 <package3d name="C050H075X075" urn="urn:adsk.eagle:package:23644/1" type="box" library_version="11">
 <description>CAPACITOR
 Horizontal, grid 5 mm, outline 7.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050H075X075"/>
-</packageinstances>
 </package3d>
 <package3d name="C075-032X103" urn="urn:adsk.eagle:package:23646/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 7.5 mm, outline 3.2 x 10.3 mm</description>
-<packageinstances>
-<packageinstance name="C075-032X103"/>
-</packageinstances>
 </package3d>
 <package3d name="C075-042X103" urn="urn:adsk.eagle:package:23656/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 7.5 mm, outline 4.2 x 10.3 mm</description>
-<packageinstances>
-<packageinstance name="C075-042X103"/>
-</packageinstances>
 </package3d>
 <package3d name="C075-052X106" urn="urn:adsk.eagle:package:23650/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 7.5 mm, outline 5.2 x 10.6 mm</description>
-<packageinstances>
-<packageinstance name="C075-052X106"/>
-</packageinstances>
 </package3d>
 <package3d name="C102-043X133" urn="urn:adsk.eagle:package:23647/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 10.2 mm, outline 4.3 x 13.3 mm</description>
-<packageinstances>
-<packageinstance name="C102-043X133"/>
-</packageinstances>
 </package3d>
 <package3d name="C102-054X133" urn="urn:adsk.eagle:package:23649/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 10.2 mm, outline 5.4 x 13.3 mm</description>
-<packageinstances>
-<packageinstance name="C102-054X133"/>
-</packageinstances>
 </package3d>
 <package3d name="C102-064X133" urn="urn:adsk.eagle:package:23653/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 10.2 mm, outline 6.4 x 13.3 mm</description>
-<packageinstances>
-<packageinstance name="C102-064X133"/>
-</packageinstances>
 </package3d>
 <package3d name="C102_152-062X184" urn="urn:adsk.eagle:package:23652/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 10.2 mm + 15.2 mm, outline 6.2 x 18.4 mm</description>
-<packageinstances>
-<packageinstance name="C102_152-062X184"/>
-</packageinstances>
 </package3d>
 <package3d name="C150-054X183" urn="urn:adsk.eagle:package:23669/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 15 mm, outline 5.4 x 18.3 mm</description>
-<packageinstances>
-<packageinstance name="C150-054X183"/>
-</packageinstances>
 </package3d>
 <package3d name="C150-064X183" urn="urn:adsk.eagle:package:23654/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 15 mm, outline 6.4 x 18.3 mm</description>
-<packageinstances>
-<packageinstance name="C150-064X183"/>
-</packageinstances>
 </package3d>
 <package3d name="C150-072X183" urn="urn:adsk.eagle:package:23657/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 15 mm, outline 7.2 x 18.3 mm</description>
-<packageinstances>
-<packageinstance name="C150-072X183"/>
-</packageinstances>
 </package3d>
 <package3d name="C150-084X183" urn="urn:adsk.eagle:package:23658/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 15 mm, outline 8.4 x 18.3 mm</description>
-<packageinstances>
-<packageinstance name="C150-084X183"/>
-</packageinstances>
 </package3d>
 <package3d name="C150-091X182" urn="urn:adsk.eagle:package:23659/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 15 mm, outline 9.1 x 18.2 mm</description>
-<packageinstances>
-<packageinstance name="C150-091X182"/>
-</packageinstances>
 </package3d>
 <package3d name="C225-062X268" urn="urn:adsk.eagle:package:23661/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 22.5 mm, outline 6.2 x 26.8 mm</description>
-<packageinstances>
-<packageinstance name="C225-062X268"/>
-</packageinstances>
 </package3d>
 <package3d name="C225-074X268" urn="urn:adsk.eagle:package:23660/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 22.5 mm, outline 7.4 x 26.8 mm</description>
-<packageinstances>
-<packageinstance name="C225-074X268"/>
-</packageinstances>
 </package3d>
 <package3d name="C225-087X268" urn="urn:adsk.eagle:package:23662/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 22.5 mm, outline 8.7 x 26.8 mm</description>
-<packageinstances>
-<packageinstance name="C225-087X268"/>
-</packageinstances>
 </package3d>
 <package3d name="C225-108X268" urn="urn:adsk.eagle:package:23663/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 22.5 mm, outline 10.8 x 26.8 mm</description>
-<packageinstances>
-<packageinstance name="C225-108X268"/>
-</packageinstances>
 </package3d>
 <package3d name="C225-113X268" urn="urn:adsk.eagle:package:23667/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 22.5 mm, outline 11.3 x 26.8 mm</description>
-<packageinstances>
-<packageinstance name="C225-113X268"/>
-</packageinstances>
 </package3d>
 <package3d name="C275-093X316" urn="urn:adsk.eagle:package:23701/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 27.5 mm, outline 9.3 x 31.6 mm</description>
-<packageinstances>
-<packageinstance name="C275-093X316"/>
-</packageinstances>
 </package3d>
 <package3d name="C275-113X316" urn="urn:adsk.eagle:package:23673/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 27.5 mm, outline 11.3 x 31.6 mm</description>
-<packageinstances>
-<packageinstance name="C275-113X316"/>
-</packageinstances>
 </package3d>
 <package3d name="C275-134X316" urn="urn:adsk.eagle:package:23664/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 27.5 mm, outline 13.4 x 31.6 mm</description>
-<packageinstances>
-<packageinstance name="C275-134X316"/>
-</packageinstances>
 </package3d>
 <package3d name="C275-205X316" urn="urn:adsk.eagle:package:23666/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 27.5 mm, outline 20.5 x 31.6 mm</description>
-<packageinstances>
-<packageinstance name="C275-205X316"/>
-</packageinstances>
 </package3d>
 <package3d name="C325-137X374" urn="urn:adsk.eagle:package:23672/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 32.5 mm, outline 13.7 x 37.4 mm</description>
-<packageinstances>
-<packageinstance name="C325-137X374"/>
-</packageinstances>
 </package3d>
 <package3d name="C325-162X374" urn="urn:adsk.eagle:package:23670/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 32.5 mm, outline 16.2 x 37.4 mm</description>
-<packageinstances>
-<packageinstance name="C325-162X374"/>
-</packageinstances>
 </package3d>
 <package3d name="C325-182X374" urn="urn:adsk.eagle:package:23668/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 32.5 mm, outline 18.2 x 37.4 mm</description>
-<packageinstances>
-<packageinstance name="C325-182X374"/>
-</packageinstances>
 </package3d>
 <package3d name="C375-192X418" urn="urn:adsk.eagle:package:23674/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 37.5 mm, outline 19.2 x 41.8 mm</description>
-<packageinstances>
-<packageinstance name="C375-192X418"/>
-</packageinstances>
 </package3d>
 <package3d name="C375-203X418" urn="urn:adsk.eagle:package:23671/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 37.5 mm, outline 20.3 x 41.8 mm</description>
-<packageinstances>
-<packageinstance name="C375-203X418"/>
-</packageinstances>
 </package3d>
 <package3d name="C050-035X075" urn="urn:adsk.eagle:package:23677/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 5 mm, outline 3.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-035X075"/>
-</packageinstances>
 </package3d>
 <package3d name="C375-155X418" urn="urn:adsk.eagle:package:23675/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 37.5 mm, outline 15.5 x 41.8 mm</description>
-<packageinstances>
-<packageinstance name="C375-155X418"/>
-</packageinstances>
 </package3d>
 <package3d name="C075-063X106" urn="urn:adsk.eagle:package:23678/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 7.5 mm, outline 6.3 x 10.6 mm</description>
-<packageinstances>
-<packageinstance name="C075-063X106"/>
-</packageinstances>
 </package3d>
 <package3d name="C275-154X316" urn="urn:adsk.eagle:package:23685/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 27.5 mm, outline 15.4 x 31.6 mm</description>
-<packageinstances>
-<packageinstance name="C275-154X316"/>
-</packageinstances>
 </package3d>
 <package3d name="C275-173X316" urn="urn:adsk.eagle:package:23676/1" type="box" library_version="11">
 <description>CAPACITOR
 grid 27.5 mm, outline 17.3 x 31.6 mm</description>
-<packageinstances>
-<packageinstance name="C275-173X316"/>
-</packageinstances>
 </package3d>
 <package3d name="C0402K" urn="urn:adsk.eagle:package:23679/2" type="model" library_version="11">
 <description>Ceramic Chip Capacitor KEMET 0204 reflow solder
 Metric Code Size 1005</description>
-<packageinstances>
-<packageinstance name="C0402K"/>
-</packageinstances>
 </package3d>
 <package3d name="C0603K" urn="urn:adsk.eagle:package:23680/2" type="model" library_version="11">
 <description>Ceramic Chip Capacitor KEMET 0603 reflow solder
 Metric Code Size 1608</description>
-<packageinstances>
-<packageinstance name="C0603K"/>
-</packageinstances>
 </package3d>
 <package3d name="C0805K" urn="urn:adsk.eagle:package:23681/2" type="model" library_version="11">
 <description>Ceramic Chip Capacitor KEMET 0805 reflow solder
 Metric Code Size 2012</description>
-<packageinstances>
-<packageinstance name="C0805K"/>
-</packageinstances>
 </package3d>
 <package3d name="C1206K" urn="urn:adsk.eagle:package:23682/2" type="model" library_version="11">
 <description>Ceramic Chip Capacitor KEMET 1206 reflow solder
 Metric Code Size 3216</description>
-<packageinstances>
-<packageinstance name="C1206K"/>
-</packageinstances>
 </package3d>
 <package3d name="C1210K" urn="urn:adsk.eagle:package:23683/2" type="model" library_version="11">
 <description>Ceramic Chip Capacitor KEMET 1210 reflow solder
 Metric Code Size 3225</description>
-<packageinstances>
-<packageinstance name="C1210K"/>
-</packageinstances>
 </package3d>
 <package3d name="C1812K" urn="urn:adsk.eagle:package:23686/2" type="model" library_version="11">
 <description>Ceramic Chip Capacitor KEMET 1812 reflow solder
 Metric Code Size 4532</description>
-<packageinstances>
-<packageinstance name="C1812K"/>
-</packageinstances>
-</package3d>
-<package3d name="C1825K" urn="urn:adsk.eagle:package:23684/2" type="model" library_version="11">
-<description>Ceramic Chip Capacitor KEMET 1825 reflow solder
-Metric Code Size 4564</description>
-<packageinstances>
-<packageinstance name="C1825K"/>
-</packageinstances>
 </package3d>
 <package3d name="C2220K" urn="urn:adsk.eagle:package:23687/2" type="model" library_version="11">
 <description>Ceramic Chip Capacitor KEMET 2220 reflow solderMetric Code Size 5650</description>
-<packageinstances>
-<packageinstance name="C2220K"/>
-</packageinstances>
 </package3d>
 <package3d name="C2225K" urn="urn:adsk.eagle:package:23692/2" type="model" library_version="11">
 <description>Ceramic Chip Capacitor KEMET 2225 reflow solderMetric Code Size 5664</description>
-<packageinstances>
-<packageinstance name="C2225K"/>
-</packageinstances>
-</package3d>
-<package3d name="HPC0201" urn="urn:adsk.eagle:package:26213/1" type="box" library_version="11">
-<description> 
-Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
-<packageinstances>
-<packageinstance name="HPC0201"/>
-</packageinstances>
 </package3d>
 <package3d name="C0201" urn="urn:adsk.eagle:package:23690/2" type="model" library_version="11">
 <description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
-<packageinstances>
-<packageinstance name="C0201"/>
-</packageinstances>
 </package3d>
 <package3d name="C1808" urn="urn:adsk.eagle:package:23689/2" type="model" library_version="11">
 <description>CAPACITOR
 Source: AVX .. aphvc.pdf</description>
-<packageinstances>
-<packageinstance name="C1808"/>
-</packageinstances>
 </package3d>
 <package3d name="C3640" urn="urn:adsk.eagle:package:23693/2" type="model" library_version="11">
 <description>CAPACITOR
 Source: AVX .. aphvc.pdf</description>
-<packageinstances>
-<packageinstance name="C3640"/>
-</packageinstances>
 </package3d>
 <package3d name="C01005" urn="urn:adsk.eagle:package:23691/1" type="box" library_version="11">
 <description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C01005"/>
-</packageinstances>
+</package3d>
+<package3d name="R0402" urn="urn:adsk.eagle:package:23547/1" type="box" library_version="2">
+<description>RESISTOR</description>
+</package3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:23555/2" type="model" library_version="2">
+<description>RESISTOR</description>
+</package3d>
+<package3d name="R0805W" urn="urn:adsk.eagle:package:23537/1" type="box" library_version="2">
+<description>RESISTOR wave soldering</description>
+</package3d>
+<package3d name="R1206W" urn="urn:adsk.eagle:package:23539/1" type="box" library_version="2">
+<description>RESISTOR
+wave soldering</description>
+</package3d>
+<package3d name="R1210W" urn="urn:adsk.eagle:package:23541/1" type="box" library_version="2">
+<description>RESISTOR
+wave soldering</description>
+</package3d>
+<package3d name="R2010W" urn="urn:adsk.eagle:package:23542/1" type="box" library_version="2">
+<description>RESISTOR
+wave soldering</description>
+</package3d>
+<package3d name="R2012W" urn="urn:adsk.eagle:package:23544/1" type="box" library_version="2">
+<description>RESISTOR
+wave soldering</description>
+</package3d>
+<package3d name="R2512W" urn="urn:adsk.eagle:package:23565/1" type="box" library_version="2">
+<description>RESISTOR
+wave soldering</description>
+</package3d>
+<package3d name="R3216W" urn="urn:adsk.eagle:package:23548/1" type="box" library_version="2">
+<description>RESISTOR
+wave soldering</description>
+</package3d>
+<package3d name="R3225W" urn="urn:adsk.eagle:package:23550/1" type="box" library_version="2">
+<description>RESISTOR
+wave soldering</description>
+</package3d>
+<package3d name="R5025W" urn="urn:adsk.eagle:package:23558/1" type="box" library_version="2">
+<description>RESISTOR
+wave soldering</description>
+</package3d>
+<package3d name="R6332W" urn="urn:adsk.eagle:package:23560/1" type="box" library_version="2">
+<description>RESISTOR wave soldering
+Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
+</package3d>
+<package3d name="M0805" urn="urn:adsk.eagle:package:23556/1" type="box" library_version="2">
+<description>RESISTOR
+MELF 0.10 W</description>
+</package3d>
+<package3d name="M1206" urn="urn:adsk.eagle:package:23566/1" type="box" library_version="2">
+<description>RESISTOR
+MELF 0.25 W</description>
+</package3d>
+<package3d name="M1406" urn="urn:adsk.eagle:package:23569/1" type="box" library_version="2">
+<description>RESISTOR
+MELF 0.12 W</description>
+</package3d>
+<package3d name="M2012" urn="urn:adsk.eagle:package:23561/1" type="box" library_version="2">
+<description>RESISTOR
+MELF 0.10 W</description>
+</package3d>
+<package3d name="M2309" urn="urn:adsk.eagle:package:23562/1" type="box" library_version="2">
+<description>RESISTOR
+MELF 0.25 W</description>
+</package3d>
+<package3d name="M3216" urn="urn:adsk.eagle:package:23563/1" type="box" library_version="2">
+<description>RESISTOR
+MELF 0.25 W</description>
+</package3d>
+<package3d name="M3516" urn="urn:adsk.eagle:package:23573/1" type="box" library_version="2">
+<description>RESISTOR
+MELF 0.12 W</description>
+</package3d>
+<package3d name="M5923" urn="urn:adsk.eagle:package:23564/1" type="box" library_version="2">
+<description>RESISTOR
+MELF 0.25 W</description>
+</package3d>
+<package3d name="0204/7" urn="urn:adsk.eagle:package:23498/1" type="box" library_version="2">
+<description>RESISTOR
+type 0204, grid 7.5 mm</description>
+</package3d>
+<package3d name="0207/7" urn="urn:adsk.eagle:package:23493/1" type="box" library_version="2">
+<description>RESISTOR
+type 0207, grid 7.5 mm</description>
+</package3d>
+<package3d name="0309/10" urn="urn:adsk.eagle:package:23567/1" type="box" library_version="2">
+<description>RESISTOR
+type 0309, grid 10mm</description>
+</package3d>
+<package3d name="0411/15" urn="urn:adsk.eagle:package:23568/1" type="box" library_version="2">
+<description>RESISTOR
+type 0411, grid 15 mm</description>
+</package3d>
+<package3d name="0414/15" urn="urn:adsk.eagle:package:23579/1" type="box" library_version="2">
+<description>RESISTOR
+type 0414, grid 15 mm</description>
+</package3d>
+<package3d name="0617/17" urn="urn:adsk.eagle:package:23575/1" type="box" library_version="2">
+<description>RESISTOR
+type 0617, grid 17.5 mm</description>
+</package3d>
+<package3d name="0922/22" urn="urn:adsk.eagle:package:23580/1" type="box" library_version="2">
+<description>RESISTOR
+type 0922, grid 22.5 mm</description>
+</package3d>
+<package3d name="P0613/15" urn="urn:adsk.eagle:package:23581/1" type="box" library_version="2">
+<description>RESISTOR
+type 0613, grid 15 mm</description>
+</package3d>
+<package3d name="V235/17" urn="urn:adsk.eagle:package:23586/1" type="box" library_version="2">
+<description>RESISTOR
+type V235, grid 17.78 mm</description>
+</package3d>
+<package3d name="MINI_MELF-0102R" urn="urn:adsk.eagle:package:23591/1" type="box" library_version="2">
+<description>CECC Size RC2211 Reflow Soldering
+source Beyschlag</description>
+</package3d>
+<package3d name="MINI_MELF-0102W" urn="urn:adsk.eagle:package:23588/1" type="box" library_version="2">
+<description>CECC Size RC2211 Wave Soldering
+source Beyschlag</description>
+</package3d>
+<package3d name="MINI_MELF-0204R" urn="urn:adsk.eagle:package:23587/1" type="box" library_version="2">
+<description>CECC Size RC3715 Reflow Soldering
+source Beyschlag</description>
+</package3d>
+<package3d name="MINI_MELF-0204W" urn="urn:adsk.eagle:package:23584/1" type="box" library_version="2">
+<description>CECC Size RC3715 Wave Soldering
+source Beyschlag</description>
+</package3d>
+<package3d name="MINI_MELF-0207R" urn="urn:adsk.eagle:package:23585/1" type="box" library_version="2">
+<description>CECC Size RC6123 Reflow Soldering
+source Beyschlag</description>
+</package3d>
+<package3d name="MINI_MELF-0207W" urn="urn:adsk.eagle:package:23597/1" type="box" library_version="2">
+<description>CECC Size RC6123 Wave Soldering
+source Beyschlag</description>
+</package3d>
+<package3d name="R0201" urn="urn:adsk.eagle:package:23593/1" type="box" library_version="2">
+<description>RESISTOR chip
+Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
+</package3d>
+<package3d name="VTA52" urn="urn:adsk.eagle:package:23596/1" type="box" library_version="2">
+<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
+MIL SIZE RBR52
+Source: VISHAY .. vta56.pdf</description>
+</package3d>
+<package3d name="VTA53" urn="urn:adsk.eagle:package:23603/1" type="box" library_version="2">
+<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
+MIL SIZE RBR53
+Source: VISHAY .. vta56.pdf</description>
+</package3d>
+<package3d name="VTA54" urn="urn:adsk.eagle:package:23598/1" type="box" library_version="2">
+<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
+MIL SIZE RBR54
+Source: VISHAY .. vta56.pdf</description>
+</package3d>
+<package3d name="VTA55" urn="urn:adsk.eagle:package:23606/1" type="box" library_version="2">
+<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
+MIL SIZE RBR55
+Source: VISHAY .. vta56.pdf</description>
+</package3d>
+<package3d name="VTA56" urn="urn:adsk.eagle:package:23599/1" type="box" library_version="2">
+<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
+MIL SIZE RBR56
+Source: VISHAY .. vta56.pdf</description>
+</package3d>
+<package3d name="VMTA55" urn="urn:adsk.eagle:package:23600/1" type="box" library_version="2">
+<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
+MIL SIZE RNC55
+Source: VISHAY .. vta56.pdf</description>
+</package3d>
+<package3d name="VMTB60" urn="urn:adsk.eagle:package:23607/1" type="box" library_version="2">
+<description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
+MIL SIZE RNC60
+Source: VISHAY .. vta56.pdf</description>
+</package3d>
+<package3d name="R4527" urn="urn:adsk.eagle:package:23615/1" type="box" library_version="2">
+<description>Package 4527
+Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
+</package3d>
+<package3d name="WSC0001" urn="urn:adsk.eagle:package:23601/1" type="box" library_version="2">
+<description>Wirewound Resistors, Precision Power
+Source: VISHAY wscwsn.pdf</description>
+</package3d>
+<package3d name="WSC0002" urn="urn:adsk.eagle:package:23605/1" type="box" library_version="2">
+<description>Wirewound Resistors, Precision Power
+Source: VISHAY wscwsn.pdf</description>
+</package3d>
+<package3d name="WSC01/2" urn="urn:adsk.eagle:package:23602/1" type="box" library_version="2">
+<description>Wirewound Resistors, Precision Power
+Source: VISHAY wscwsn.pdf</description>
+</package3d>
+<package3d name="WSC2515" urn="urn:adsk.eagle:package:23604/1" type="box" library_version="2">
+<description>Wirewound Resistors, Precision Power
+Source: VISHAY wscwsn.pdf</description>
+</package3d>
+<package3d name="WSC4527" urn="urn:adsk.eagle:package:23611/1" type="box" library_version="2">
+<description>Wirewound Resistors, Precision Power
+Source: VISHAY wscwsn.pdf</description>
+</package3d>
+<package3d name="WSC6927" urn="urn:adsk.eagle:package:23610/1" type="box" library_version="2">
+<description>Wirewound Resistors, Precision Power
+Source: VISHAY wscwsn.pdf</description>
+</package3d>
+<package3d name="R1218" urn="urn:adsk.eagle:package:23614/1" type="box" library_version="2">
+<description>CRCW1218 Thick Film, Rectangular Chip Resistors
+Source: http://www.vishay.com .. dcrcw.pdf</description>
+</package3d>
+<package3d name="1812X7R" urn="urn:adsk.eagle:package:23609/1" type="box" library_version="2">
+<description>Chip Monolithic Ceramic Capacitors Medium Voltage High Capacitance for General Use
+Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
+</package3d>
+<package3d name="PRL1632" urn="urn:adsk.eagle:package:23612/1" type="box" library_version="2">
+<description>PRL1632 are realized as 1W for 3.2 × 1.6mm(1206)
+Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
+</package3d>
+<package3d name="R01005" urn="urn:adsk.eagle:package:23613/1" type="box" library_version="2">
+</package3d>
+<package3d name="C0402" urn="urn:adsk.eagle:package:23626/1" type="box" library_version="2">
+<description>CAPACITOR</description>
+</package3d>
+<package3d name="C0504" urn="urn:adsk.eagle:package:23624/1" type="box" library_version="2">
+<description>CAPACITOR</description>
+</package3d>
+<package3d name="C1310" urn="urn:adsk.eagle:package:23620/1" type="box" library_version="2">
+<description>CAPACITOR</description>
+</package3d>
+<package3d name="C1825K" urn="urn:adsk.eagle:package:23684/1" type="box" library_version="2">
+<description>Ceramic Chip Capacitor KEMET 1825 reflow solder
+Metric Code Size 4564</description>
+</package3d>
+<package3d name="HPC0201" urn="urn:adsk.eagle:package:23688/1" type="box" library_version="2">
+<description> 
+Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 </package3d>
 </packages3d>
 <symbols>
@@ -6865,7 +6256,7 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R-EU_" urn="urn:adsk.eagle:component:23791/21" prefix="R" uservalue="yes" library_version="11">
+<deviceset name="R-EU_" urn="urn:adsk.eagle:component:23791/12" prefix="R" uservalue="yes" library_version="2">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -6877,13 +6268,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23547/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23547/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R0603" package="R0603">
@@ -6892,13 +6280,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23555/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="70" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R0805" package="R0805">
@@ -6910,10 +6295,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23553/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="86" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R0805W" package="R0805W">
@@ -6922,13 +6304,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23537/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23537/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="3" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R1206" package="R1206">
@@ -6940,10 +6319,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23540/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="41" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R1206W" package="R1206W">
@@ -6952,13 +6328,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23539/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23539/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="3" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R1210" package="R1210">
@@ -6970,10 +6343,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23554/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R1210W" package="R1210W">
@@ -6982,13 +6352,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23541/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23541/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R2010" package="R2010">
@@ -7000,10 +6367,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23551/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="3" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R2010W" package="R2010W">
@@ -7012,13 +6376,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23542/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23542/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R2012" package="R2012">
@@ -7030,10 +6391,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23543/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R2012W" package="R2012W">
@@ -7042,13 +6400,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23544/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23544/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R2512" package="R2512">
@@ -7060,10 +6415,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23545/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R2512W" package="R2512W">
@@ -7072,13 +6424,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23565/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23565/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R3216" package="R3216">
@@ -7090,10 +6439,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23557/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R3216W" package="R3216W">
@@ -7102,13 +6448,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23548/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23548/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="5" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R3225" package="R3225">
@@ -7120,10 +6463,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23549/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R3225W" package="R3225W">
@@ -7132,13 +6472,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23550/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23550/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R5025" package="R5025">
@@ -7150,10 +6487,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23552/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R5025W" package="R5025W">
@@ -7162,13 +6496,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23558/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23558/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R6332" package="R6332">
@@ -7180,10 +6511,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23559/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R6332W" package="R6332W">
@@ -7192,13 +6520,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26078/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23560/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="M0805" package="M0805">
@@ -7207,13 +6532,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23556/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23556/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="45" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="M1206" package="M1206">
@@ -7222,13 +6544,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23566/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23566/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="17" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="M1406" package="M1406">
@@ -7237,13 +6556,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23569/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23569/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="M2012" package="M2012">
@@ -7252,13 +6568,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23561/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23561/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="M2309" package="M2309">
@@ -7267,13 +6580,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23562/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23562/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="M3216" package="M3216">
@@ -7282,13 +6592,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23563/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23563/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="M3516" package="M3516">
@@ -7297,13 +6604,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23573/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23573/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="M5923" package="M5923">
@@ -7312,13 +6616,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23564/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23564/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0204/5" package="0204/5">
@@ -7330,10 +6631,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23488/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="35" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0204/7" package="0204/7">
@@ -7342,13 +6640,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23498/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23498/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="79" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0204/2V" package="0204V">
@@ -7360,10 +6655,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23495/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="11" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0207/10" package="0207/10">
@@ -7372,13 +6664,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23491/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23491/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="81" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0207/12" package="0207/12">
@@ -7390,10 +6679,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23489/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="9" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0207/15" package="0207/15">
@@ -7405,10 +6691,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23492/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="2" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0207/2V" package="0207/2V">
@@ -7420,10 +6703,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23490/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="17" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0207/5V" package="0207/5V">
@@ -7435,10 +6715,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23502/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="4" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0207/7" package="0207/7">
@@ -7447,13 +6724,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23493/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23493/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="46" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0309/10" package="0309/10">
@@ -7462,13 +6736,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23567/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23567/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="2" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0309/12" package="0309/12">
@@ -7480,10 +6751,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23571/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="6" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0309/V" package="0309V">
@@ -7495,10 +6763,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23572/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="2" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0411/12" package="0411/12">
@@ -7510,10 +6775,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23578/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="5" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0411/15" package="0411/15">
@@ -7522,13 +6784,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23568/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23568/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0411/3V" package="0411V">
@@ -7540,10 +6799,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23570/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="4" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0414/15" package="0414/15">
@@ -7552,13 +6808,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23579/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23579/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0414/5V" package="0414V">
@@ -7570,10 +6823,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23574/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0617/17" package="0617/17">
@@ -7582,13 +6832,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23575/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23575/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0617/22" package="0617/22">
@@ -7600,10 +6847,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23577/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="2" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0617/5V" package="0617V">
@@ -7615,10 +6859,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23576/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0922/22" package="0922/22">
@@ -7627,13 +6868,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23580/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23580/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0613/5V" package="P0613V">
@@ -7645,10 +6883,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23582/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0613/15" package="P0613/15">
@@ -7657,13 +6892,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23581/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23581/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0817/22" package="P0817/22">
@@ -7675,10 +6907,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23583/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0817/7V" package="P0817V">
@@ -7690,10 +6919,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23608/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="V234/12" package="V234/12">
@@ -7705,10 +6931,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23592/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="V235/17" package="V235/17">
@@ -7717,13 +6940,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23586/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23586/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="3" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="V526-0" package="V526-0">
@@ -7735,10 +6955,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23590/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="MELF0102R" package="MINI_MELF-0102R">
@@ -7747,13 +6964,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23591/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23591/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="MELF0102W" package="MINI_MELF-0102W">
@@ -7762,13 +6976,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23588/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23588/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="MELF0204R" package="MINI_MELF-0204R">
@@ -7777,13 +6988,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26109/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23587/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="MELF0204W" package="MINI_MELF-0204W">
@@ -7792,13 +7000,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26111/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23584/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="MELF0207R" package="MINI_MELF-0207R">
@@ -7807,13 +7012,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26113/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23585/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="MELF0207W" package="MINI_MELF-0207W">
@@ -7822,13 +7024,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26112/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23597/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="0922V" package="0922V">
@@ -7840,10 +7039,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23589/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="RDH/15" package="RDH/15">
@@ -7855,10 +7051,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23595/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="MELF0102AX" package="MINI_MELF-0102AX">
@@ -7870,10 +7063,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23594/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R0201" package="R0201">
@@ -7882,13 +7072,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26117/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23593/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="VTA52" package="VTA52">
@@ -7897,13 +7084,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26116/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="VTA53" package="VTA53">
@@ -7912,13 +7096,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26118/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23603/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="VTA54" package="VTA54">
@@ -7927,13 +7108,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26119/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23598/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="VTA55" package="VTA55">
@@ -7942,13 +7120,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26120/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23606/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="VTA56" package="VTA56">
@@ -7957,13 +7132,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26129/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23599/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="VMTA55" package="VMTA55">
@@ -7972,13 +7144,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26121/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23600/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="VMTB60" package="VMTB60">
@@ -7987,13 +7156,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26122/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23607/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R4527" package="R4527">
@@ -8002,13 +7168,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13310/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23615/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="WSC0001" package="WSC0001">
@@ -8017,13 +7180,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26123/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23601/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="WSC0002" package="WSC0002">
@@ -8032,13 +7192,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26125/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23605/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="WSC01/2" package="WSC01/2">
@@ -8047,13 +7204,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26127/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23602/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="WSC2515" package="WSC2515">
@@ -8062,13 +7216,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26134/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23604/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="WSC4527" package="WSC4527">
@@ -8077,13 +7228,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26126/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23611/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="WSC6927" package="WSC6927">
@@ -8092,13 +7240,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26128/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23610/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="R1218" package="R1218">
@@ -8107,13 +7252,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26131/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23614/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="1812X7R" package="1812X7R">
@@ -8122,13 +7264,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26130/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23609/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="PRL1632" package="PRL1632">
@@ -8137,13 +7276,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26132/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23612/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="01005" package="R01005">
@@ -8152,18 +7288,15 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26133/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23613/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C-EU" urn="urn:adsk.eagle:component:23793/46" prefix="C" uservalue="yes" library_version="11">
+<deviceset name="C-EU" urn="urn:adsk.eagle:component:23793/41" prefix="C" uservalue="yes" library_version="2">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -8175,13 +7308,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23626/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23626/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="18" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0504" package="C0504">
@@ -8190,13 +7320,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23624/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23624/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="2" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0603" package="C0603">
@@ -8208,10 +7335,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23616/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="73" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0805" package="C0805">
@@ -8223,10 +7347,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23617/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="88" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1206" package="C1206">
@@ -8238,10 +7359,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23618/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="54" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1210" package="C1210">
@@ -8253,10 +7371,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23619/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1310" package="C1310">
@@ -8265,13 +7380,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23620/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23620/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1608" package="C1608">
@@ -8283,10 +7395,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23621/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="3" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1812" package="C1812">
@@ -8298,10 +7407,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23622/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="3" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1825" package="C1825">
@@ -8313,10 +7419,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23623/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C2012" package="C2012">
@@ -8328,10 +7431,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23625/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C3216" package="C3216">
@@ -8343,10 +7443,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23628/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="4" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C3225" package="C3225">
@@ -8358,10 +7455,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23655/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C4532" package="C4532">
@@ -8373,10 +7467,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23627/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C4564" package="C4564">
@@ -8388,10 +7479,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23648/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025-024X044" package="C025-024X044">
@@ -8403,10 +7491,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23630/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="56" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025-025X050" package="C025-025X050">
@@ -8418,10 +7503,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23629/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="65" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025-030X050" package="C025-030X050">
@@ -8433,10 +7515,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23631/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="14" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025-040X050" package="C025-040X050">
@@ -8448,10 +7527,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23634/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="4" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025-050X050" package="C025-050X050">
@@ -8463,10 +7539,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23633/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="16" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025-060X050" package="C025-060X050">
@@ -8478,10 +7551,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23632/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C025_050-024X070" package="C025_050-024X070">
@@ -8493,10 +7563,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23639/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025_050-025X075" package="C025_050-025X075">
@@ -8508,10 +7575,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23641/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025_050-035X075" package="C025_050-035X075">
@@ -8523,10 +7587,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23651/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025_050-045X075" package="C025_050-045X075">
@@ -8538,10 +7599,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23635/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="025_050-055X075" package="C025_050-055X075">
@@ -8553,10 +7611,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23636/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-024X044" package="C050-024X044">
@@ -8568,10 +7623,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23643/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="33" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-025X075" package="C050-025X075">
@@ -8583,10 +7635,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23637/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="29" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-045X075" package="C050-045X075">
@@ -8598,10 +7647,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23638/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-030X075" package="C050-030X075">
@@ -8613,10 +7659,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23640/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="9" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-050X075" package="C050-050X075">
@@ -8628,10 +7671,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23665/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-055X075" package="C050-055X075">
@@ -8643,10 +7683,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23642/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-075X075" package="C050-075X075">
@@ -8658,10 +7695,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23645/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050H075X075" package="C050H075X075">
@@ -8673,10 +7707,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23644/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="075-032X103" package="C075-032X103">
@@ -8688,10 +7719,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23646/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="075-042X103" package="C075-042X103">
@@ -8703,10 +7731,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23656/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="075-052X106" package="C075-052X106">
@@ -8718,10 +7743,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23650/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="4" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="102-043X133" package="C102-043X133">
@@ -8733,10 +7755,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23647/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="102-054X133" package="C102-054X133">
@@ -8748,10 +7767,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23649/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="102-064X133" package="C102-064X133">
@@ -8763,10 +7779,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23653/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="102_152-062X184" package="C102_152-062X184">
@@ -8778,10 +7791,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23652/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="150-054X183" package="C150-054X183">
@@ -8793,10 +7803,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23669/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="3" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="150-064X183" package="C150-064X183">
@@ -8808,10 +7815,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23654/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="150-072X183" package="C150-072X183">
@@ -8823,10 +7827,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23657/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="150-084X183" package="C150-084X183">
@@ -8838,10 +7839,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23658/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="150-091X182" package="C150-091X182">
@@ -8853,10 +7851,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23659/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="225-062X268" package="C225-062X268">
@@ -8868,10 +7863,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23661/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="225-074X268" package="C225-074X268">
@@ -8883,10 +7875,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23660/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="2" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="225-087X268" package="C225-087X268">
@@ -8898,10 +7887,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23662/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="225-108X268" package="C225-108X268">
@@ -8913,10 +7899,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23663/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="225-113X268" package="C225-113X268">
@@ -8928,10 +7911,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23667/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="275-093X316" package="C275-093X316">
@@ -8943,10 +7923,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23701/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="275-113X316" package="C275-113X316">
@@ -8958,10 +7935,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23673/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="275-134X316" package="C275-134X316">
@@ -8973,10 +7947,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23664/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="275-205X316" package="C275-205X316">
@@ -8988,10 +7959,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23666/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="325-137X374" package="C325-137X374">
@@ -9003,10 +7971,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23672/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="325-162X374" package="C325-162X374">
@@ -9018,10 +7983,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23670/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="325-182X374" package="C325-182X374">
@@ -9033,10 +7995,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23668/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="375-192X418" package="C375-192X418">
@@ -9048,10 +8007,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23674/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="375-203X418" package="C375-203X418">
@@ -9063,10 +8019,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23671/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="050-035X075" package="C050-035X075">
@@ -9078,10 +8031,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23677/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="2" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="375-155X418" package="C375-155X418">
@@ -9093,10 +8043,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23675/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="075-063X106" package="C075-063X106">
@@ -9108,10 +8055,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23678/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="275-154X316" package="C275-154X316">
@@ -9123,10 +8067,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23685/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="275-173X316" package="C275-173X316">
@@ -9138,10 +8079,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23676/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0402K" package="C0402K">
@@ -9153,10 +8091,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23679/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="15" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0603K" package="C0603K">
@@ -9168,10 +8103,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23680/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="30" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0805K" package="C0805K">
@@ -9183,10 +8115,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23681/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="52" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1206K" package="C1206K">
@@ -9198,10 +8127,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23682/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="13" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1210K" package="C1210K">
@@ -9213,10 +8139,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23683/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1812K" package="C1812K">
@@ -9228,10 +8151,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23686/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1825K" package="C1825K">
@@ -9240,13 +8160,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23684/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23684/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C2220K" package="C2220K">
@@ -9258,10 +8175,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23687/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C2225K" package="C2225K">
@@ -9273,10 +8187,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23692/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="HPC0201" package="HPC0201">
@@ -9285,13 +8196,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26213/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23688/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C0201" package="C0201">
@@ -9303,10 +8211,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23690/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C1808" package="C1808">
@@ -9318,10 +8223,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23689/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C3640" package="C3640">
@@ -9333,10 +8235,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23693/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="01005" package="C01005">
@@ -9348,19 +8247,10 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23691/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-<attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
 </deviceset>
 </devicesets>
 </library>
@@ -9447,15 +8337,9 @@ Source: AVX .. aphvc.pdf</description>
 <packages3d>
 <package3d name="1X04" urn="urn:adsk.eagle:package:22407/2" type="model">
 <description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X04"/>
-</packageinstances>
 </package3d>
 <package3d name="1X04/90" urn="urn:adsk.eagle:package:22404/2" type="model">
 <description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X04/90"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -9540,7 +8424,7 @@ Source: AVX .. aphvc.pdf</description>
 </packages>
 <symbols>
 <symbol name="RETRONINJA_TEXT" urn="urn:adsk.eagle:symbol:17831776/1" library_version="11">
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.5350375" y="-6.408184375"/>
 <vertex x="-8.3686375" y="-6.408990625"/>
 <vertex x="-8.29251875" y="-6.380184375"/>
@@ -9554,7 +8438,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.636003125" y="-6.29441875"/>
 <vertex x="-8.607196875" y="-6.370534375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.0859125" y="-6.408184375"/>
 <vertex x="-7.919503125" y="-6.408990625"/>
 <vertex x="-7.843384375" y="-6.3801875"/>
@@ -9568,7 +8452,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.186865625" y="-6.29440625"/>
 <vertex x="-8.158059375" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.53504375" y="-5.959040625"/>
 <vertex x="-8.3686375" y="-5.959846875"/>
 <vertex x="-8.29251875" y="-5.931040625"/>
@@ -9582,7 +8466,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.636003125" y="-5.845275"/>
 <vertex x="-8.607196875" y="-5.921390625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.085909375" y="-5.959040625"/>
 <vertex x="-7.919503125" y="-5.959846875"/>
 <vertex x="-7.843384375" y="-5.93104375"/>
@@ -9596,7 +8480,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.186865625" y="-5.8452625"/>
 <vertex x="-8.1580625" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.5350625" y="-5.509921875"/>
 <vertex x="-8.36865" y="-5.5107125"/>
 <vertex x="-8.292534375" y="-5.481909375"/>
@@ -9610,7 +8494,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.636003125" y="-5.396134375"/>
 <vertex x="-8.60720625" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.085909375" y="-5.509921875"/>
 <vertex x="-7.9195" y="-5.5107125"/>
 <vertex x="-7.84339375" y="-5.481896875"/>
@@ -9624,7 +8508,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.186865625" y="-5.39613125"/>
 <vertex x="-8.15805625" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.5350625" y="-5.06078125"/>
 <vertex x="-8.36865" y="-5.06156875"/>
 <vertex x="-8.292534375" y="-5.032765625"/>
@@ -9638,7 +8522,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.636003125" y="-4.946990625"/>
 <vertex x="-8.60720625" y="-5.02311875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.0859125" y="-5.06078125"/>
 <vertex x="-7.9195" y="-5.06156875"/>
 <vertex x="-7.84339375" y="-5.032753125"/>
@@ -9652,7 +8536,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.186865625" y="-4.9469875"/>
 <vertex x="-8.158053125" y="-5.02311875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-6.73849375" y="-6.408184375"/>
 <vertex x="-6.57209375" y="-6.408990625"/>
 <vertex x="-6.495975" y="-6.3801875"/>
@@ -9666,7 +8550,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-6.83945625" y="-6.29440625"/>
 <vertex x="-6.81065" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-6.289359375" y="-6.408184375"/>
 <vertex x="-6.12295625" y="-6.408990625"/>
 <vertex x="-6.0468375" y="-6.3801875"/>
@@ -9680,7 +8564,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-6.39031875" y="-6.29440625"/>
 <vertex x="-6.3615125" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-6.738496875" y="-5.959040625"/>
 <vertex x="-6.57209375" y="-5.959846875"/>
 <vertex x="-6.495975" y="-5.93104375"/>
@@ -9694,7 +8578,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-6.83945625" y="-5.845265625"/>
 <vertex x="-6.810653125" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-6.289359375" y="-5.959040625"/>
 <vertex x="-6.12295625" y="-5.959846875"/>
 <vertex x="-6.0468375" y="-5.93104375"/>
@@ -9708,7 +8592,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-6.39031875" y="-5.8452625"/>
 <vertex x="-6.361515625" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-6.7385" y="-5.509921875"/>
 <vertex x="-6.572090625" y="-5.5107125"/>
 <vertex x="-6.495984375" y="-5.481896875"/>
@@ -9722,7 +8606,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-6.83945625" y="-5.39613125"/>
 <vertex x="-6.81064375" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-6.2893625" y="-5.509921875"/>
 <vertex x="-6.122953125" y="-5.5107125"/>
 <vertex x="-6.046846875" y="-5.481896875"/>
@@ -9736,7 +8620,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-6.39031875" y="-5.39613125"/>
 <vertex x="-6.361509375" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-6.738503125" y="-5.06078125"/>
 <vertex x="-6.572090625" y="-5.06156875"/>
 <vertex x="-6.495984375" y="-5.032753125"/>
@@ -9750,7 +8634,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-6.83945625" y="-4.9469875"/>
 <vertex x="-6.81064375" y="-5.02311875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-6.289365625" y="-5.06078125"/>
 <vertex x="-6.122953125" y="-5.06156875"/>
 <vertex x="-6.046846875" y="-5.032753125"/>
@@ -9764,7 +8648,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-6.39031875" y="-4.9469875"/>
 <vertex x="-6.36150625" y="-5.02311875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.53504375" y="-4.6116375"/>
 <vertex x="-8.368640625" y="-4.6124375"/>
 <vertex x="-8.292521875" y="-4.5836375"/>
@@ -9778,7 +8662,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.636003125" y="-4.497871875"/>
 <vertex x="-8.607196875" y="-4.5739875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.085909375" y="-4.6116375"/>
 <vertex x="-7.91950625" y="-4.6124375"/>
 <vertex x="-7.84338125" y="-4.583634375"/>
@@ -9792,7 +8676,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.186865625" y="-4.497859375"/>
 <vertex x="-8.1580625" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-7.636771875" y="-4.6116375"/>
 <vertex x="-7.47036875" y="-4.6124375"/>
 <vertex x="-7.39424375" y="-4.583634375"/>
@@ -9806,7 +8690,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-7.73773125" y="-4.497865625"/>
 <vertex x="-7.708928125" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-7.187634375" y="-4.6116375"/>
 <vertex x="-7.021234375" y="-4.6124375"/>
 <vertex x="-6.9451125" y="-4.5836375"/>
@@ -9820,7 +8704,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-7.28859375" y="-4.497865625"/>
 <vertex x="-7.259790625" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-6.738496875" y="-4.6116375"/>
 <vertex x="-6.572096875" y="-4.6124375"/>
 <vertex x="-6.495971875" y="-4.583634375"/>
@@ -9834,7 +8718,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-6.83945625" y="-4.4978625"/>
 <vertex x="-6.810653125" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-6.2893625" y="-1.916825"/>
 <vertex x="-6.122953125" y="-1.917615625"/>
 <vertex x="-6.046846875" y="-1.8888"/>
@@ -9848,7 +8732,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-6.39031875" y="-1.803034375"/>
 <vertex x="-6.361509375" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.5350625" y="-3.26423125"/>
 <vertex x="-8.36865" y="-3.265021875"/>
 <vertex x="-8.292534375" y="-3.23621875"/>
@@ -9862,7 +8746,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.636003125" y="-3.15044375"/>
 <vertex x="-8.60720625" y="-3.226571875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.0859125" y="-3.26423125"/>
 <vertex x="-7.9195" y="-3.265021875"/>
 <vertex x="-7.843390625" y="-3.23620625"/>
@@ -9876,7 +8760,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.186865625" y="-3.150440625"/>
 <vertex x="-8.158053125" y="-3.22656875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.53504375" y="-2.8150875"/>
 <vertex x="-8.3686375" y="-2.81589375"/>
 <vertex x="-8.29251875" y="-2.7870875"/>
@@ -9890,7 +8774,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.636003125" y="-2.701321875"/>
 <vertex x="-8.607196875" y="-2.7774375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.085909375" y="-2.8150875"/>
 <vertex x="-7.919503125" y="-2.81589375"/>
 <vertex x="-7.843384375" y="-2.787090625"/>
@@ -9904,7 +8788,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.186865625" y="-2.701309375"/>
 <vertex x="-8.1580625" y="-2.777434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.535040625" y="-2.36594375"/>
 <vertex x="-8.3686375" y="-2.36675"/>
 <vertex x="-8.29251875" y="-2.33794375"/>
@@ -9918,7 +8802,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.636003125" y="-2.25218125"/>
 <vertex x="-8.607196875" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.085909375" y="-2.36594375"/>
 <vertex x="-7.919503125" y="-2.36675"/>
 <vertex x="-7.843384375" y="-2.337946875"/>
@@ -9932,7 +8816,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.186865625" y="-2.252165625"/>
 <vertex x="-8.1580625" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.5350625" y="-1.916825"/>
 <vertex x="-8.36865" y="-1.917615625"/>
 <vertex x="-8.292534375" y="-1.8888125"/>
@@ -9946,7 +8830,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.636003125" y="-1.8030375"/>
 <vertex x="-8.60720625" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.085909375" y="-1.916825"/>
 <vertex x="-7.9195" y="-1.917615625"/>
 <vertex x="-7.84339375" y="-1.8888"/>
@@ -9960,7 +8844,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.186865625" y="-1.803034375"/>
 <vertex x="-8.15805625" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.5350625" y="-1.467684375"/>
 <vertex x="-8.36865" y="-1.468471875"/>
 <vertex x="-8.292534375" y="-1.43966875"/>
@@ -9974,7 +8858,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.636003125" y="-1.35389375"/>
 <vertex x="-8.60720625" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-8.0859125" y="-1.467684375"/>
 <vertex x="-7.9195" y="-1.468471875"/>
 <vertex x="-7.84339375" y="-1.43965625"/>
@@ -9988,7 +8872,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-8.186865625" y="-1.353890625"/>
 <vertex x="-8.158053125" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-7.636775" y="-1.467684375"/>
 <vertex x="-7.4703625" y="-1.468471875"/>
 <vertex x="-7.39425625" y="-1.43965625"/>
@@ -10002,7 +8886,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-7.73773125" y="-1.353896875"/>
 <vertex x="-7.70891875" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-7.187640625" y="-1.467684375"/>
 <vertex x="-7.021228125" y="-1.468471875"/>
 <vertex x="-6.945115625" y="-1.43965625"/>
@@ -10016,7 +8900,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-7.28859375" y="-1.353890625"/>
 <vertex x="-7.25978125" y="-1.430025"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-6.7385" y="-1.916825"/>
 <vertex x="-6.572090625" y="-1.917615625"/>
 <vertex x="-6.495984375" y="-1.8888"/>
@@ -10030,7 +8914,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-6.83945625" y="-1.803034375"/>
 <vertex x="-6.81064375" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-6.738503125" y="-1.467684375"/>
 <vertex x="-6.572090625" y="-1.468471875"/>
 <vertex x="-6.495984375" y="-1.43965625"/>
@@ -10044,7 +8928,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-6.83945625" y="-1.353890625"/>
 <vertex x="-6.81064375" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.49281875" y="-6.408184375"/>
 <vertex x="-4.326409375" y="-6.408990625"/>
 <vertex x="-4.250290625" y="-6.3801875"/>
@@ -10058,7 +8942,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.593771875" y="-6.29440625"/>
 <vertex x="-4.564965625" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.043675" y="-6.408184375"/>
 <vertex x="-3.877275" y="-6.408990625"/>
 <vertex x="-3.801153125" y="-6.3801875"/>
@@ -10072,7 +8956,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.1446375" y="-6.29440625"/>
 <vertex x="-4.11583125" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.5945375" y="-6.408184375"/>
 <vertex x="-3.4281375" y="-6.408990625"/>
 <vertex x="-3.35201875" y="-6.3801875"/>
@@ -10086,7 +8970,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="-6.29440625"/>
 <vertex x="-3.66669375" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.043678125" y="-5.959040625"/>
 <vertex x="-3.877275" y="-5.959846875"/>
 <vertex x="-3.801153125" y="-5.93104375"/>
@@ -10100,7 +8984,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.1446375" y="-5.84526875"/>
 <vertex x="-4.115834375" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.594540625" y="-5.959040625"/>
 <vertex x="-3.4281375" y="-5.959846875"/>
 <vertex x="-3.35201875" y="-5.93104375"/>
@@ -10114,7 +8998,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="-5.84526875"/>
 <vertex x="-3.666696875" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.04368125" y="-5.509921875"/>
 <vertex x="-3.877271875" y="-5.5107125"/>
 <vertex x="-3.801165625" y="-5.481896875"/>
@@ -10128,7 +9012,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.1446375" y="-5.39613125"/>
 <vertex x="-4.115825" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.59454375" y="-5.509921875"/>
 <vertex x="-3.42813125" y="-5.5107125"/>
 <vertex x="-3.352021875" y="-5.481896875"/>
@@ -10142,7 +9026,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="-5.39613125"/>
 <vertex x="-3.6666875" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.49281875" y="-5.06078125"/>
 <vertex x="-4.32640625" y="-5.06156875"/>
 <vertex x="-4.2503" y="-5.032753125"/>
@@ -10156,7 +9040,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.593771875" y="-4.946990625"/>
 <vertex x="-4.564965625" y="-5.02311875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.043684375" y="-5.06078125"/>
 <vertex x="-3.877271875" y="-5.06156875"/>
 <vertex x="-3.801165625" y="-5.032753125"/>
@@ -10170,7 +9054,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.1446375" y="-4.9469875"/>
 <vertex x="-4.115825" y="-5.023121875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.594546875" y="-5.06078125"/>
 <vertex x="-3.428134375" y="-5.06156875"/>
 <vertex x="-3.352021875" y="-5.032753125"/>
@@ -10184,7 +9068,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="-4.9469875"/>
 <vertex x="-3.6666875" y="-5.023121875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.043678125" y="-4.16249375"/>
 <vertex x="-3.87728125" y="-4.16329375"/>
 <vertex x="-3.80115" y="-4.1344875"/>
@@ -10198,7 +9082,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.1446375" y="-4.048721875"/>
 <vertex x="-4.115834375" y="-4.124840625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.594540625" y="-4.16249375"/>
 <vertex x="-3.42814375" y="-4.16329375"/>
 <vertex x="-3.35201875" y="-4.134490625"/>
@@ -10212,7 +9096,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="-4.048721875"/>
 <vertex x="-3.666696875" y="-4.124840625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.145409375" y="-6.408184375"/>
 <vertex x="-2.979" y="-6.408990625"/>
 <vertex x="-2.90288125" y="-6.3801875"/>
@@ -10226,7 +9110,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.2463625" y="-6.29440625"/>
 <vertex x="-3.21755625" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.3488625" y="-6.408184375"/>
 <vertex x="-1.182453125" y="-6.408990625"/>
 <vertex x="-1.106334375" y="-6.3801875"/>
@@ -10240,7 +9124,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="-6.29440625"/>
 <vertex x="-1.421009375" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899725" y="-6.408184375"/>
 <vertex x="-0.733315625" y="-6.408990625"/>
 <vertex x="-0.657196875" y="-6.3801875"/>
@@ -10254,7 +9138,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="-6.29440625"/>
 <vertex x="-0.971871875" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.348859375" y="-5.959040625"/>
 <vertex x="-1.182453125" y="-5.959846875"/>
 <vertex x="-1.106334375" y="-5.93104375"/>
@@ -10268,7 +9152,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="-5.8452625"/>
 <vertex x="-1.4210125" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899721875" y="-5.959040625"/>
 <vertex x="-0.733315625" y="-5.959846875"/>
 <vertex x="-0.657196875" y="-5.93104375"/>
@@ -10282,7 +9166,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="-5.8452625"/>
 <vertex x="-0.971875" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.348859375" y="-5.509921875"/>
 <vertex x="-1.18245" y="-5.5107125"/>
 <vertex x="-1.10634375" y="-5.481896875"/>
@@ -10296,7 +9180,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="-5.39613125"/>
 <vertex x="-1.421003125" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899721875" y="-5.509921875"/>
 <vertex x="-0.7333125" y="-5.5107125"/>
 <vertex x="-0.65720625" y="-5.481896875"/>
@@ -10310,7 +9194,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="-5.39613125"/>
 <vertex x="-0.971865625" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.3488625" y="-5.06078125"/>
 <vertex x="-1.18245" y="-5.06156875"/>
 <vertex x="-1.10634375" y="-5.032753125"/>
@@ -10324,7 +9208,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="-4.9469875"/>
 <vertex x="-1.421003125" y="-5.02311875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899725" y="-5.06078125"/>
 <vertex x="-0.7333125" y="-5.06156875"/>
 <vertex x="-0.65720625" y="-5.032753125"/>
@@ -10338,7 +9222,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="-4.9469875"/>
 <vertex x="-0.971865625" y="-5.02311875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447690625" y="-6.408184375"/>
 <vertex x="0.61409375" y="-6.408990625"/>
 <vertex x="0.6902125" y="-6.3801875"/>
@@ -10352,7 +9236,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="-6.29440625"/>
 <vertex x="0.3755375" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896828125" y="-6.408184375"/>
 <vertex x="1.06323125" y="-6.408990625"/>
 <vertex x="1.13935" y="-6.3801875"/>
@@ -10366,7 +9250,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="-6.29440625"/>
 <vertex x="0.824671875" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447690625" y="-5.959040625"/>
 <vertex x="0.61409375" y="-5.959846875"/>
 <vertex x="0.6902125" y="-5.93104375"/>
@@ -10380,7 +9264,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="-5.8452625"/>
 <vertex x="0.375534375" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896825" y="-5.959040625"/>
 <vertex x="1.06323125" y="-5.959846875"/>
 <vertex x="1.13935" y="-5.93104375"/>
@@ -10394,7 +9278,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="-5.845265625"/>
 <vertex x="0.82466875" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.4476875" y="-5.509921875"/>
 <vertex x="0.614096875" y="-5.5107125"/>
 <vertex x="0.690203125" y="-5.481896875"/>
@@ -10408,7 +9292,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="-5.39613125"/>
 <vertex x="0.37554375" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896821875" y="-5.509921875"/>
 <vertex x="1.063234375" y="-5.5107125"/>
 <vertex x="1.13934375" y="-5.481896875"/>
@@ -10422,7 +9306,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="-5.39613125"/>
 <vertex x="0.824678125" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447684375" y="-5.06078125"/>
 <vertex x="0.614096875" y="-5.06156875"/>
 <vertex x="0.690203125" y="-5.032753125"/>
@@ -10436,7 +9320,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="-4.9469875"/>
 <vertex x="0.37554375" y="-5.02311875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.89681875" y="-5.06078125"/>
 <vertex x="1.063234375" y="-5.06156875"/>
 <vertex x="1.13934375" y="-5.032753125"/>
@@ -10450,7 +9334,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="-4.9469875"/>
 <vertex x="0.824678125" y="-5.023121875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.348859375" y="-4.6116375"/>
 <vertex x="-1.18245625" y="-4.6124375"/>
 <vertex x="-1.10633125" y="-4.583634375"/>
@@ -10464,7 +9348,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="-4.497859375"/>
 <vertex x="-1.4210125" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899721875" y="-4.6116375"/>
 <vertex x="-0.73331875" y="-4.6124375"/>
 <vertex x="-0.65719375" y="-4.583634375"/>
@@ -10478,7 +9362,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="-4.497859375"/>
 <vertex x="-0.971875" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450584375" y="-4.6116375"/>
 <vertex x="-0.284184375" y="-4.6124375"/>
 <vertex x="-0.20805625" y="-4.583634375"/>
@@ -10492,7 +9376,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="-4.4978625"/>
 <vertex x="-0.522740625" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001446875" y="-4.6116375"/>
 <vertex x="0.16495625" y="-4.6124375"/>
 <vertex x="0.24108125" y="-4.583634375"/>
@@ -10506,7 +9390,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="-4.4978625"/>
 <vertex x="-0.073603125" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447690625" y="-4.6116375"/>
 <vertex x="0.614090625" y="-4.6124375"/>
 <vertex x="0.6902125" y="-4.5836375"/>
@@ -10520,7 +9404,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="-4.4978625"/>
 <vertex x="0.375534375" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.49281875" y="-3.26423125"/>
 <vertex x="-4.32640625" y="-3.265021875"/>
 <vertex x="-4.250296875" y="-3.23620625"/>
@@ -10534,7 +9418,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.593771875" y="-3.150440625"/>
 <vertex x="-4.5649625" y="-3.22656875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.04368125" y="-3.26423125"/>
 <vertex x="-3.877271875" y="-3.265021875"/>
 <vertex x="-3.8011625" y="-3.23620625"/>
@@ -10548,7 +9432,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.1446375" y="-3.150440625"/>
 <vertex x="-4.115825" y="-3.226571875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.59454375" y="-3.26423125"/>
 <vertex x="-3.42813125" y="-3.265021875"/>
 <vertex x="-3.352021875" y="-3.23620625"/>
@@ -10562,7 +9446,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="-3.150440625"/>
 <vertex x="-3.6666875" y="-3.226571875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.94195" y="-2.8150875"/>
 <vertex x="-4.775546875" y="-2.81589375"/>
 <vertex x="-4.699428125" y="-2.787090625"/>
@@ -10576,7 +9460,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-5.042909375" y="-2.701309375"/>
 <vertex x="-5.01410625" y="-2.777434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.492815625" y="-2.8150875"/>
 <vertex x="-4.326409375" y="-2.81589375"/>
 <vertex x="-4.250290625" y="-2.787090625"/>
@@ -10590,7 +9474,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.593771875" y="-2.701309375"/>
 <vertex x="-4.56496875" y="-2.777434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.94195" y="-2.36594375"/>
 <vertex x="-4.775546875" y="-2.36675"/>
 <vertex x="-4.699428125" y="-2.337946875"/>
@@ -10604,7 +9488,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-5.042909375" y="-2.252165625"/>
 <vertex x="-5.01410625" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.492815625" y="-2.36594375"/>
 <vertex x="-4.326409375" y="-2.36675"/>
 <vertex x="-4.250290625" y="-2.337946875"/>
@@ -10618,7 +9502,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.593771875" y="-2.252165625"/>
 <vertex x="-4.56496875" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.043678125" y="-2.36594375"/>
 <vertex x="-3.877275" y="-2.36675"/>
 <vertex x="-3.801153125" y="-2.337946875"/>
@@ -10632,7 +9516,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.1446375" y="-2.252171875"/>
 <vertex x="-4.115834375" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.594540625" y="-2.36594375"/>
 <vertex x="-3.4281375" y="-2.36675"/>
 <vertex x="-3.35201875" y="-2.337946875"/>
@@ -10646,7 +9530,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="-2.252171875"/>
 <vertex x="-3.666696875" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.941953125" y="-1.916825"/>
 <vertex x="-4.77554375" y="-1.917615625"/>
 <vertex x="-4.6994375" y="-1.8888"/>
@@ -10660,7 +9544,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-5.042909375" y="-1.803034375"/>
 <vertex x="-5.014096875" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.49281875" y="-1.916825"/>
 <vertex x="-4.32640625" y="-1.917615625"/>
 <vertex x="-4.2503" y="-1.8888"/>
@@ -10674,7 +9558,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.593771875" y="-1.8030375"/>
 <vertex x="-4.5649625" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.49281875" y="-1.467684375"/>
 <vertex x="-4.32640625" y="-1.468471875"/>
 <vertex x="-4.2503" y="-1.43965625"/>
@@ -10688,7 +9572,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.593771875" y="-1.35389375"/>
 <vertex x="-4.564965625" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.043684375" y="-1.467684375"/>
 <vertex x="-3.877271875" y="-1.468471875"/>
 <vertex x="-3.801165625" y="-1.43965625"/>
@@ -10702,7 +9586,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.1446375" y="-1.353890625"/>
 <vertex x="-4.115825" y="-1.430025"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.594546875" y="-1.467684375"/>
 <vertex x="-3.428134375" y="-1.468471875"/>
 <vertex x="-3.352021875" y="-1.43965625"/>
@@ -10716,7 +9600,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="-1.353890625"/>
 <vertex x="-3.6666875" y="-1.430025"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.145409375" y="-3.26423125"/>
 <vertex x="-2.978996875" y="-3.265021875"/>
 <vertex x="-2.9028875" y="-3.23620625"/>
@@ -10730,7 +9614,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.2463625" y="-3.150440625"/>
 <vertex x="-3.21755" y="-3.22656875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.14540625" y="-2.36594375"/>
 <vertex x="-2.979" y="-2.36675"/>
 <vertex x="-2.90288125" y="-2.337946875"/>
@@ -10744,7 +9628,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.2463625" y="-2.252165625"/>
 <vertex x="-3.217559375" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.69626875" y="-2.36594375"/>
 <vertex x="-2.5298625" y="-2.36675"/>
 <vertex x="-2.45374375" y="-2.337946875"/>
@@ -10758,7 +9642,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.797228125" y="-2.252171875"/>
 <vertex x="-2.768425" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.14540625" y="-1.916825"/>
 <vertex x="-2.978996875" y="-1.917615625"/>
 <vertex x="-2.902890625" y="-1.8888"/>
@@ -10772,7 +9656,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.2463625" y="-1.803034375"/>
 <vertex x="-3.217553125" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.69626875" y="-1.916825"/>
 <vertex x="-2.529859375" y="-1.917615625"/>
 <vertex x="-2.45375" y="-1.8888"/>
@@ -10786,7 +9670,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.797228125" y="-1.803040625"/>
 <vertex x="-2.768415625" y="-1.8791625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.145409375" y="-1.467684375"/>
 <vertex x="-2.978996875" y="-1.468471875"/>
 <vertex x="-2.902890625" y="-1.43965625"/>
@@ -10800,7 +9684,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.2463625" y="-1.353890625"/>
 <vertex x="-3.21755" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="-3.26423125"/>
 <vertex x="2.41064375" y="-3.265021875"/>
 <vertex x="2.486753125" y="-3.23620625"/>
@@ -10814,7 +9698,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="-3.15044375"/>
 <vertex x="2.1720875" y="-3.22656875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.69336875" y="-3.26423125"/>
 <vertex x="2.85978125" y="-3.265021875"/>
 <vertex x="2.935890625" y="-3.23620625"/>
@@ -10828,7 +9712,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="-3.15044375"/>
 <vertex x="2.621225" y="-3.22656875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="-2.8150875"/>
 <vertex x="2.410640625" y="-2.81589375"/>
 <vertex x="2.486759375" y="-2.787090625"/>
@@ -10842,7 +9726,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="-2.701309375"/>
 <vertex x="2.17208125" y="-2.777434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.693371875" y="-2.8150875"/>
 <vertex x="2.859778125" y="-2.81589375"/>
 <vertex x="2.935896875" y="-2.787090625"/>
@@ -10856,7 +9740,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="-2.701315625"/>
 <vertex x="2.621215625" y="-2.777434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="-2.36594375"/>
 <vertex x="2.410640625" y="-2.36675"/>
 <vertex x="2.486759375" y="-2.337946875"/>
@@ -10870,7 +9754,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="-2.252165625"/>
 <vertex x="2.17208125" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.693371875" y="-2.36594375"/>
 <vertex x="2.859778125" y="-2.36675"/>
 <vertex x="2.935896875" y="-2.337946875"/>
@@ -10884,7 +9768,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="-2.252165625"/>
 <vertex x="2.621215625" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="-1.916825"/>
 <vertex x="2.41064375" y="-1.917615625"/>
 <vertex x="2.48675" y="-1.8888"/>
@@ -10898,7 +9782,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="-1.8030375"/>
 <vertex x="2.1720875" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.693371875" y="-1.916825"/>
 <vertex x="2.85978125" y="-1.917615625"/>
 <vertex x="2.935890625" y="-1.8888"/>
@@ -10912,7 +9796,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="-1.803040625"/>
 <vertex x="2.621225" y="-1.8791625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="-1.467684375"/>
 <vertex x="2.41064375" y="-1.468471875"/>
 <vertex x="2.48675" y="-1.43965625"/>
@@ -10926,7 +9810,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="-1.35389375"/>
 <vertex x="2.1720875" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.693365625" y="-1.467684375"/>
 <vertex x="2.85978125" y="-1.468471875"/>
 <vertex x="2.935890625" y="-1.43965625"/>
@@ -10940,7 +9824,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="-1.353890625"/>
 <vertex x="2.621225" y="-1.430025"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.142503125" y="-1.467684375"/>
 <vertex x="3.308915625" y="-1.468471875"/>
 <vertex x="3.385028125" y="-1.43965625"/>
@@ -10954,7 +9838,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.04155" y="-1.353890625"/>
 <vertex x="3.0703625" y="-1.430025"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.591640625" y="-1.467684375"/>
 <vertex x="3.758053125" y="-1.468471875"/>
 <vertex x="3.834159375" y="-1.43965625"/>
@@ -10968,7 +9852,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.4906875" y="-1.353890625"/>
 <vertex x="3.5195" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.04078125" y="-1.916825"/>
 <vertex x="4.207190625" y="-1.917615625"/>
 <vertex x="4.2833" y="-1.8888"/>
@@ -10982,7 +9866,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.939825" y="-1.803034375"/>
 <vertex x="3.968634375" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.489915625" y="-1.916825"/>
 <vertex x="4.656328125" y="-1.917615625"/>
 <vertex x="4.7324375" y="-1.8888"/>
@@ -10996,7 +9880,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="4.388959375" y="-1.803034375"/>
 <vertex x="4.417771875" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.040778125" y="-1.467684375"/>
 <vertex x="4.207190625" y="-1.468471875"/>
 <vertex x="4.2833" y="-1.43965625"/>
@@ -11010,7 +9894,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.939825" y="-1.353890625"/>
 <vertex x="3.9686375" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.00145" y="-3.26423125"/>
 <vertex x="0.1649625" y="-3.265021875"/>
 <vertex x="0.241071875" y="-3.23620625"/>
@@ -11024,7 +9908,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="-3.150440625"/>
 <vertex x="-0.07359375" y="-3.226571875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.4476875" y="-3.26423125"/>
 <vertex x="0.6141" y="-3.265021875"/>
 <vertex x="0.690209375" y="-3.23620625"/>
@@ -11038,7 +9922,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="-3.150440625"/>
 <vertex x="0.37554375" y="-3.226571875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896821875" y="-3.26423125"/>
 <vertex x="1.063234375" y="-3.265021875"/>
 <vertex x="1.13934375" y="-3.23620625"/>
@@ -11052,7 +9936,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="-3.150440625"/>
 <vertex x="0.824678125" y="-3.226571875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450584375" y="-2.8150875"/>
 <vertex x="-0.28418125" y="-2.81589375"/>
 <vertex x="-0.208059375" y="-2.787090625"/>
@@ -11066,7 +9950,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="-2.7013125"/>
 <vertex x="-0.522740625" y="-2.777434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001446875" y="-2.8150875"/>
 <vertex x="0.164959375" y="-2.81589375"/>
 <vertex x="0.241078125" y="-2.787090625"/>
@@ -11080,7 +9964,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="-2.7013125"/>
 <vertex x="-0.073603125" y="-2.777434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450584375" y="-2.36594375"/>
 <vertex x="-0.28418125" y="-2.36675"/>
 <vertex x="-0.208059375" y="-2.337946875"/>
@@ -11094,7 +9978,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="-2.25216875"/>
 <vertex x="-0.522740625" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001446875" y="-2.36594375"/>
 <vertex x="0.16495625" y="-2.36675"/>
 <vertex x="0.241075" y="-2.337946875"/>
@@ -11108,7 +9992,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="-2.252165625"/>
 <vertex x="-0.073603125" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.4505875" y="-1.916825"/>
 <vertex x="-0.284175" y="-1.917615625"/>
 <vertex x="-0.208065625" y="-1.8888"/>
@@ -11122,7 +10006,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="-1.803034375"/>
 <vertex x="-0.52273125" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.00145" y="-1.916825"/>
 <vertex x="0.1649625" y="-1.917615625"/>
 <vertex x="0.241071875" y="-1.8888"/>
@@ -11136,7 +10020,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="-1.803034375"/>
 <vertex x="-0.07359375" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.3488625" y="-1.467684375"/>
 <vertex x="-1.18245" y="-1.468471875"/>
 <vertex x="-1.10634375" y="-1.43965625"/>
@@ -11150,7 +10034,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="-1.353890625"/>
 <vertex x="-1.421003125" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899725" y="-1.467684375"/>
 <vertex x="-0.7333125" y="-1.468471875"/>
 <vertex x="-0.65720625" y="-1.43965625"/>
@@ -11164,7 +10048,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="-1.353890625"/>
 <vertex x="-0.971865625" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450590625" y="-1.467684375"/>
 <vertex x="-0.284178125" y="-1.468471875"/>
 <vertex x="-0.208065625" y="-1.43965625"/>
@@ -11178,7 +10062,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="-1.353890625"/>
 <vertex x="-0.52273125" y="-1.430025"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001453125" y="-1.467684375"/>
 <vertex x="0.164959375" y="-1.468471875"/>
 <vertex x="0.241065625" y="-1.43965625"/>
@@ -11192,7 +10076,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="-1.353890625"/>
 <vertex x="-0.07359375" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447684375" y="-1.467684375"/>
 <vertex x="0.614096875" y="-1.468471875"/>
 <vertex x="0.690203125" y="-1.43965625"/>
@@ -11206,7 +10090,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="-1.353890625"/>
 <vertex x="0.37554375" y="-1.430021875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.89681875" y="-1.467684375"/>
 <vertex x="1.063234375" y="-1.468471875"/>
 <vertex x="1.13934375" y="-1.43965625"/>
@@ -11220,7 +10104,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="-1.353890625"/>
 <vertex x="0.824678125" y="-1.430025"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450584375" y="-1.018540625"/>
 <vertex x="-0.284184375" y="-1.019346875"/>
 <vertex x="-0.208059375" y="-0.9905375"/>
@@ -11234,7 +10118,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="-0.90475625"/>
 <vertex x="-0.5227375" y="-0.980890625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001446875" y="-1.018540625"/>
 <vertex x="0.16495625" y="-1.019346875"/>
 <vertex x="0.241078125" y="-0.9905375"/>
@@ -11248,7 +10132,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="-0.90475625"/>
 <vertex x="-0.0736" y="-0.980890625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.28646875" y="-6.408184375"/>
 <vertex x="6.45286875" y="-6.408990625"/>
 <vertex x="6.528990625" y="-6.3801875"/>
@@ -11262,7 +10146,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.18550625" y="-6.29440625"/>
 <vertex x="6.2143125" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.73560625" y="-6.408184375"/>
 <vertex x="6.902009375" y="-6.408990625"/>
 <vertex x="6.978128125" y="-6.3801875"/>
@@ -11276,7 +10160,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.63464375" y="-6.29440625"/>
 <vertex x="6.66345" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.18474375" y="-6.408184375"/>
 <vertex x="7.35114375" y="-6.408990625"/>
 <vertex x="7.427265625" y="-6.3801875"/>
@@ -11290,7 +10174,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.08378125" y="-6.29440625"/>
 <vertex x="7.1125875" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="5.837328125" y="-5.959040625"/>
 <vertex x="6.003734375" y="-5.959846875"/>
 <vertex x="6.079853125" y="-5.93104375"/>
@@ -11304,7 +10188,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="5.73636875" y="-5.84526875"/>
 <vertex x="5.765171875" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.286465625" y="-5.959040625"/>
 <vertex x="6.45286875" y="-5.959846875"/>
 <vertex x="6.528990625" y="-5.93104375"/>
@@ -11318,7 +10202,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.18550625" y="-5.845265625"/>
 <vertex x="6.214309375" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.2864625" y="-5.509921875"/>
 <vertex x="6.452875" y="-5.5107125"/>
 <vertex x="6.528984375" y="-5.481896875"/>
@@ -11332,7 +10216,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.18550625" y="-5.39613125"/>
 <vertex x="6.21431875" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.7356" y="-5.509921875"/>
 <vertex x="6.9020125" y="-5.5107125"/>
 <vertex x="6.978121875" y="-5.481896875"/>
@@ -11346,7 +10230,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.63464375" y="-5.39613125"/>
 <vertex x="6.66345625" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.1847375" y="-5.509921875"/>
 <vertex x="7.351146875" y="-5.5107125"/>
 <vertex x="7.427253125" y="-5.481896875"/>
@@ -11360,7 +10244,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.08378125" y="-5.39613125"/>
 <vertex x="7.11259375" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.286465625" y="-4.6116375"/>
 <vertex x="6.452865625" y="-4.6124375"/>
 <vertex x="6.52899375" y="-4.583634375"/>
@@ -11374,7 +10258,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.18550625" y="-4.4978625"/>
 <vertex x="6.214309375" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.735603125" y="-4.6116375"/>
 <vertex x="6.90200625" y="-4.6124375"/>
 <vertex x="6.97813125" y="-4.583634375"/>
@@ -11388,7 +10272,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.63464375" y="-4.497865625"/>
 <vertex x="6.663446875" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.184740625" y="-4.6116375"/>
 <vertex x="7.351140625" y="-4.6124375"/>
 <vertex x="7.42726875" y="-4.583634375"/>
@@ -11402,7 +10286,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.08378125" y="-4.4978625"/>
 <vertex x="7.112584375" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.633878125" y="-6.408184375"/>
 <vertex x="7.800278125" y="-6.408990625"/>
 <vertex x="7.8764" y="-6.3801875"/>
@@ -11416,7 +10300,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.532915625" y="-6.29440625"/>
 <vertex x="7.561721875" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="8.083015625" y="-6.408184375"/>
 <vertex x="8.24941875" y="-6.408990625"/>
 <vertex x="8.3255375" y="-6.380184375"/>
@@ -11430,7 +10314,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.982053125" y="-6.29440625"/>
 <vertex x="8.010859375" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.633875" y="-5.959040625"/>
 <vertex x="7.800278125" y="-5.959846875"/>
 <vertex x="7.8764" y="-5.93104375"/>
@@ -11444,7 +10328,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.532915625" y="-5.84526875"/>
 <vertex x="7.56171875" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="8.0830125" y="-5.959040625"/>
 <vertex x="8.24941875" y="-5.959846875"/>
 <vertex x="8.3255375" y="-5.931040625"/>
@@ -11458,7 +10342,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.982053125" y="-5.84526875"/>
 <vertex x="8.01085625" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.633875" y="-5.509921875"/>
 <vertex x="7.80028125" y="-5.5107125"/>
 <vertex x="7.87639375" y="-5.481896875"/>
@@ -11472,7 +10356,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.532915625" y="-5.39613125"/>
 <vertex x="7.56173125" y="-5.472246875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="8.0830125" y="-5.509921875"/>
 <vertex x="8.249421875" y="-5.5107125"/>
 <vertex x="8.32553125" y="-5.481896875"/>
@@ -11486,7 +10370,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.982053125" y="-5.39613125"/>
 <vertex x="8.01086875" y="-5.472246875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.633871875" y="-5.06078125"/>
 <vertex x="7.80028125" y="-5.06156875"/>
 <vertex x="7.87639375" y="-5.032753125"/>
@@ -11500,7 +10384,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.532915625" y="-4.9469875"/>
 <vertex x="7.56173125" y="-5.02310625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="8.083009375" y="-5.06078125"/>
 <vertex x="8.249421875" y="-5.06156875"/>
 <vertex x="8.32553125" y="-5.032753125"/>
@@ -11514,7 +10398,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.982053125" y="-4.9469875"/>
 <vertex x="8.01086875" y="-5.02310625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.633875" y="-4.6116375"/>
 <vertex x="7.800275" y="-4.6124375"/>
 <vertex x="7.876403125" y="-4.583634375"/>
@@ -11528,7 +10412,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.532915625" y="-4.497865625"/>
 <vertex x="7.56171875" y="-4.573984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.2864625" y="-3.26423125"/>
 <vertex x="6.452875" y="-3.265021875"/>
 <vertex x="6.528984375" y="-3.23620625"/>
@@ -11542,7 +10426,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.18550625" y="-3.150440625"/>
 <vertex x="6.21431875" y="-3.226571875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.7356" y="-3.26423125"/>
 <vertex x="6.9020125" y="-3.265021875"/>
 <vertex x="6.978121875" y="-3.23620625"/>
@@ -11556,7 +10440,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.63464375" y="-3.150440625"/>
 <vertex x="6.66345625" y="-3.226571875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.1847375" y="-3.26423125"/>
 <vertex x="7.351146875" y="-3.265021875"/>
 <vertex x="7.42725625" y="-3.23620625"/>
@@ -11570,7 +10454,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.08378125" y="-3.150440625"/>
 <vertex x="7.11259375" y="-3.226571875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="5.837328125" y="-2.8150875"/>
 <vertex x="6.003734375" y="-2.81589375"/>
 <vertex x="6.079853125" y="-2.787090625"/>
@@ -11584,7 +10468,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="5.73636875" y="-2.701315625"/>
 <vertex x="5.765171875" y="-2.777434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.286465625" y="-2.8150875"/>
 <vertex x="6.45286875" y="-2.81589375"/>
 <vertex x="6.528990625" y="-2.787090625"/>
@@ -11598,7 +10482,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.18550625" y="-2.7013125"/>
 <vertex x="6.214309375" y="-2.777434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="5.837328125" y="-2.36594375"/>
 <vertex x="6.003734375" y="-2.36675"/>
 <vertex x="6.079853125" y="-2.337946875"/>
@@ -11612,7 +10496,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="5.73636875" y="-2.252171875"/>
 <vertex x="5.765171875" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.286465625" y="-2.36594375"/>
 <vertex x="6.45286875" y="-2.36675"/>
 <vertex x="6.528990625" y="-2.337946875"/>
@@ -11626,7 +10510,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.18550625" y="-2.25216875"/>
 <vertex x="6.214309375" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="5.837325" y="-1.916825"/>
 <vertex x="6.0037375" y="-1.917615625"/>
 <vertex x="6.079846875" y="-1.8888"/>
@@ -11640,7 +10524,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="5.73636875" y="-1.803034375"/>
 <vertex x="5.76518125" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.2864625" y="-1.916825"/>
 <vertex x="6.452875" y="-1.917615625"/>
 <vertex x="6.528984375" y="-1.8888"/>
@@ -11654,7 +10538,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.18550625" y="-1.803034375"/>
 <vertex x="6.21431875" y="-1.879165625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.286459375" y="-1.467684375"/>
 <vertex x="6.452871875" y="-1.468471875"/>
 <vertex x="6.528984375" y="-1.43965625"/>
@@ -11668,7 +10552,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.18550625" y="-1.353890625"/>
 <vertex x="6.21431875" y="-1.430025"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="6.735596875" y="-1.467684375"/>
 <vertex x="6.9020125" y="-1.468471875"/>
 <vertex x="6.978121875" y="-1.43965625"/>
@@ -11682,7 +10566,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.63464375" y="-1.353890625"/>
 <vertex x="6.66345625" y="-1.430025"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.184734375" y="-1.467684375"/>
 <vertex x="7.351146875" y="-1.468471875"/>
 <vertex x="7.427253125" y="-1.43965625"/>
@@ -11696,7 +10580,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.08378125" y="-1.353890625"/>
 <vertex x="7.11259375" y="-1.430025"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.633875" y="-3.26423125"/>
 <vertex x="7.80028125" y="-3.265021875"/>
 <vertex x="7.87639375" y="-3.23620625"/>
@@ -11710,7 +10594,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.532915625" y="-3.150440625"/>
 <vertex x="7.56173125" y="-3.22655625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.633875" y="-2.8150875"/>
 <vertex x="7.800278125" y="-2.81589375"/>
 <vertex x="7.8764" y="-2.787090625"/>
@@ -11724,7 +10608,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.532915625" y="-2.701315625"/>
 <vertex x="7.56171875" y="-2.777434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="8.0830125" y="-2.8150875"/>
 <vertex x="8.24941875" y="-2.81589375"/>
 <vertex x="8.3255375" y="-2.7870875"/>
@@ -11738,7 +10622,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.982053125" y="-2.701315625"/>
 <vertex x="8.01085625" y="-2.777434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.633875" y="-2.36594375"/>
 <vertex x="7.800278125" y="-2.36675"/>
 <vertex x="7.8764" y="-2.337946875"/>
@@ -11752,7 +10636,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.532915625" y="-2.252171875"/>
 <vertex x="7.56171875" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="8.0830125" y="-2.36594375"/>
 <vertex x="8.24941875" y="-2.36675"/>
 <vertex x="8.3255375" y="-2.33794375"/>
@@ -11766,7 +10650,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.982053125" y="-2.252171875"/>
 <vertex x="8.01085625" y="-2.328290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.633875" y="-1.916825"/>
 <vertex x="7.80028125" y="-1.917615625"/>
 <vertex x="7.87639375" y="-1.8888"/>
@@ -11780,7 +10664,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.532915625" y="-1.803034375"/>
 <vertex x="7.56173125" y="-1.879153125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="8.0830125" y="-1.916825"/>
 <vertex x="8.249421875" y="-1.917615625"/>
 <vertex x="8.32553125" y="-1.8888"/>
@@ -11794,7 +10678,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.982053125" y="-1.803034375"/>
 <vertex x="8.01086875" y="-1.879153125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="7.633871875" y="-1.467684375"/>
 <vertex x="7.80028125" y="-1.468471875"/>
 <vertex x="7.87639375" y="-1.43965625"/>
@@ -11808,7 +10692,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="7.532915625" y="-1.353890625"/>
 <vertex x="7.56173125" y="-1.430009375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.040784375" y="-6.408184375"/>
 <vertex x="4.2071875" y="-6.408990625"/>
 <vertex x="4.28330625" y="-6.3801875"/>
@@ -11822,7 +10706,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.939825" y="-6.29440625"/>
 <vertex x="3.96863125" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.48991875" y="-6.408184375"/>
 <vertex x="4.656325" y="-6.408990625"/>
 <vertex x="4.73244375" y="-6.3801875"/>
@@ -11836,7 +10720,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="4.388959375" y="-6.29440625"/>
 <vertex x="4.417765625" y="-6.3705375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.040784375" y="-5.959040625"/>
 <vertex x="4.2071875" y="-5.959846875"/>
 <vertex x="4.28330625" y="-5.93104375"/>
@@ -11850,7 +10734,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.939825" y="-5.8452625"/>
 <vertex x="3.968628125" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.48991875" y="-5.959040625"/>
 <vertex x="4.656325" y="-5.959846875"/>
 <vertex x="4.73244375" y="-5.93104375"/>
@@ -11864,7 +10748,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="4.388959375" y="-5.8452625"/>
 <vertex x="4.4177625" y="-5.9213875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.04078125" y="-5.509921875"/>
 <vertex x="4.207190625" y="-5.5107125"/>
 <vertex x="4.2833" y="-5.481896875"/>
@@ -11878,7 +10762,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.939825" y="-5.39613125"/>
 <vertex x="3.968634375" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.489915625" y="-5.509921875"/>
 <vertex x="4.656328125" y="-5.5107125"/>
 <vertex x="4.7324375" y="-5.481896875"/>
@@ -11892,7 +10776,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="4.388959375" y="-5.39613125"/>
 <vertex x="4.417771875" y="-5.4722625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.040778125" y="-5.06078125"/>
 <vertex x="4.207190625" y="-5.06156875"/>
 <vertex x="4.2833" y="-5.032753125"/>
@@ -11906,7 +10790,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.939825" y="-4.9469875"/>
 <vertex x="3.9686375" y="-5.02311875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.4899125" y="-5.06078125"/>
 <vertex x="4.656328125" y="-5.06156875"/>
 <vertex x="4.7324375" y="-5.032753125"/>
@@ -11920,7 +10804,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="4.388959375" y="-4.9469875"/>
 <vertex x="4.417771875" y="-5.023121875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.04078125" y="-4.16249375"/>
 <vertex x="4.20718125" y="-4.16329375"/>
 <vertex x="4.28330625" y="-4.134490625"/>
@@ -11934,7 +10818,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.939825" y="-4.048715625"/>
 <vertex x="3.968628125" y="-4.12484375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.489915625" y="-4.16249375"/>
 <vertex x="4.656315625" y="-4.16329375"/>
 <vertex x="4.732446875" y="-4.1344875"/>
@@ -11948,7 +10832,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="4.388959375" y="-4.048715625"/>
 <vertex x="4.4177625" y="-4.12484375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.69336875" y="-6.8572"/>
 <vertex x="2.85978125" y="-6.8579875"/>
 <vertex x="2.935890625" y="-6.829171875"/>
@@ -11962,7 +10846,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="-6.7434125"/>
 <vertex x="2.621225" y="-6.8195375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.142503125" y="-6.8572"/>
 <vertex x="3.30891875" y="-6.8579875"/>
 <vertex x="3.385028125" y="-6.829171875"/>
@@ -11976,7 +10860,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.04155" y="-6.74340625"/>
 <vertex x="3.0703625" y="-6.819540625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.591640625" y="-6.8572"/>
 <vertex x="3.758053125" y="-6.8579875"/>
 <vertex x="3.834159375" y="-6.829171875"/>
@@ -11990,7 +10874,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.4906875" y="-6.74340625"/>
 <vertex x="3.5195" y="-6.819540625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.040778125" y="-6.8572"/>
 <vertex x="4.207190625" y="-6.8579875"/>
 <vertex x="4.283303125" y="-6.829171875"/>
@@ -12004,7 +10888,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.939825" y="-6.74340625"/>
 <vertex x="3.9686375" y="-6.819540625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.594540625" y="3.0237"/>
 <vertex x="-3.4281375" y="3.02289375"/>
 <vertex x="-3.35201875" y="3.051696875"/>
@@ -12018,7 +10902,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="3.137471875"/>
 <vertex x="-3.666696875" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.59454375" y="3.47281875"/>
 <vertex x="-3.42813125" y="3.472028125"/>
 <vertex x="-3.352021875" y="3.50084375"/>
@@ -12032,7 +10916,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="3.586609375"/>
 <vertex x="-3.6666875" y="3.510478125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.59454375" y="3.9219625"/>
 <vertex x="-3.42813125" y="3.921171875"/>
 <vertex x="-3.352021875" y="3.9499875"/>
@@ -12046,7 +10930,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="4.035753125"/>
 <vertex x="-3.6666875" y="3.959621875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.24713125" y="1.227153125"/>
 <vertex x="-2.080725" y="1.226346875"/>
 <vertex x="-2.00460625" y="1.25515"/>
@@ -12060,7 +10944,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="1.340925"/>
 <vertex x="-2.3192875" y="1.26480625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.79799375" y="1.227153125"/>
 <vertex x="-1.6315875" y="1.226346875"/>
 <vertex x="-1.55546875" y="1.25515"/>
@@ -12074,7 +10958,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.898953125" y="1.340928125"/>
 <vertex x="-1.87015" y="1.26480625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.696271875" y="1.67626875"/>
 <vertex x="-2.529859375" y="1.67548125"/>
 <vertex x="-2.45375" y="1.704296875"/>
@@ -12088,7 +10972,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.797228125" y="1.79005625"/>
 <vertex x="-2.768415625" y="1.71393125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.2471375" y="1.67626875"/>
 <vertex x="-2.080721875" y="1.67548125"/>
 <vertex x="-2.0046125" y="1.704296875"/>
@@ -12102,7 +10986,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="1.7900625"/>
 <vertex x="-2.319278125" y="1.713928125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.798" y="1.67626875"/>
 <vertex x="-1.631584375" y="1.67548125"/>
 <vertex x="-1.555475" y="1.704296875"/>
@@ -12116,7 +11000,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.898953125" y="1.7900625"/>
 <vertex x="-1.870140625" y="1.713928125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.145409375" y="2.1254125"/>
 <vertex x="-2.978996875" y="2.124625"/>
 <vertex x="-2.902890625" y="2.153440625"/>
@@ -12130,7 +11014,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.2463625" y="2.23920625"/>
 <vertex x="-3.21755" y="2.163075"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.696271875" y="2.1254125"/>
 <vertex x="-2.529859375" y="2.124625"/>
 <vertex x="-2.45375" y="2.153440625"/>
@@ -12144,7 +11028,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.797228125" y="2.2392"/>
 <vertex x="-2.768415625" y="2.163075"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.2471375" y="2.1254125"/>
 <vertex x="-2.080721875" y="2.124625"/>
 <vertex x="-2.0046125" y="2.153440625"/>
@@ -12158,7 +11042,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="2.23920625"/>
 <vertex x="-2.319278125" y="2.163071875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.798" y="2.1254125"/>
 <vertex x="-1.631584375" y="2.124625"/>
 <vertex x="-1.555475" y="2.153440625"/>
@@ -12172,7 +11056,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.898953125" y="2.23920625"/>
 <vertex x="-1.870140625" y="2.163071875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.348859375" y="0.778009375"/>
 <vertex x="-1.182453125" y="0.777203125"/>
 <vertex x="-1.106334375" y="0.80600625"/>
@@ -12186,7 +11070,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="0.8917875"/>
 <vertex x="-1.4210125" y="0.8156625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899721875" y="0.778009375"/>
 <vertex x="-0.733315625" y="0.777203125"/>
 <vertex x="-0.657196875" y="0.80600625"/>
@@ -12200,7 +11084,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="0.8917875"/>
 <vertex x="-0.971875" y="0.8156625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450584375" y="0.778009375"/>
 <vertex x="-0.28418125" y="0.777203125"/>
 <vertex x="-0.208059375" y="0.80600625"/>
@@ -12214,7 +11098,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="0.891784375"/>
 <vertex x="-0.522740625" y="0.8156625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001446875" y="0.778009375"/>
 <vertex x="0.164959375" y="0.777203125"/>
 <vertex x="0.241078125" y="0.80600625"/>
@@ -12228,7 +11112,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="0.89178125"/>
 <vertex x="-0.073603125" y="0.8156625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.348859375" y="1.227153125"/>
 <vertex x="-1.182453125" y="1.226346875"/>
 <vertex x="-1.106334375" y="1.25515"/>
@@ -12242,7 +11126,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="1.34093125"/>
 <vertex x="-1.4210125" y="1.26480625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899721875" y="1.227153125"/>
 <vertex x="-0.733315625" y="1.226346875"/>
 <vertex x="-0.657196875" y="1.25515"/>
@@ -12256,7 +11140,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="1.34093125"/>
 <vertex x="-0.971875" y="1.26480625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450584375" y="1.227153125"/>
 <vertex x="-0.28418125" y="1.226346875"/>
 <vertex x="-0.208059375" y="1.25515"/>
@@ -12270,7 +11154,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="1.340928125"/>
 <vertex x="-0.522740625" y="1.26480625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001446875" y="1.227153125"/>
 <vertex x="0.164959375" y="1.226346875"/>
 <vertex x="0.241078125" y="1.25515"/>
@@ -12284,7 +11168,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="1.340925"/>
 <vertex x="-0.073603125" y="1.26480625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.3488625" y="1.67626875"/>
 <vertex x="-1.18245" y="1.67548125"/>
 <vertex x="-1.10634375" y="1.704296875"/>
@@ -12298,7 +11182,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="1.7900625"/>
 <vertex x="-1.421003125" y="1.71393125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899725" y="1.67626875"/>
 <vertex x="-0.7333125" y="1.67548125"/>
 <vertex x="-0.65720625" y="1.704296875"/>
@@ -12312,7 +11196,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="1.7900625"/>
 <vertex x="-0.971865625" y="1.71393125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450590625" y="1.67626875"/>
 <vertex x="-0.284178125" y="1.67548125"/>
 <vertex x="-0.208065625" y="1.704296875"/>
@@ -12326,7 +11210,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="1.7900625"/>
 <vertex x="-0.52273125" y="1.713928125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001453125" y="1.67626875"/>
 <vertex x="0.1649625" y="1.67548125"/>
 <vertex x="0.241071875" y="1.704296875"/>
@@ -12340,7 +11224,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="1.7900625"/>
 <vertex x="-0.07359375" y="1.713928125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.3488625" y="2.1254125"/>
 <vertex x="-1.18245" y="2.124625"/>
 <vertex x="-1.10634375" y="2.153440625"/>
@@ -12354,7 +11238,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="2.23920625"/>
 <vertex x="-1.421003125" y="2.163075"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899725" y="2.1254125"/>
 <vertex x="-0.7333125" y="2.124625"/>
 <vertex x="-0.65720625" y="2.153440625"/>
@@ -12368,7 +11252,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="2.23920625"/>
 <vertex x="-0.971865625" y="2.163075"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450590625" y="2.1254125"/>
 <vertex x="-0.284178125" y="2.124625"/>
 <vertex x="-0.208065625" y="2.153440625"/>
@@ -12382,7 +11266,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="2.23920625"/>
 <vertex x="-0.52273125" y="2.163071875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001453125" y="2.1254125"/>
 <vertex x="0.1649625" y="2.124625"/>
 <vertex x="0.241071875" y="2.153440625"/>
@@ -12396,7 +11280,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="2.23920625"/>
 <vertex x="-0.07359375" y="2.163071875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447690625" y="0.778009375"/>
 <vertex x="0.61409375" y="0.777203125"/>
 <vertex x="0.6902125" y="0.80600625"/>
@@ -12410,7 +11294,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="0.89178125"/>
 <vertex x="0.375534375" y="0.8156625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896825" y="0.778009375"/>
 <vertex x="1.06323125" y="0.777203125"/>
 <vertex x="1.13935" y="0.80600625"/>
@@ -12424,7 +11308,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="0.891784375"/>
 <vertex x="0.82466875" y="0.8156625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447690625" y="1.227153125"/>
 <vertex x="0.61409375" y="1.226346875"/>
 <vertex x="0.6902125" y="1.25515"/>
@@ -12438,7 +11322,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="1.340925"/>
 <vertex x="0.375534375" y="1.26480625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896825" y="1.227153125"/>
 <vertex x="1.06323125" y="1.226346875"/>
 <vertex x="1.13935" y="1.25515"/>
@@ -12452,7 +11336,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="1.340928125"/>
 <vertex x="0.82466875" y="1.26480625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.3459625" y="1.227153125"/>
 <vertex x="1.512365625" y="1.226346875"/>
 <vertex x="1.588484375" y="1.25515"/>
@@ -12466,7 +11350,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.245003125" y="1.34093125"/>
 <vertex x="1.27380625" y="1.26480625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.7951" y="1.227153125"/>
 <vertex x="1.96150625" y="1.226346875"/>
 <vertex x="2.037625" y="1.25515"/>
@@ -12480,7 +11364,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.694140625" y="1.34093125"/>
 <vertex x="1.72294375" y="1.26480625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447684375" y="1.67626875"/>
 <vertex x="0.614096875" y="1.67548125"/>
 <vertex x="0.690209375" y="1.704296875"/>
@@ -12494,7 +11378,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="1.7900625"/>
 <vertex x="0.37554375" y="1.713928125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.89681875" y="1.67626875"/>
 <vertex x="1.063234375" y="1.67548125"/>
 <vertex x="1.13934375" y="1.704296875"/>
@@ -12508,7 +11392,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="1.7900625"/>
 <vertex x="0.824678125" y="1.713928125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.34595625" y="1.67626875"/>
 <vertex x="1.51236875" y="1.67548125"/>
 <vertex x="1.58848125" y="1.704296875"/>
@@ -12522,7 +11406,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.245003125" y="1.7900625"/>
 <vertex x="1.273815625" y="1.713928125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.79509375" y="1.67626875"/>
 <vertex x="1.96150625" y="1.67548125"/>
 <vertex x="2.037615625" y="1.704296875"/>
@@ -12536,7 +11420,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.694140625" y="1.7900625"/>
 <vertex x="1.722953125" y="1.713928125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447684375" y="2.1254125"/>
 <vertex x="0.614096875" y="2.124625"/>
 <vertex x="0.690209375" y="2.153440625"/>
@@ -12550,7 +11434,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="2.23920625"/>
 <vertex x="0.37554375" y="2.163071875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.89681875" y="2.1254125"/>
 <vertex x="1.063234375" y="2.124625"/>
 <vertex x="1.13934375" y="2.153440625"/>
@@ -12564,7 +11448,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="2.23920625"/>
 <vertex x="0.824678125" y="2.163071875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.34595625" y="2.1254125"/>
 <vertex x="1.51236875" y="2.124625"/>
 <vertex x="1.58848125" y="2.153440625"/>
@@ -12578,7 +11462,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.245003125" y="2.23920625"/>
 <vertex x="1.273815625" y="2.163071875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.79509375" y="2.1254125"/>
 <vertex x="1.96150625" y="2.124625"/>
 <vertex x="2.037615625" y="2.153440625"/>
@@ -12592,7 +11476,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.694140625" y="2.23920625"/>
 <vertex x="1.722953125" y="2.163071875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.145409375" y="2.574559375"/>
 <vertex x="-2.979" y="2.573753125"/>
 <vertex x="-2.90288125" y="2.60255625"/>
@@ -12606,7 +11490,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.2463625" y="2.6883375"/>
 <vertex x="-3.21755625" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.696265625" y="2.574559375"/>
 <vertex x="-2.5298625" y="2.573753125"/>
 <vertex x="-2.45374375" y="2.60255625"/>
@@ -12620,7 +11504,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.797228125" y="2.6883375"/>
 <vertex x="-2.768421875" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.247128125" y="2.574559375"/>
 <vertex x="-2.080725" y="2.573753125"/>
 <vertex x="-2.00460625" y="2.60255625"/>
@@ -12634,7 +11518,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="2.6883375"/>
 <vertex x="-2.319284375" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.797990625" y="2.574559375"/>
 <vertex x="-1.6315875" y="2.573753125"/>
 <vertex x="-1.55546875" y="2.60255625"/>
@@ -12648,7 +11532,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.898953125" y="2.6883375"/>
 <vertex x="-1.870146875" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.14540625" y="3.0237"/>
 <vertex x="-2.979" y="3.02289375"/>
 <vertex x="-2.90288125" y="3.051696875"/>
@@ -12662,7 +11546,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.2463625" y="3.137478125"/>
 <vertex x="-3.217559375" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.69626875" y="3.0237"/>
 <vertex x="-2.5298625" y="3.02289375"/>
 <vertex x="-2.45374375" y="3.051696875"/>
@@ -12676,7 +11560,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.797228125" y="3.137471875"/>
 <vertex x="-2.768425" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.24713125" y="3.0237"/>
 <vertex x="-2.080725" y="3.02289375"/>
 <vertex x="-2.00460625" y="3.051696875"/>
@@ -12690,7 +11574,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="3.137471875"/>
 <vertex x="-2.3192875" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.79799375" y="3.0237"/>
 <vertex x="-1.6315875" y="3.02289375"/>
 <vertex x="-1.55546875" y="3.051696875"/>
@@ -12704,7 +11588,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.898953125" y="3.137475"/>
 <vertex x="-1.87015" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.145409375" y="3.47281875"/>
 <vertex x="-2.978996875" y="3.472028125"/>
 <vertex x="-2.9028875" y="3.50084375"/>
@@ -12718,7 +11602,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.2463625" y="3.586609375"/>
 <vertex x="-3.21755" y="3.51048125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.696271875" y="3.47281875"/>
 <vertex x="-2.529859375" y="3.472028125"/>
 <vertex x="-2.45375" y="3.50084375"/>
@@ -12732,7 +11616,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.797228125" y="3.58660625"/>
 <vertex x="-2.768415625" y="3.51048125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.247134375" y="3.47281875"/>
 <vertex x="-2.080721875" y="3.472028125"/>
 <vertex x="-2.0046125" y="3.50084375"/>
@@ -12746,7 +11630,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="3.586609375"/>
 <vertex x="-2.319278125" y="3.510478125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.797996875" y="3.47281875"/>
 <vertex x="-1.631584375" y="3.472028125"/>
 <vertex x="-1.555475" y="3.50084375"/>
@@ -12760,7 +11644,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.898953125" y="3.586609375"/>
 <vertex x="-1.870140625" y="3.510478125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.145409375" y="3.9219625"/>
 <vertex x="-2.978996875" y="3.921171875"/>
 <vertex x="-2.902890625" y="3.9499875"/>
@@ -12774,7 +11658,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.2463625" y="4.035753125"/>
 <vertex x="-3.21755" y="3.959625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.3488625" y="2.574559375"/>
 <vertex x="-1.182453125" y="2.573753125"/>
 <vertex x="-1.106334375" y="2.60255625"/>
@@ -12788,7 +11672,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="2.6883375"/>
 <vertex x="-1.421009375" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899725" y="2.574559375"/>
 <vertex x="-0.733315625" y="2.573753125"/>
 <vertex x="-0.657196875" y="2.60255625"/>
@@ -12802,7 +11686,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="2.6883375"/>
 <vertex x="-0.971871875" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.45058125" y="2.574559375"/>
 <vertex x="-0.28418125" y="2.573753125"/>
 <vertex x="-0.208059375" y="2.60255625"/>
@@ -12816,7 +11700,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="2.6883375"/>
 <vertex x="-0.5227375" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.00144375" y="2.574559375"/>
 <vertex x="0.164959375" y="2.573753125"/>
 <vertex x="0.241078125" y="2.60255625"/>
@@ -12830,7 +11714,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="2.6883375"/>
 <vertex x="-0.0736" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.348859375" y="3.0237"/>
 <vertex x="-1.182453125" y="3.02289375"/>
 <vertex x="-1.106334375" y="3.051696875"/>
@@ -12844,7 +11728,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="3.137478125"/>
 <vertex x="-1.4210125" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899721875" y="3.0237"/>
 <vertex x="-0.733315625" y="3.02289375"/>
 <vertex x="-0.657196875" y="3.051696875"/>
@@ -12858,7 +11742,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="3.137478125"/>
 <vertex x="-0.971875" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450584375" y="3.0237"/>
 <vertex x="-0.28418125" y="3.02289375"/>
 <vertex x="-0.208059375" y="3.051696875"/>
@@ -12872,7 +11756,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="3.137475"/>
 <vertex x="-0.522740625" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001446875" y="3.0237"/>
 <vertex x="0.164959375" y="3.02289375"/>
 <vertex x="0.241078125" y="3.051696875"/>
@@ -12886,7 +11770,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="3.137475"/>
 <vertex x="-0.073603125" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.3488625" y="3.47281875"/>
 <vertex x="-1.18245" y="3.472028125"/>
 <vertex x="-1.106340625" y="3.50084375"/>
@@ -12900,7 +11784,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="3.586609375"/>
 <vertex x="-1.421003125" y="3.51048125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899725" y="3.47281875"/>
 <vertex x="-0.7333125" y="3.472028125"/>
 <vertex x="-0.657203125" y="3.50084375"/>
@@ -12914,7 +11798,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="3.586609375"/>
 <vertex x="-0.971865625" y="3.51048125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.4505875" y="3.47281875"/>
 <vertex x="-0.284175" y="3.472028125"/>
 <vertex x="-0.208065625" y="3.50084375"/>
@@ -12928,7 +11812,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="3.586609375"/>
 <vertex x="-0.52273125" y="3.510478125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.00145" y="3.47281875"/>
 <vertex x="0.1649625" y="3.472028125"/>
 <vertex x="0.241071875" y="3.50084375"/>
@@ -12942,7 +11826,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="3.586609375"/>
 <vertex x="-0.07359375" y="3.510478125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.4505875" y="3.9219625"/>
 <vertex x="-0.284175" y="3.921171875"/>
 <vertex x="-0.208065625" y="3.9499875"/>
@@ -12956,7 +11840,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="4.035753125"/>
 <vertex x="-0.52273125" y="3.959621875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.00145" y="3.9219625"/>
 <vertex x="0.1649625" y="3.921171875"/>
 <vertex x="0.241071875" y="3.9499875"/>
@@ -12970,7 +11854,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="4.035753125"/>
 <vertex x="-0.07359375" y="3.959621875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.44769375" y="2.574559375"/>
 <vertex x="0.61409375" y="2.573753125"/>
 <vertex x="0.690215625" y="2.60255625"/>
@@ -12984,7 +11868,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="2.6883375"/>
 <vertex x="0.3755375" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896828125" y="2.574559375"/>
 <vertex x="1.06323125" y="2.573753125"/>
 <vertex x="1.13935" y="2.60255625"/>
@@ -12998,7 +11882,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="2.6883375"/>
 <vertex x="0.824671875" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.345965625" y="2.574559375"/>
 <vertex x="1.512365625" y="2.573753125"/>
 <vertex x="1.5884875" y="2.60255625"/>
@@ -13012,7 +11896,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.245003125" y="2.6883375"/>
 <vertex x="1.273809375" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.7951" y="2.574559375"/>
 <vertex x="1.96150625" y="2.573753125"/>
 <vertex x="2.037625" y="2.60255625"/>
@@ -13026,7 +11910,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.694140625" y="2.6883375"/>
 <vertex x="1.722946875" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447690625" y="3.0237"/>
 <vertex x="0.61409375" y="3.02289375"/>
 <vertex x="0.6902125" y="3.051696875"/>
@@ -13040,7 +11924,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="3.137475"/>
 <vertex x="0.375534375" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896825" y="3.0237"/>
 <vertex x="1.06323125" y="3.02289375"/>
 <vertex x="1.13935" y="3.051696875"/>
@@ -13054,7 +11938,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="3.137475"/>
 <vertex x="0.82466875" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.3459625" y="3.0237"/>
 <vertex x="1.512365625" y="3.02289375"/>
 <vertex x="1.5884875" y="3.051696875"/>
@@ -13068,7 +11952,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.245003125" y="3.137475"/>
 <vertex x="1.27380625" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.7951" y="3.0237"/>
 <vertex x="1.96150625" y="3.02289375"/>
 <vertex x="2.037625" y="3.051696875"/>
@@ -13082,7 +11966,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.694140625" y="3.137478125"/>
 <vertex x="1.72294375" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.4476875" y="3.47281875"/>
 <vertex x="0.6141" y="3.472028125"/>
 <vertex x="0.690209375" y="3.50084375"/>
@@ -13096,7 +11980,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="3.586609375"/>
 <vertex x="0.37554375" y="3.510478125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896821875" y="3.47281875"/>
 <vertex x="1.063234375" y="3.472028125"/>
 <vertex x="1.13934375" y="3.50084375"/>
@@ -13110,7 +11994,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="3.586609375"/>
 <vertex x="0.824678125" y="3.510478125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.345959375" y="3.47281875"/>
 <vertex x="1.512371875" y="3.472028125"/>
 <vertex x="1.58848125" y="3.50084375"/>
@@ -13124,7 +12008,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.245003125" y="3.586609375"/>
 <vertex x="1.273815625" y="3.510478125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.795096875" y="3.47281875"/>
 <vertex x="1.961509375" y="3.472028125"/>
 <vertex x="2.037615625" y="3.50084375"/>
@@ -13138,7 +12022,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.694140625" y="3.586609375"/>
 <vertex x="1.722953125" y="3.510478125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.59164375" y="-0.120278125"/>
 <vertex x="3.758053125" y="-0.12106875"/>
 <vertex x="3.8341625" y="-0.092253125"/>
@@ -13152,7 +12036,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.4906875" y="-0.0064875"/>
 <vertex x="3.5195" y="-0.08261875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.14250625" y="0.328865625"/>
 <vertex x="3.30891875" y="0.328075"/>
 <vertex x="3.385028125" y="0.356890625"/>
@@ -13166,7 +12050,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.04155" y="0.44265625"/>
 <vertex x="3.0703625" y="0.366525"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.040778125" y="-0.120278125"/>
 <vertex x="4.207190625" y="-0.12106875"/>
 <vertex x="4.2833" y="-0.092253125"/>
@@ -13180,7 +12064,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.939825" y="-0.0064875"/>
 <vertex x="3.9686375" y="-0.082615625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="4.040778125" y="0.328865625"/>
 <vertex x="4.207190625" y="0.328075"/>
 <vertex x="4.2833" y="0.356890625"/>
@@ -13194,7 +12078,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.939825" y="0.44265625"/>
 <vertex x="3.9686375" y="0.366528125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.693371875" y="0.778009375"/>
 <vertex x="2.859778125" y="0.777203125"/>
 <vertex x="2.935896875" y="0.80600625"/>
@@ -13208,7 +12092,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="0.89178125"/>
 <vertex x="2.621215625" y="0.8156625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.591646875" y="0.778009375"/>
 <vertex x="3.75805" y="0.777203125"/>
 <vertex x="3.834171875" y="0.80600625"/>
@@ -13222,7 +12106,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.4906875" y="0.8917875"/>
 <vertex x="3.519490625" y="0.8156625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="1.227153125"/>
 <vertex x="2.410640625" y="1.226346875"/>
 <vertex x="2.486759375" y="1.25515"/>
@@ -13236,7 +12120,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="1.34093125"/>
 <vertex x="2.17208125" y="1.26480625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.142509375" y="1.227153125"/>
 <vertex x="3.3089125" y="1.226346875"/>
 <vertex x="3.385034375" y="1.25515"/>
@@ -13250,7 +12134,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.04155" y="1.340928125"/>
 <vertex x="3.070353125" y="1.26480625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="1.67626875"/>
 <vertex x="2.41064375" y="1.67548125"/>
 <vertex x="2.48675" y="1.704296875"/>
@@ -13264,7 +12148,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="1.790059375"/>
 <vertex x="2.1720875" y="1.71393125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.69336875" y="1.67626875"/>
 <vertex x="2.85978125" y="1.67548125"/>
 <vertex x="2.935890625" y="1.704296875"/>
@@ -13278,7 +12162,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="1.79005625"/>
 <vertex x="2.621225" y="1.71393125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="2.1254125"/>
 <vertex x="2.41064375" y="2.124625"/>
 <vertex x="2.48675" y="2.153440625"/>
@@ -13292,7 +12176,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="2.239203125"/>
 <vertex x="2.1720875" y="2.163075"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.69336875" y="2.1254125"/>
 <vertex x="2.85978125" y="2.124625"/>
 <vertex x="2.935890625" y="2.153440625"/>
@@ -13306,7 +12190,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="2.2392"/>
 <vertex x="2.621225" y="2.163075"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="2.574559375"/>
 <vertex x="2.410640625" y="2.573753125"/>
 <vertex x="2.4867625" y="2.60255625"/>
@@ -13320,7 +12204,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="2.6883375"/>
 <vertex x="2.172084375" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.693375" y="2.574559375"/>
 <vertex x="2.859778125" y="2.573753125"/>
 <vertex x="2.935896875" y="2.60255625"/>
@@ -13334,7 +12218,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="2.6883375"/>
 <vertex x="2.62121875" y="2.61220625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="3.0237"/>
 <vertex x="2.410640625" y="3.02289375"/>
 <vertex x="2.486759375" y="3.051696875"/>
@@ -13348,7 +12232,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="3.137478125"/>
 <vertex x="2.17208125" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.693371875" y="3.0237"/>
 <vertex x="2.859778125" y="3.02289375"/>
 <vertex x="2.935896875" y="3.051696875"/>
@@ -13362,7 +12246,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="3.137471875"/>
 <vertex x="2.621215625" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.142509375" y="3.0237"/>
 <vertex x="3.3089125" y="3.02289375"/>
 <vertex x="3.385034375" y="3.051696875"/>
@@ -13376,7 +12260,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.04155" y="3.137475"/>
 <vertex x="3.070353125" y="3.061353125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="3.47281875"/>
 <vertex x="2.41064375" y="3.472028125"/>
 <vertex x="2.486753125" y="3.50084375"/>
@@ -13390,7 +12274,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="3.58660625"/>
 <vertex x="2.1720875" y="3.51048125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.69336875" y="3.47281875"/>
 <vertex x="2.85978125" y="3.472028125"/>
 <vertex x="2.935890625" y="3.50084375"/>
@@ -13404,7 +12288,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="3.58660625"/>
 <vertex x="2.621225" y="3.51048125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.14250625" y="3.47281875"/>
 <vertex x="3.30891875" y="3.472028125"/>
 <vertex x="3.385028125" y="3.50084375"/>
@@ -13418,7 +12302,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.04155" y="3.586609375"/>
 <vertex x="3.0703625" y="3.510478125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.69336875" y="3.9219625"/>
 <vertex x="2.85978125" y="3.921171875"/>
 <vertex x="2.935890625" y="3.9499875"/>
@@ -13432,7 +12316,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="4.03575"/>
 <vertex x="2.621225" y="3.959625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.14250625" y="3.9219625"/>
 <vertex x="3.30891875" y="3.921171875"/>
 <vertex x="3.385028125" y="3.9499875"/>
@@ -13446,7 +12330,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.04155" y="4.035753125"/>
 <vertex x="3.0703625" y="3.959621875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.59454375" y="4.37108125"/>
 <vertex x="-3.428134375" y="4.370290625"/>
 <vertex x="-3.352028125" y="4.39910625"/>
@@ -13460,7 +12344,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="4.484871875"/>
 <vertex x="-3.6666875" y="4.408740625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.59454375" y="4.820225"/>
 <vertex x="-3.428134375" y="4.819434375"/>
 <vertex x="-3.352028125" y="4.84825"/>
@@ -13474,7 +12358,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="4.934015625"/>
 <vertex x="-3.6666875" y="4.857884375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.594540625" y="5.269365625"/>
 <vertex x="-3.428140625" y="5.268559375"/>
 <vertex x="-3.352015625" y="5.29736875"/>
@@ -13488,7 +12372,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="5.38315"/>
 <vertex x="-3.66669375" y="5.307015625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.04368125" y="6.616903125"/>
 <vertex x="-3.877271875" y="6.6161125"/>
 <vertex x="-3.801165625" y="6.644928125"/>
@@ -13502,7 +12386,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.1446375" y="6.73069375"/>
 <vertex x="-4.115825" y="6.6545625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.49281875" y="6.167628125"/>
 <vertex x="-4.32640625" y="6.1668375"/>
 <vertex x="-4.250296875" y="6.195659375"/>
@@ -13516,7 +12400,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.593771875" y="6.28141875"/>
 <vertex x="-4.5649625" y="6.205290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.49281875" y="7.964178125"/>
 <vertex x="-4.32640625" y="7.9633875"/>
 <vertex x="-4.2503" y="7.992203125"/>
@@ -13530,7 +12414,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.593771875" y="8.077965625"/>
 <vertex x="-4.5649625" y="8.0018375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.043678125" y="7.5151875"/>
 <vertex x="-3.877278125" y="7.5143875"/>
 <vertex x="-3.80115" y="7.543190625"/>
@@ -13544,7 +12428,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.1446375" y="7.628959375"/>
 <vertex x="-4.115834375" y="7.552840625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.59454375" y="7.964178125"/>
 <vertex x="-3.428134375" y="7.9633875"/>
 <vertex x="-3.352028125" y="7.992203125"/>
@@ -13558,7 +12442,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="8.07796875"/>
 <vertex x="-3.6666875" y="8.0018375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-4.04368125" y="8.413321875"/>
 <vertex x="-3.877271875" y="8.41253125"/>
 <vertex x="-3.801165625" y="8.441346875"/>
@@ -13572,7 +12456,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-4.1446375" y="8.5271125"/>
 <vertex x="-4.115825" y="8.45098125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.797996875" y="4.37108125"/>
 <vertex x="-1.6315875" y="4.370290625"/>
 <vertex x="-1.55548125" y="4.39910625"/>
@@ -13586,7 +12470,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.898953125" y="4.484871875"/>
 <vertex x="-1.870140625" y="4.408740625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.247134375" y="4.820225"/>
 <vertex x="-2.080721875" y="4.819434375"/>
 <vertex x="-2.0046125" y="4.84825"/>
@@ -13600,7 +12484,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="4.934015625"/>
 <vertex x="-2.319278125" y="4.857884375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.797996875" y="4.820225"/>
 <vertex x="-1.6315875" y="4.819434375"/>
 <vertex x="-1.55548125" y="4.84825"/>
@@ -13614,7 +12498,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.898953125" y="4.934015625"/>
 <vertex x="-1.870140625" y="4.857884375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.14540625" y="5.269365625"/>
 <vertex x="-2.979003125" y="5.268559375"/>
 <vertex x="-2.90288125" y="5.29736875"/>
@@ -13628,7 +12512,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.246365625" y="5.38315"/>
 <vertex x="-3.217559375" y="5.307015625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.145403125" y="5.7185125"/>
 <vertex x="-2.979" y="5.71770625"/>
 <vertex x="-2.90288125" y="5.746509375"/>
@@ -13642,7 +12526,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.246365625" y="5.832290625"/>
 <vertex x="-3.217559375" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.696265625" y="5.7185125"/>
 <vertex x="-2.5298625" y="5.71770625"/>
 <vertex x="-2.45374375" y="5.746509375"/>
@@ -13656,7 +12540,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.797228125" y="5.832290625"/>
 <vertex x="-2.768421875" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.247128125" y="5.7185125"/>
 <vertex x="-2.080725" y="5.71770625"/>
 <vertex x="-2.00460625" y="5.746509375"/>
@@ -13670,7 +12554,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="5.832290625"/>
 <vertex x="-2.319284375" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.79799375" y="5.7185125"/>
 <vertex x="-1.631590625" y="5.71770625"/>
 <vertex x="-1.555471875" y="5.746509375"/>
@@ -13684,7 +12568,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.898953125" y="5.832290625"/>
 <vertex x="-1.870146875" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.348859375" y="4.37108125"/>
 <vertex x="-1.18245" y="4.370290625"/>
 <vertex x="-1.10634375" y="4.39910625"/>
@@ -13698,7 +12582,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="4.484871875"/>
 <vertex x="-1.421003125" y="4.408740625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.247128125" y="4.3712375"/>
 <vertex x="-2.080725" y="4.37043125"/>
 <vertex x="-2.00460625" y="4.399234375"/>
@@ -13712,7 +12596,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="4.485015625"/>
 <vertex x="-2.319284375" y="4.408884375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450584375" y="5.269365625"/>
 <vertex x="-0.284184375" y="5.268559375"/>
 <vertex x="-0.208059375" y="5.29736875"/>
@@ -13726,7 +12610,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="5.38315"/>
 <vertex x="-0.5227375" y="5.307015625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001446875" y="5.269365625"/>
 <vertex x="0.16495625" y="5.268559375"/>
 <vertex x="0.241078125" y="5.29736875"/>
@@ -13740,7 +12624,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="5.38315"/>
 <vertex x="-0.0736" y="5.307015625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.3488625" y="5.7185125"/>
 <vertex x="-1.182453125" y="5.71770625"/>
 <vertex x="-1.106334375" y="5.746509375"/>
@@ -13754,7 +12638,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="5.832290625"/>
 <vertex x="-1.421009375" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899725" y="5.7185125"/>
 <vertex x="-0.733315625" y="5.71770625"/>
 <vertex x="-0.657196875" y="5.746509375"/>
@@ -13768,7 +12652,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="5.832290625"/>
 <vertex x="-0.971871875" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.45058125" y="5.7185125"/>
 <vertex x="-0.28418125" y="5.71770625"/>
 <vertex x="-0.208059375" y="5.746509375"/>
@@ -13782,7 +12666,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="5.832290625"/>
 <vertex x="-0.5227375" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001446875" y="5.7185125"/>
 <vertex x="0.16495625" y="5.71770625"/>
 <vertex x="0.241075" y="5.746509375"/>
@@ -13796,7 +12680,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="5.832290625"/>
 <vertex x="-0.0736" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896821875" y="4.37108125"/>
 <vertex x="1.063234375" y="4.370290625"/>
 <vertex x="1.13934375" y="4.39910625"/>
@@ -13810,7 +12694,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="4.484871875"/>
 <vertex x="0.824678125" y="4.408740625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.345959375" y="4.37108125"/>
 <vertex x="1.512371875" y="4.370290625"/>
 <vertex x="1.58848125" y="4.39910625"/>
@@ -13824,7 +12708,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.245003125" y="4.484871875"/>
 <vertex x="1.273815625" y="4.408740625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.795096875" y="4.37108125"/>
 <vertex x="1.96150625" y="4.370290625"/>
 <vertex x="2.0376125" y="4.39910625"/>
@@ -13838,7 +12722,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.694140625" y="4.484871875"/>
 <vertex x="1.722953125" y="4.408740625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.345959375" y="4.820225"/>
 <vertex x="1.512371875" y="4.819434375"/>
 <vertex x="1.58848125" y="4.84825"/>
@@ -13852,7 +12736,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.245003125" y="4.934015625"/>
 <vertex x="1.273815625" y="4.857884375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.795096875" y="4.820225"/>
 <vertex x="1.96150625" y="4.819434375"/>
 <vertex x="2.0376125" y="4.84825"/>
@@ -13866,7 +12750,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.694140625" y="4.934015625"/>
 <vertex x="1.722953125" y="4.857884375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447690625" y="5.7185125"/>
 <vertex x="0.61409375" y="5.71770625"/>
 <vertex x="0.6902125" y="5.746509375"/>
@@ -13880,7 +12764,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="5.832290625"/>
 <vertex x="0.3755375" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896828125" y="5.7185125"/>
 <vertex x="1.06323125" y="5.71770625"/>
 <vertex x="1.13935" y="5.746509375"/>
@@ -13894,7 +12778,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="5.832290625"/>
 <vertex x="0.824671875" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.345965625" y="5.7185125"/>
 <vertex x="1.512365625" y="5.71770625"/>
 <vertex x="1.5884875" y="5.746509375"/>
@@ -13908,7 +12792,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.245003125" y="5.832290625"/>
 <vertex x="1.273809375" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.7951" y="5.7185125"/>
 <vertex x="1.96150625" y="5.71770625"/>
 <vertex x="2.037625" y="5.746509375"/>
@@ -13922,7 +12806,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.694140625" y="5.832290625"/>
 <vertex x="1.722946875" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.145409375" y="6.167628125"/>
 <vertex x="-2.978996875" y="6.1668375"/>
 <vertex x="-2.9028875" y="6.195659375"/>
@@ -13936,7 +12820,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.246365625" y="6.281415625"/>
 <vertex x="-3.217553125" y="6.205290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.696271875" y="6.167628125"/>
 <vertex x="-2.5298625" y="6.1668375"/>
 <vertex x="-2.453746875" y="6.195659375"/>
@@ -13950,7 +12834,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.797228125" y="6.281415625"/>
 <vertex x="-2.768415625" y="6.205290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.2471375" y="6.167628125"/>
 <vertex x="-2.080725" y="6.1668375"/>
 <vertex x="-2.004615625" y="6.195659375"/>
@@ -13964,7 +12848,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="6.28141875"/>
 <vertex x="-2.319278125" y="6.205290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.797996875" y="6.167628125"/>
 <vertex x="-1.6315875" y="6.1668375"/>
 <vertex x="-1.555478125" y="6.195659375"/>
@@ -13978,7 +12862,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.898953125" y="6.28141875"/>
 <vertex x="-1.870140625" y="6.2052875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.696271875" y="6.616771875"/>
 <vertex x="-2.529859375" y="6.61598125"/>
 <vertex x="-2.45375" y="6.644796875"/>
@@ -13992,7 +12876,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.797228125" y="6.730559375"/>
 <vertex x="-2.768415625" y="6.654434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.2471375" y="6.616771875"/>
 <vertex x="-2.080725" y="6.61598125"/>
 <vertex x="-2.004615625" y="6.644796875"/>
@@ -14006,7 +12890,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="6.7305625"/>
 <vertex x="-2.319278125" y="6.654434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.797996875" y="6.616771875"/>
 <vertex x="-1.6315875" y="6.61598125"/>
 <vertex x="-1.555478125" y="6.644796875"/>
@@ -14020,7 +12904,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.898953125" y="6.7305625"/>
 <vertex x="-1.870140625" y="6.65443125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.24713125" y="7.065915625"/>
 <vertex x="-2.080728125" y="7.065109375"/>
 <vertex x="-2.004609375" y="7.0939125"/>
@@ -14034,7 +12918,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="7.179690625"/>
 <vertex x="-2.3192875" y="7.10356875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.79799375" y="7.065915625"/>
 <vertex x="-1.631590625" y="7.065109375"/>
 <vertex x="-1.555471875" y="7.0939125"/>
@@ -14048,7 +12932,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.898953125" y="7.17969375"/>
 <vertex x="-1.87015" y="7.10356875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.3488625" y="6.167628125"/>
 <vertex x="-1.18245" y="6.1668375"/>
 <vertex x="-1.106340625" y="6.195659375"/>
@@ -14062,7 +12946,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="6.28141875"/>
 <vertex x="-1.421003125" y="6.205290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899725" y="6.167628125"/>
 <vertex x="-0.7333125" y="6.1668375"/>
 <vertex x="-0.657203125" y="6.195659375"/>
@@ -14076,7 +12960,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="6.28141875"/>
 <vertex x="-0.971865625" y="6.205290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.4505875" y="6.167628125"/>
 <vertex x="-0.28418125" y="6.1668375"/>
 <vertex x="-0.2080625" y="6.195659375"/>
@@ -14090,7 +12974,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="6.28141875"/>
 <vertex x="-0.52273125" y="6.2052875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.00145" y="6.167628125"/>
 <vertex x="0.164959375" y="6.1668375"/>
 <vertex x="0.241075" y="6.195659375"/>
@@ -14104,7 +12988,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="6.28141875"/>
 <vertex x="-0.07359375" y="6.2052875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.3488625" y="6.616771875"/>
 <vertex x="-1.18245" y="6.61598125"/>
 <vertex x="-1.106340625" y="6.644796875"/>
@@ -14118,7 +13002,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="6.7305625"/>
 <vertex x="-1.421003125" y="6.654434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899725" y="6.616771875"/>
 <vertex x="-0.7333125" y="6.61598125"/>
 <vertex x="-0.657203125" y="6.644796875"/>
@@ -14132,7 +13016,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="6.7305625"/>
 <vertex x="-0.971865625" y="6.654434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.4505875" y="6.616771875"/>
 <vertex x="-0.284175" y="6.61598125"/>
 <vertex x="-0.208065625" y="6.644796875"/>
@@ -14146,7 +13030,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="6.7305625"/>
 <vertex x="-0.52273125" y="6.65443125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.00145" y="6.616771875"/>
 <vertex x="0.1649625" y="6.61598125"/>
 <vertex x="0.241071875" y="6.644796875"/>
@@ -14160,7 +13044,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="6.7305625"/>
 <vertex x="-0.07359375" y="6.65443125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.348859375" y="7.065915625"/>
 <vertex x="-1.182453125" y="7.065109375"/>
 <vertex x="-1.106334375" y="7.0939125"/>
@@ -14174,7 +13058,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="7.17969375"/>
 <vertex x="-1.4210125" y="7.10356875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899721875" y="7.065915625"/>
 <vertex x="-0.733315625" y="7.065109375"/>
 <vertex x="-0.657196875" y="7.0939125"/>
@@ -14188,7 +13072,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="7.17969375"/>
 <vertex x="-0.971875" y="7.10356875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450584375" y="7.065915625"/>
 <vertex x="-0.28418125" y="7.065109375"/>
 <vertex x="-0.208059375" y="7.0939125"/>
@@ -14202,7 +13086,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="7.179690625"/>
 <vertex x="-0.522740625" y="7.10356875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001446875" y="7.065915625"/>
 <vertex x="0.164959375" y="7.065109375"/>
 <vertex x="0.241078125" y="7.0939125"/>
@@ -14216,7 +13100,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="7.179690625"/>
 <vertex x="-0.073603125" y="7.10356875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.348859375" y="7.515059375"/>
 <vertex x="-1.182453125" y="7.514253125"/>
 <vertex x="-1.106334375" y="7.54305625"/>
@@ -14230,7 +13114,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.449815625" y="7.6288375"/>
 <vertex x="-1.4210125" y="7.5527125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.899721875" y="7.515059375"/>
 <vertex x="-0.733315625" y="7.514253125"/>
 <vertex x="-0.657196875" y="7.54305625"/>
@@ -14244,7 +13128,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-1.000678125" y="7.6288375"/>
 <vertex x="-0.971875" y="7.5527125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.450584375" y="7.515059375"/>
 <vertex x="-0.28418125" y="7.514253125"/>
 <vertex x="-0.208059375" y="7.54305625"/>
@@ -14258,7 +13142,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.55154375" y="7.628834375"/>
 <vertex x="-0.522740625" y="7.5527125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-0.001446875" y="7.515059375"/>
 <vertex x="0.164959375" y="7.514253125"/>
 <vertex x="0.241078125" y="7.54305625"/>
@@ -14272,7 +13156,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-0.10240625" y="7.628834375"/>
 <vertex x="-0.073603125" y="7.5527125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.4476875" y="6.167628125"/>
 <vertex x="0.61409375" y="6.1668375"/>
 <vertex x="0.6902125" y="6.195659375"/>
@@ -14286,7 +13170,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="6.28141875"/>
 <vertex x="0.37554375" y="6.2052875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896821875" y="6.167628125"/>
 <vertex x="1.06323125" y="6.1668375"/>
 <vertex x="1.139346875" y="6.195659375"/>
@@ -14300,7 +13184,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="6.28141875"/>
 <vertex x="0.824678125" y="6.2052875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.345959375" y="6.167628125"/>
 <vertex x="1.512365625" y="6.1668375"/>
 <vertex x="1.588484375" y="6.195659375"/>
@@ -14314,7 +13198,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.245003125" y="6.28141875"/>
 <vertex x="1.273815625" y="6.2052875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.795096875" y="6.167628125"/>
 <vertex x="1.961509375" y="6.1668375"/>
 <vertex x="2.0376125" y="6.19565625"/>
@@ -14328,7 +13212,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.694140625" y="6.28141875"/>
 <vertex x="1.722953125" y="6.2052875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.4476875" y="6.616771875"/>
 <vertex x="0.6141" y="6.61598125"/>
 <vertex x="0.690209375" y="6.644796875"/>
@@ -14342,7 +13226,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="6.7305625"/>
 <vertex x="0.37554375" y="6.65443125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896821875" y="6.616771875"/>
 <vertex x="1.063234375" y="6.61598125"/>
 <vertex x="1.13934375" y="6.644796875"/>
@@ -14356,7 +13240,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="6.7305625"/>
 <vertex x="0.824678125" y="6.65443125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.345959375" y="6.616771875"/>
 <vertex x="1.512371875" y="6.61598125"/>
 <vertex x="1.58848125" y="6.644796875"/>
@@ -14370,7 +13254,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.245003125" y="6.7305625"/>
 <vertex x="1.273815625" y="6.65443125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.795096875" y="6.616771875"/>
 <vertex x="1.961509375" y="6.61598125"/>
 <vertex x="2.037615625" y="6.644796875"/>
@@ -14384,7 +13268,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.694140625" y="6.7305625"/>
 <vertex x="1.722953125" y="6.65443125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447690625" y="7.065915625"/>
 <vertex x="0.61409375" y="7.065109375"/>
 <vertex x="0.6902125" y="7.0939125"/>
@@ -14398,7 +13282,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="7.179690625"/>
 <vertex x="0.375534375" y="7.10356875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896825" y="7.065915625"/>
 <vertex x="1.06323125" y="7.065109375"/>
 <vertex x="1.13935" y="7.0939125"/>
@@ -14412,7 +13296,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="7.179690625"/>
 <vertex x="0.82466875" y="7.10356875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.3459625" y="7.065915625"/>
 <vertex x="1.512365625" y="7.065109375"/>
 <vertex x="1.588484375" y="7.0939125"/>
@@ -14426,7 +13310,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.245003125" y="7.17969375"/>
 <vertex x="1.27380625" y="7.10356875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="1.7951" y="7.065915625"/>
 <vertex x="1.96150625" y="7.065109375"/>
 <vertex x="2.037625" y="7.0939125"/>
@@ -14440,7 +13324,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="1.694140625" y="7.17969375"/>
 <vertex x="1.72294375" y="7.10356875"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.447690625" y="7.515059375"/>
 <vertex x="0.61409375" y="7.514253125"/>
 <vertex x="0.6902125" y="7.54305625"/>
@@ -14454,7 +13338,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.34673125" y="7.628834375"/>
 <vertex x="0.375534375" y="7.5527125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="0.896825" y="7.515059375"/>
 <vertex x="1.06323125" y="7.514253125"/>
 <vertex x="1.13935" y="7.54305625"/>
@@ -14468,7 +13352,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="0.795865625" y="7.628834375"/>
 <vertex x="0.82466875" y="7.5527125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.69626875" y="7.96433125"/>
 <vertex x="-2.529865625" y="7.963525"/>
 <vertex x="-2.45374375" y="7.992334375"/>
@@ -14482,7 +13366,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.797228125" y="8.078115625"/>
 <vertex x="-2.768421875" y="8.00198125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.14540625" y="7.5151875"/>
 <vertex x="-2.979003125" y="7.5143875"/>
 <vertex x="-2.902878125" y="7.543190625"/>
@@ -14496,7 +13380,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.2463625" y="7.628965625"/>
 <vertex x="-3.217559375" y="7.552840625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.594546875" y="7.06604375"/>
 <vertex x="-3.428134375" y="7.06525625"/>
 <vertex x="-3.352021875" y="7.094071875"/>
@@ -14510,7 +13394,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-3.6955" y="7.1798375"/>
 <vertex x="-3.6666875" y="7.103703125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.247134375" y="8.413321875"/>
 <vertex x="-2.080721875" y="8.41253125"/>
 <vertex x="-2.0046125" y="8.441346875"/>
@@ -14524,7 +13408,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.348090625" y="8.5271125"/>
 <vertex x="-2.319278125" y="8.45098125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.14250625" y="4.37108125"/>
 <vertex x="3.30891875" y="4.370290625"/>
 <vertex x="3.385028125" y="4.39910625"/>
@@ -14538,7 +13422,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.04155" y="4.484871875"/>
 <vertex x="3.0703625" y="4.408740625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.14250625" y="4.820225"/>
 <vertex x="3.30891875" y="4.819434375"/>
 <vertex x="3.385028125" y="4.84825"/>
@@ -14552,7 +13436,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.04155" y="4.934015625"/>
 <vertex x="3.0703625" y="4.857884375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.693371875" y="5.269365625"/>
 <vertex x="2.859775" y="5.268559375"/>
 <vertex x="2.935896875" y="5.29736875"/>
@@ -14566,7 +13450,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="5.38315"/>
 <vertex x="2.62121875" y="5.307015625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.142509375" y="5.269365625"/>
 <vertex x="3.308909375" y="5.268559375"/>
 <vertex x="3.385034375" y="5.29736875"/>
@@ -14580,7 +13464,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.04155" y="5.38315"/>
 <vertex x="3.07035625" y="5.307015625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="5.7185125"/>
 <vertex x="2.410640625" y="5.71770625"/>
 <vertex x="2.486759375" y="5.746509375"/>
@@ -14594,7 +13478,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="5.832290625"/>
 <vertex x="2.172084375" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.693375" y="5.7185125"/>
 <vertex x="2.859778125" y="5.71770625"/>
 <vertex x="2.935896875" y="5.746509375"/>
@@ -14608,7 +13492,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="5.832290625"/>
 <vertex x="2.62121875" y="5.756159375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="6.167628125"/>
 <vertex x="2.41064375" y="6.1668375"/>
 <vertex x="2.486753125" y="6.195659375"/>
@@ -14622,7 +13506,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="6.281415625"/>
 <vertex x="2.1720875" y="6.205290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.69336875" y="6.167628125"/>
 <vertex x="2.859778125" y="6.1668375"/>
 <vertex x="2.93589375" y="6.195659375"/>
@@ -14636,7 +13520,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="6.281415625"/>
 <vertex x="2.621225" y="6.205290625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="6.616771875"/>
 <vertex x="2.41064375" y="6.61598125"/>
 <vertex x="2.486753125" y="6.644796875"/>
@@ -14650,7 +13534,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="6.730559375"/>
 <vertex x="2.1720875" y="6.654434375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="7.964178125"/>
 <vertex x="2.41064375" y="7.9633875"/>
 <vertex x="2.48675" y="7.992203125"/>
@@ -14664,7 +13548,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="8.077965625"/>
 <vertex x="2.1720875" y="8.0018375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.14250625" y="7.964178125"/>
 <vertex x="3.30891875" y="7.9633875"/>
 <vertex x="3.385028125" y="7.992203125"/>
@@ -14678,7 +13562,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.04155" y="8.07796875"/>
 <vertex x="3.0703625" y="8.0018375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.59164375" y="7.964178125"/>
 <vertex x="3.758053125" y="7.9633875"/>
 <vertex x="3.834159375" y="7.992203125"/>
@@ -14692,7 +13576,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.4906875" y="8.07796875"/>
 <vertex x="3.5195" y="8.0018375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.2442375" y="8.413321875"/>
 <vertex x="2.41064375" y="8.41253125"/>
 <vertex x="2.48675" y="8.441346875"/>
@@ -14706,7 +13590,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="8.527109375"/>
 <vertex x="2.1720875" y="8.45098125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.693371875" y="8.413321875"/>
 <vertex x="2.85978125" y="8.41253125"/>
 <vertex x="2.935890625" y="8.441346875"/>
@@ -14720,7 +13604,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="8.52710625"/>
 <vertex x="2.621225" y="8.450984375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.59164375" y="8.413321875"/>
 <vertex x="3.758053125" y="8.41253125"/>
 <vertex x="3.834159375" y="8.441346875"/>
@@ -14734,7 +13618,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.4906875" y="8.5271125"/>
 <vertex x="3.5195" y="8.45098125"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.693371875" y="8.8624625"/>
 <vertex x="2.859775" y="8.8616625"/>
 <vertex x="2.9359" y="8.890465625"/>
@@ -14748,7 +13632,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="8.976234375"/>
 <vertex x="2.621215625" y="8.900115625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.244234375" y="7.5151875"/>
 <vertex x="2.4106375" y="7.5143875"/>
 <vertex x="2.486759375" y="7.5431875"/>
@@ -14762,7 +13646,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.143278125" y="7.628965625"/>
 <vertex x="2.17208125" y="7.5528375"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.69336875" y="7.06604375"/>
 <vertex x="2.85978125" y="7.06525625"/>
 <vertex x="2.935890625" y="7.094071875"/>
@@ -14776,7 +13660,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="7.17983125"/>
 <vertex x="2.621225" y="7.10370625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="2.693371875" y="7.5151875"/>
 <vertex x="2.859775" y="7.5143875"/>
 <vertex x="2.9359" y="7.543190625"/>
@@ -14790,7 +13674,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="2.5924125" y="7.628959375"/>
 <vertex x="2.621215625" y="7.552840625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="3.142509375" y="7.5151875"/>
 <vertex x="3.308909375" y="7.5143875"/>
 <vertex x="3.3850375" y="7.543190625"/>
@@ -14804,7 +13688,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.04155" y="7.6289625"/>
 <vertex x="3.070353125" y="7.552840625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-2.696271875" y="7.06604375"/>
 <vertex x="-2.529859375" y="7.06525625"/>
 <vertex x="-2.45375" y="7.094071875"/>
@@ -14818,7 +13702,7 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="-2.797228125" y="7.17983125"/>
 <vertex x="-2.768415625" y="7.10370625"/>
 </polygon>
-<polygon width="0.1524" layer="94" pour="solid">
+<polygon width="0.1524" layer="94">
 <vertex x="-3.14540625" y="6.616903125"/>
 <vertex x="-2.978996875" y="6.6161125"/>
 <vertex x="-2.902890625" y="6.644928125"/>
@@ -14905,13 +13789,212 @@ DIN A4, landscape with extra doc field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="JP1" urn="urn:adsk.eagle:footprint:15398/1" library_version="1">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
+<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
+<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
+<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="JP1" urn="urn:adsk.eagle:package:15455/1" type="box" library_version="1">
+<description>JUMPER</description>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="JP2E" urn="urn:adsk.eagle:symbol:15391/1" library_version="1">
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JP1E" urn="urn:adsk.eagle:component:15487/1" prefix="JP" uservalue="yes" library_version="1">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="JP2E" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="JP1">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15455/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="pinhead" urn="urn:adsk.eagle:library:325">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X03" urn="urn:adsk.eagle:footprint:22340/1" library_version="2">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
+<package name="1X03/90" urn="urn:adsk.eagle:footprint:22341/1" library_version="2">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
+<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
+<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
+<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
+<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
+<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="1X03" urn="urn:adsk.eagle:package:22458/2" type="model" library_version="2">
+<description>PIN HEADER</description>
+</package3d>
+<package3d name="1X03/90" urn="urn:adsk.eagle:package:22459/1" type="box" library_version="2">
+<description>PIN HEADER</description>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PINHD3" urn="urn:adsk.eagle:symbol:22339/1" library_version="2">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X3" urn="urn:adsk.eagle:component:22524/2" prefix="JP" uservalue="yes" library_version="2">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINHD3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X03">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22458/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="/90" package="1X03/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22459/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
+<attribute name="TITLE" value="Sanyi"/>
 </attributes>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
+</class>
+<class number="1" name="power" width="0.508" drill="0">
+<clearance class="1" value="0.508"/>
 </class>
 </classes>
 <parts>
@@ -14925,30 +14008,36 @@ DIN A4, landscape with extra doc field</description>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J4" library="Per (Fusion 360)" library_urn="urn:adsk.wipprod:fs.file:vf.HgQBO1aJTZqi1qGyHMRbpQ" deviceset="HEADER_2X12" device="/IDC" package3d_urn="urn:adsk.eagle:package:18167296/1" value="Passthrough"/>
 <part name="J2" library="Per (Fusion 360)" library_urn="urn:adsk.wipprod:fs.file:vf.HgQBO1aJTZqi1qGyHMRbpQ" deviceset="AMIGA_FLOPPYDRV_CONNECTOR" device="/IDC" package3d_urn="urn:adsk.eagle:package:18159087/1" value="Floppy"/>
-<part name="IC1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*00" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*74" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="12k"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
+<part name="IC1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*00" device="D" package3d_urn="urn:adsk.eagle:package:2007/1" technology="LS" value="74LS00D"/>
+<part name="IC2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*74" device="D" package3d_urn="urn:adsk.eagle:package:2007/1" technology="LS" value="74LS74D"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="12k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100n"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100n"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J3" library="Connector" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="J3" library="Connector" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2" value="Power"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="U$3" library="PCBGraphics" library_urn="urn:adsk.eagle:library:17831773" deviceset="RETRONINJA-SCH" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
+<part name="J5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="J6" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
+<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="254.254" y="6.35" size="2.54" layer="94">1</text>
-<text x="180.34" y="1.27" size="2.54" layer="94">June 29, 2020</text>
+<text x="254.254" y="6.35" size="2.54" layer="94">2.1</text>
+<text x="180.34" y="1.27" size="2.54" layer="94">Nov 15, 2020</text>
+<text x="177.292" y="19.05" size="2.54" layer="94">Amiga external floppy adapter mod by Sanyi</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="139.7" y="114.3" smashed="yes" rot="MR0">
@@ -15056,7 +14145,23 @@ DIN A4, landscape with extra doc field</description>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0" smashed="yes">
 <attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="180.34" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="J5" gate="A" x="48.26" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="52.832" y="53.848" size="1.778" layer="95"/>
+<attribute name="VALUE" x="42.545" y="48.26" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="J6" gate="A" x="78.74" y="45.72" rot="R90"/>
+<instance part="IC1" gate="C" x="119.38" y="35.56"/>
+<instance part="IC1" gate="D" x="149.86" y="35.56"/>
+<instance part="P+9" gate="1" x="134.62" y="43.18" smashed="yes">
+<attribute name="VALUE" x="132.08" y="38.1" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND5" gate="1" x="104.14" y="27.94" smashed="yes">
+<attribute name="VALUE" x="101.6" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="IC2" gate="B" x="55.88" y="22.86"/>
+<instance part="P+10" gate="1" x="35.56" y="35.56" smashed="yes">
+<attribute name="VALUE" x="33.02" y="30.48" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -15079,7 +14184,7 @@ DIN A4, landscape with extra doc field</description>
 </bus>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="43.18" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
@@ -15160,8 +14265,17 @@ DIN A4, landscape with extra doc field</description>
 <junction x="40.64" y="66.04"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="C" pin="I0"/>
+<wire x1="111.76" y1="38.1" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="38.1" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="C" pin="I1"/>
+<wire x1="104.14" y1="33.02" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="33.02" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+</segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="1">
 <segment>
 <pinref part="J4" gate="G$1" pin="23"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
@@ -15224,8 +14338,32 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="55.88" y1="63.5" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="D" pin="I1"/>
+<wire x1="142.24" y1="33.02" x2="134.62" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="33.02" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="P+9" gate="1" pin="+5V"/>
+<pinref part="IC1" gate="D" pin="I0"/>
+<wire x1="134.62" y1="38.1" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="38.1" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="B" pin="CLR"/>
+<wire x1="43.18" y1="17.78" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="17.78" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="B" pin="PRE"/>
+<wire x1="35.56" y1="20.32" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="25.4" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="27.94" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="27.94" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="B" pin="CLK"/>
+<wire x1="35.56" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="P+10" gate="1" pin="+5V"/>
+<pinref part="IC2" gate="B" pin="D"/>
+<wire x1="43.18" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
+</segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="1">
 <segment>
 <pinref part="J4" gate="G$1" pin="22"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
@@ -15480,29 +14618,15 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="!SEL1" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="!SEL0"/>
-<wire x1="43.18" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="124.46" x2="71.12" y2="127" width="0.1524" layer="91"/>
-<label x="45.72" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="21"/>
 <wire x1="147.32" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="106.68" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
 <label x="149.86" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="A" pin="I1"/>
-<wire x1="137.16" y1="50.8" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="I0"/>
-<wire x1="134.62" y1="50.8" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="55.88" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
-<junction x="134.62" y="55.88"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="55.88" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
-<label x="119.38" y="55.88" size="1.778" layer="95"/>
+<pinref part="J5" gate="A" pin="3"/>
+<wire x1="50.8" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
+<label x="55.88" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!MTRX" class="0">
@@ -15528,6 +14652,11 @@ DIN A4, landscape with extra doc field</description>
 <junction x="149.86" y="68.58"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="J6" gate="A" pin="2"/>
+<wire x1="81.28" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
+<label x="83.82" y="48.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="!SEL2" class="0">
 <segment>
@@ -15541,6 +14670,11 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="132.08" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="106.68" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
 <label x="121.92" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J5" gate="A" pin="1"/>
+<wire x1="50.8" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+<label x="55.88" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!SEL3" class="0">
@@ -15619,6 +14753,35 @@ DIN A4, landscape with extra doc field</description>
 <junction x="58.42" y="121.92"/>
 <label x="45.72" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J6" gate="A" pin="1"/>
+<wire x1="81.28" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
+<label x="83.82" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!SEL" class="0">
+<segment>
+<pinref part="J5" gate="A" pin="2"/>
+<wire x1="50.8" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
+<label x="55.88" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="A" pin="I1"/>
+<wire x1="137.16" y1="50.8" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="I0"/>
+<wire x1="134.62" y1="50.8" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="55.88" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
+<junction x="134.62" y="55.88"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
+<label x="121.92" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="!SEL0"/>
+<wire x1="43.18" y1="124.46" x2="55.88" y2="124.46" width="0.1524" layer="91"/>
+<label x="45.72" y="124.46" size="1.778" layer="95"/>
+</segment>
 </net>
 </nets>
 </sheet>
@@ -15645,12 +14808,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="8.4" severity="warning">
-Since Version 8.4, EAGLE supports properties for SPICE simulation. 
-Probes in schematics and SPICE mapping objects found in parts and library devices
-will not be understood with this version. Update EAGLE to the latest version
-for full support of SPICE simulation. 
 </note>
 </compatibility>
 </eagle>
