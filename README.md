@@ -5,10 +5,10 @@ this feature (despite the passthrough connector - RN's adapter allowed only DF1.
 
 <img src="images/rev21_assembled_t.jpg" alt="rev2.1" width="700"/>
 
-The TH components were transformed into SMD for saving PCB space. The unused inputs of the logical ICs are tied to ground or +5V, so there is no 
+The TH components were replaced with SMD for saving PCB space. The unused inputs of the logical ICs are tied to ground or +5V, so there is no 
 floating inputs and outputs.
-Also with this revision it is possible that if the adapter is used only with a Gotek drive, then the SMD components are not needed (only ext floppy 
-DSUB23,  power and floppy connector needs to be soldered).
+Also with this revision it is possible that no SMD component is needed if the adapter is used only with a Gotek drive (only ext floppy 
+DSUB23 connector, power and floppy socket needs to be soldered).
 
 The PCB is preconfigured: the Gotek option (no SMD) and DF1 drive is selected.
 
