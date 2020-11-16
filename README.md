@@ -3,7 +3,7 @@ This rev2.1 mod allows the user to select if the external drive shall be DF1 or 
 This external adapter also makes it possible to use them in pair: one for DF1 and one for DF2. Unfortunately Retro Ninja's adapter was lacking 
 this feature (despite the passthrough connector - RN's adapter allowed only DF1..)
 
-<img src="images/rev21_assembled_t.png" alt="rev2.1" width="700"/>
+<img src="images/rev21_assembled_t.jpg" alt="rev2.1" width="700"/>
 
 The TH components were transformed into SMD for saving PCB space. The unused inputs of the logical ICs are tied to ground or +5V, so there is no 
 floating inputs and outputs.
