@@ -19,6 +19,8 @@ Detected issues:
 - Couldn't find straight floppy power connector and didn't want to mount a simple 1x4 pinheader (I wanted to avoid the accidental reverse 
 connection), so I soldered the power cable directly to the PCB. That is also not safe as the cable can break after a few bending. (I used hotglue
 to protect cable from bending and breaking - but that is pretty ugly).
+- 74LS00 is not open collector output logic, so having two of these modules fully populated with SMDs is probably not a good idea. 72LS00(74HCT00) should be replaced
+with a 74LS03 (same pinout, opencollector output). THIS NEEDS TO BE TESTED!
 
 Other plans for the future:
 - I would remove the passthrough connector and attach a simple second floppy connector for DF2. I guess there are enough logical gates available for DF2 onboard.
